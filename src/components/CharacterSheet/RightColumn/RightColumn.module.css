@@ -1,0 +1,180 @@
+.container {
+  background-color: var(--color-bg-secondary);
+  border-radius: 4px;
+  padding: var(--spacing-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.combatStats {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-md);
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+
+.label {
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--color-text-light);
+}
+
+.staticValue {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--color-text);
+  text-align: center;
+  padding: var(--spacing-md);
+  background-color: var(--color-bg-primary);
+  border-radius: 4px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.heading {
+  margin: 0;
+  color: var(--color-accent);
+  font-size: var(--font-size-lg);
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: var(--spacing-sm);
+}
+
+.hpGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: var(--spacing-md);
+}
+
+.hpItem {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+
+.deathSavesContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-md);
+}
+
+.deathSaveColumn {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.deathSaveButtons {
+  display: flex;
+  gap: var(--spacing-sm);
+}
+
+.deathSaveButton {
+  flex: 1;
+  padding: var(--spacing-md);
+  border: 2px solid var(--color-border);
+  background-color: var(--color-bg-primary);
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition-normal);
+}
+
+.deathSaveButton.active {
+  background-color: var(--color-success);
+  border-color: var(--color-success);
+  color: white;
+}
+
+.deathSaveButton.failure.active {
+  background-color: var(--color-accent-light);
+  border-color: var(--color-accent-light);
+}
+
+.deathSaveButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.accordionList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-md);
+}
+
+.accordionItem {
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.accordionSummary {
+  cursor: pointer;
+  padding: var(--spacing-sm);
+  font-weight: 600;
+  background-color: var(--color-bg-primary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordionSummary span {
+  font-weight: normal;
+  color: var(--color-text-secondary);
+}
+
+.accordionContent {
+  padding: var(--spacing-sm);
+  border-top: 1px solid var(--color-border);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+
+.deleteButton,
+.addButton {
+  align-self: flex-start;
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-primary);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.deleteButton:hover,
+.addButton:hover {
+  background: var(--color-bg-secondary);
+}
+
+.emptyMessage {
+  color: var(--color-text-light);
+  font-style: italic;
+}
+
+.featureForm {
+  display: grid;
+  gap: var(--spacing-xs);
+}
+
+.input {
+  width: 100%;
+  padding: var(--spacing-xs);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  background-color: var(--color-bg-primary);
+}
+
+.textArea {
+  min-height: 80px;
+}

@@ -1,0 +1,73 @@
+.container {
+  background-color: var(--color-bg-secondary);
+  border-radius: 4px;
+  padding: var(--spacing-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.heading {
+  margin: 0;
+  color: var(--color-accent);
+  font-size: var(--font-size-lg);
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: var(--spacing-sm);
+}
+
+.staticValue {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--color-text);
+  text-align: center;
+  padding: var(--spacing-md);
+  background-color: var(--color-bg-primary);
+  border-radius: 4px;
+}
+
+.savingThrowsList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.savingThrowItem {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  cursor: pointer;
+  padding: var(--spacing-sm);
+  border-radius: 3px;
+  transition: background-color var(--transition-fast);
+}
+
+.savingThrowItem:hover {
+  background-color: var(--color-bg-primary);
+}
+
+.savingThrowName {
+  cursor: pointer;
+  flex: 1;
+}
+
+.textarea {
+  padding: var(--spacing-md);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  font-size: var(--font-size-base);
+  font-family: inherit;
+  min-height: 80px;
+  resize: vertical;
+}
+
+.textarea:focus {
+  outline: none;
+  border-color: var(--color-accent);
+  background-color: var(--color-bg-primary);
+}

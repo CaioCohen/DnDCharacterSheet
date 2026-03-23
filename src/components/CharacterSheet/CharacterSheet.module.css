@@ -1,0 +1,63 @@
+.wrapper {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0;
+}
+
+.mainContent {
+  padding: 0 var(--spacing-lg) var(--spacing-lg);
+  background-color: var(--color-bg-primary);
+}
+
+.columnsContainer {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr 0.8fr 0.8fr;
+  gap: var(--column-gap);
+  margin-bottom: var(--spacing-lg);
+}
+
+.leftColumn {
+  flex: 0 0 auto;
+}
+
+.centerColumn {
+  flex: 1;
+}
+
+.skillsColumn {
+  flex: 0 0 auto;
+}
+
+.rightColumn {
+  flex: 0 0 auto;
+}
+
+.bottomSection {
+  padding: 0 var(--spacing-lg) var(--spacing-lg);
+  background-color: var(--color-bg-primary);
+}
+
+@media (max-width: 1024px) {
+  .columnsContainer {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media print {
+  .wrapper {
+    max-width: 100%;
+  }
+
+  .mainContent {
+    padding: var(--spacing-md);
+  }
+
+  .columnsContainer {
+    grid-template-columns: 1fr 1.2fr 0.8fr 0.8fr;
+    gap: var(--column-gap);
+  }
+
+  .bottomSection {
+    padding: var(--spacing-md);
+  }
+}
