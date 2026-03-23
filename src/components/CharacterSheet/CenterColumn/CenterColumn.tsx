@@ -45,6 +45,56 @@ export const CenterColumn: FC = () => {
           ))}
         </div>
       </div>
+      {/* Money Section */}
+      <div className={styles.section}>
+        <h3 className={styles.heading}>Money</h3>
+        <div className={styles.moneyGrid}>
+          <NumberInput
+            label="Copper"
+            value={character.money?.copper ?? 0}
+            min={0}
+            onChange={(e) => {
+              dispatch({
+                type: 'UPDATE_CHARACTER_INFO',
+                payload: { money: { ...(character.money ?? {}), copper: parseInt(e.target.value) || 0 } }
+              });
+            }}
+          />
+          <NumberInput
+            label="Silver"
+            value={character.money?.silver ?? 0}
+            min={0}
+            onChange={(e) => {
+              dispatch({
+                type: 'UPDATE_CHARACTER_INFO',
+                payload: { money: { ...(character.money ?? {}), silver: parseInt(e.target.value) || 0 } }
+              });
+            }}
+          />
+          <NumberInput
+            label="Gold"
+            value={character.money?.gold ?? 0}
+            min={0}
+            onChange={(e) => {
+              dispatch({
+                type: 'UPDATE_CHARACTER_INFO',
+                payload: { money: { ...(character.money ?? {}), gold: parseInt(e.target.value) || 0 } }
+              });
+            }}
+          />
+          <NumberInput
+            label="Platinum"
+            value={character.money?.platinum ?? 0}
+            min={0}
+            onChange={(e) => {
+              dispatch({
+                type: 'UPDATE_CHARACTER_INFO',
+                payload: { money: { ...(character.money ?? {}), platinum: parseInt(e.target.value) || 0 } }
+              });
+            }}
+          />
+        </div>
+      </div>
 
       <div className={styles.section}>
         <h3 className={styles.heading}>Proficiencies & Languages</h3>

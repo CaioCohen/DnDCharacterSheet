@@ -1,6 +1,8 @@
 import { FC, useState } from 'react';
 import { useCharacterSheet } from '@/hooks/useCharacterSheet';
 import { TextArea } from '@/components/Common/TextArea';
+import { Modal } from '@/components/Common/Modal';
+import { NumberInput } from '@/components/Common/NumberInput';
 import styles from './BottomSection.module.css';
 
 export const BottomSection: FC = () => {
@@ -13,6 +15,12 @@ export const BottomSection: FC = () => {
   const [spellCastingTime, setSpellCastingTime] = useState('');
   const [spellDuration, setSpellDuration] = useState('');
   const [spellRange, setSpellRange] = useState('');
+  // Inventory modal state
+  const [isInventoryModalOpen, setIsInventoryModalOpen] = useState(false);
+  const [inventoryTitle, setInventoryTitle] = useState('');
+  const [inventoryQuantity, setInventoryQuantity] = useState(0);
+  const [inventoryDescription, setInventoryDescription] = useState('');
+  const [editingInventoryId, setEditingInventoryId] = useState<string | null>(null);
 
   const addSpell = () => {
     if (!spellTitle.trim()) return;
@@ -60,6 +68,130 @@ export const BottomSection: FC = () => {
           }}
           placeholder="Write your character's backstory here..."
         />
+      </section>
+      {/* Inventory Section */}
+      <section className={styles.section}>
+        <h2 className={styles.heading}>Inventory</h2>
+
+        <div className={styles.accordionList}>
+          {character.inventory.length === 0 && (
+            <div className={styles.emptyMessage}>No items yet.</div>
+          )}
+          {character.inventory.map(item => (
+            <details key={item.id} className={styles.accordionItem}>
+              <summary className={styles.accordionSummary}>
+                {item.title} {item.quantity ? `(${item.quantity})` : ''}
+              </summary>
+              <div className={styles.accordionContent}>
+                <p>{item.description}</p>
+                {item.quantity !== undefined && (
+                  <div>Quantity: {item.quantity}</div>
+                )}
+                <button
+                  type="button"
+                  className={styles.deleteButton}
+                  onClick={() =>
+                    dispatch({ type: 'DELETE_INVENTORY_ITEM', payload: item.id })
+                  }
+                >
+                  Delete
+                </button>
+                <button
+                  type="button"
+                  className={styles.addButton}
+                  onClick={() => {
+                    setEditingInventoryId(item.id);
+                    setInventoryTitle(item.title);
+                    setInventoryQuantity(item.quantity ?? 0);
+                    setInventoryDescription(item.description);
+                    setIsInventoryModalOpen(true);
+                  }}
+                >
+                  Edit
+                </button>
+              </div>
+            </details>
+          ))}
+        </div>
+
+        <button
+          type="button"
+          className={styles.addButton}
+          onClick={() => {
+            setEditingInventoryId(null);
+            setInventoryTitle('');
+            setInventoryQuantity(0);
+            setInventoryDescription('');
+            setIsInventoryModalOpen(true);
+          }}
+        >
+          Add Item
+        </button>
+
+        <Modal
+          isOpen={isInventoryModalOpen}
+          title={editingInventoryId ? 'Edit Inventory Item' : 'Add Inventory Item'}
+          onClose={() => {
+            setIsInventoryModalOpen(false);
+            setEditingInventoryId(null);
+          }}
+        >
+          <div className={styles.featureForm}>
+            <input
+              className={styles.input}
+              placeholder="Item title"
+              value={inventoryTitle}
+              onChange={e => setInventoryTitle(e.target.value)}
+            />
+            <NumberInput
+              className={styles.input}
+              value={inventoryQuantity}
+              min={0}
+              onChange={e => setInventoryQuantity(parseInt(e.target.value) || 0)}
+            />
+            <TextArea
+              className={styles.textArea}
+              placeholder="Description"
+              value={inventoryDescription}
+              onChange={e => setInventoryDescription(e.target.value)}
+            />
+          </div>
+          <div style={{ marginTop: 'var(--spacing-sm)', textAlign: 'right' }}>
+            <button
+              className={styles.addButton}
+              onClick={() => {
+                const payload = {
+                  id: editingInventoryId ?? crypto.randomUUID(),
+                  title: inventoryTitle.trim(),
+                  quantity: inventoryQuantity,
+                  description: inventoryDescription.trim()
+                } as any;
+                if (editingInventoryId) {
+                  dispatch({ type: 'UPDATE_INVENTORY_ITEM', payload });
+                } else {
+                  dispatch({ type: 'ADD_INVENTORY_ITEM', payload });
+                }
+                setIsInventoryModalOpen(false);
+                setEditingInventoryId(null);
+                setInventoryTitle('');
+                setInventoryQuantity(0);
+                setInventoryDescription('');
+              }}
+            >
+              {editingInventoryId ? 'Save' : 'Add'}
+            </button>
+            <button
+              className={styles.addButton}
+              style={{ marginLeft: 'var(--spacing-xs)' }}
+              onClick={() => {
+                setIsInventoryModalOpen(false);
+                setEditingInventoryId(null);
+              }}
+            >
+              Cancel
+            </button>
+          </div>
+        </Modal>
       </section>
 
       <section className={styles.section}>

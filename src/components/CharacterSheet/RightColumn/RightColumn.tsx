@@ -2,7 +2,8 @@ import { FC, useState } from 'react';
 import { useCharacterSheet } from '@/hooks/useCharacterSheet';
 import { NumberInput } from '@/components/Common//NumberInput';
 import { TextArea } from '@/components/Common//TextArea';
-import styles from './RightColumn.module.css';
+  import { Modal } from '@/components/Common/Modal';
+  import styles from './RightColumn.module.css';
 
 export const RightColumn: FC = () => {
   const { character, dispatch } = useCharacterSheet();
@@ -10,6 +11,19 @@ export const RightColumn: FC = () => {
   const [featureOrigin, setFeatureOrigin] = useState('');
   const [featureDescription, setFeatureDescription] = useState('');
   const [customInitiativeModifier, setCustomInitiativeModifier] = useState(0);
+  // Custom counters modal state
+  const [isCounterModalOpen, setIsCounterModalOpen] = useState(false);
+  // Feature modal state
+  const [isFeatureModalOpen, setIsFeatureModalOpen] = useState(false);
+  const [counterTitle, setCounterTitle] = useState('');
+  const [counterValue, setCounterValue] = useState(0);
+  const [editingCounterId, setEditingCounterId] = useState<string | null>(null);
+  // Inventory modal state
+  const [isInventoryModalOpen, setIsInventoryModalOpen] = useState(false);
+  const [inventoryTitle, setInventoryTitle] = useState('');
+  const [inventoryQuantity, setInventoryQuantity] = useState(0);
+  const [inventoryDescription, setInventoryDescription] = useState('');
+  const [editingInventoryId, setEditingInventoryId] = useState<string | null>(null);
 
   const dexModifier = character.attributes.dexterity.modifier;
   const calculatedInitiative = dexModifier + customInitiativeModifier;
@@ -29,6 +43,64 @@ export const RightColumn: FC = () => {
     setFeatureOrigin('');
     setFeatureDescription('');
   };
+
+  const handleCounterSubmit = () => {
+    if (!counterTitle.trim()) return;
+    const payload = {
+      id: editingCounterId ?? crypto.randomUUID(),
+      title: counterTitle.trim(),
+      value: Number(counterValue) || 0
+    } as any;
+    if (editingCounterId) {
+      dispatch({ type: 'UPDATE_CUSTOM_COUNTER', payload });
+    } else {
+      dispatch({ type: 'ADD_CUSTOM_COUNTER', payload });
+    }
+    setCounterTitle('');
+    setCounterValue(0);
+    setEditingCounterId(null);
+    setIsCounterModalOpen(false);
+  };
+
+  // Render custom counters grid
+  const handleCounterFieldChange = (id: string, field: 'title' | 'value', newVal: string | number) => {
+    const existing = character.customCounters?.find(c => c.id === id);
+    if (!existing) return;
+    const updated = {
+      id,
+      title: field === 'title' ? (newVal as string) : existing.title,
+      value: field === 'value' ? Number(newVal) : existing.value
+    } as any;
+    dispatch({ type: 'UPDATE_CUSTOM_COUNTER', payload: updated });
+  };
+
+  const renderCounters = () => (
+    <div className={styles.customCountersGrid}>
+      {(character.customCounters || []).map(counter => (
+        <div key={counter.id} className={styles.counterItem}>
+          <button
+            type="button"
+            className={styles.deleteButton}
+            style={{ position: 'absolute', top: '4px', right: '4px' }}
+            onClick={() => dispatch({ type: 'DELETE_CUSTOM_COUNTER', payload: counter.id })}
+          >
+            ×
+          </button>
+          <input
+            className={styles.input}
+            value={counter.title}
+            onChange={e => handleCounterFieldChange(counter.id, 'title', e.target.value)}
+          />
+          <NumberInput
+            value={counter.value}
+            min={0}
+            style={{ width: '80px', margin: '0 auto' }}
+            onChange={e => handleCounterFieldChange(counter.id, 'value', parseInt(e.target.value) || 0)}
+          />
+        </div>
+      ))}
+    </div>
+  );
 
   return (
     <div className={styles.container}>
@@ -192,29 +264,117 @@ export const RightColumn: FC = () => {
           ))}
         </div>
 
-        <div className={styles.featureForm}>
-          <input
-            className={styles.input}
-            placeholder="Feature title"
-            value={featureTitle}
-            onChange={(e) => setFeatureTitle(e.target.value)}
-          />
-          <input
-            className={styles.input}
-            placeholder="Origin (class/race/etc.)"
-            value={featureOrigin}
-            onChange={(e) => setFeatureOrigin(e.target.value)}
-          />
-          <TextArea
-            className={styles.textArea}
-            placeholder="Description"
-            value={featureDescription}
-            onChange={(e) => setFeatureDescription(e.target.value)}
-          />
-          <button type="button" className={styles.addButton} onClick={addFeature}>
-            Add Feature
-          </button>
-        </div>
+        {/* Feature add button opens modal */}
+        <button
+          type="button"
+          className={styles.addButton}
+          onClick={() => {
+            setFeatureTitle('');
+            setFeatureOrigin('');
+            setFeatureDescription('');
+            setIsFeatureModalOpen(true);
+          }}
+        >
+          Add Feature
+        </button>
+        <Modal
+          isOpen={isFeatureModalOpen}
+          title="Add Feature"
+          onClose={() => setIsFeatureModalOpen(false)}
+        >
+          <div className={styles.featureForm}>
+            <input
+              className={styles.input}
+              placeholder="Feature title"
+              value={featureTitle}
+              onChange={(e) => setFeatureTitle(e.target.value)}
+            />
+            <input
+              className={styles.input}
+              placeholder="Origin (class/race/etc.)"
+              value={featureOrigin}
+              onChange={(e) => setFeatureOrigin(e.target.value)}
+            />
+            <TextArea
+              className={styles.textArea}
+              placeholder="Description"
+              value={featureDescription}
+              onChange={(e) => setFeatureDescription(e.target.value)}
+            />
+            <div style={{ marginTop: 'var(--spacing-sm)', textAlign: 'right' }}>
+              <button
+                className={styles.addButton}
+                onClick={() => {
+                  addFeature();
+                  setIsFeatureModalOpen(false);
+                }}
+              >
+                Save
+              </button>
+              <button
+                className={styles.addButton}
+                style={{ marginLeft: 'var(--spacing-xs)' }}
+                onClick={() => setIsFeatureModalOpen(false)}
+              >
+                Cancel
+              </button>
+            </div>
+          </div>
+         </Modal>
+         </div>
+       {/* Custom Counters Section */}
+      <div className={styles.section}>
+        <h3 className={styles.heading}>Custom Counters</h3>
+        {renderCounters()}
+        <button
+          type="button"
+          className={styles.addButton}
+          onClick={() => {
+            setEditingCounterId(null);
+            setCounterTitle('');
+            setCounterValue(0);
+            setIsCounterModalOpen(true);
+          }}
+        >
+          Add Custom Counter
+        </button>
+        <Modal
+          isOpen={isCounterModalOpen}
+          title={editingCounterId ? 'Edit Counter' : 'Add Custom Counter'}
+          onClose={() => {
+            setIsCounterModalOpen(false);
+            setEditingCounterId(null);
+          }}
+        >
+          <div className={styles.featureForm}>
+            <input
+              className={styles.input}
+              placeholder="Counter title"
+              value={counterTitle}
+              onChange={e => setCounterTitle(e.target.value)}
+            />
+            <NumberInput
+              value={counterValue}
+              min={0}
+              onChange={e => setCounterValue(parseInt(e.target.value) || 0)}
+            />
+          </div>
+          <div style={{ marginTop: 'var(--spacing-sm)', textAlign: 'right' }}>
+            <button className={styles.addButton} onClick={handleCounterSubmit}>
+              Save
+            </button>
+            <button
+              className={styles.addButton}
+              style={{ marginLeft: 'var(--spacing-xs)' }}
+              onClick={() => {
+                setIsCounterModalOpen(false);
+                setEditingCounterId(null);
+              }}
+            >
+              Cancel
+            </button>
+          </div>
+        </Modal>
       </div>
     </div>
   );

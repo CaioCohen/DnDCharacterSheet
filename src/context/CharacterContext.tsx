@@ -15,6 +15,10 @@ export type CharacterAction =
   | { type: 'ADD_FEATURE'; payload: DndCharacter['featuresTraits'][number] }
   | { type: 'UPDATE_FEATURE'; payload: DndCharacter['featuresTraits'][number] }
   | { type: 'DELETE_FEATURE'; payload: string }
+  // Custom counters actions
+  | { type: 'ADD_CUSTOM_COUNTER'; payload: DndCharacter['customCounters'][number] }
+  | { type: 'DELETE_CUSTOM_COUNTER'; payload: string }
+  | { type: 'UPDATE_CUSTOM_COUNTER'; payload: DndCharacter['customCounters'][number] }
   | { type: 'ADD_INVENTORY_ITEM'; payload: DndCharacter['inventory'][number] }
   | { type: 'UPDATE_INVENTORY_ITEM'; payload: DndCharacter['inventory'][number] }
   | { type: 'DELETE_INVENTORY_ITEM'; payload: string }
@@ -154,6 +158,32 @@ const characterReducer = (state: DndCharacter, action: CharacterAction): DndChar
       return {
         ...state,
         featuresTraits: state.featuresTraits.filter(f => f.id !== action.payload),
+        updatedAt: new Date().toISOString()
+      };
+    }
+
+    case 'ADD_CUSTOM_COUNTER': {
+      return {
+        ...state,
+        customCounters: [...(state.customCounters || []), action.payload],
+        updatedAt: new Date().toISOString()
+      };
+    }
+
+    case 'DELETE_CUSTOM_COUNTER': {
+      return {
+        ...state,
+        customCounters: (state.customCounters || []).filter(c => c.id !== action.payload),
+        updatedAt: new Date().toISOString()
+      };
+    }
+
+    case 'UPDATE_CUSTOM_COUNTER': {
+      return {
+        ...state,
+        customCounters: (state.customCounters || []).map(c =>
+          c.id === action.payload.id ? action.payload : c
+        ),
         updatedAt: new Date().toISOString()
       };
     }

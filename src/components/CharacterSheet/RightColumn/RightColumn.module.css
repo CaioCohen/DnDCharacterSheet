@@ -167,6 +167,24 @@
   gap: var(--spacing-xs);
 }
 
+/* Custom counters grid – two items per row, each ~50% width */
+.customCountersGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
+  gap: var(--spacing-xs);
+}
+
+.counterItem {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+  background-color: var(--color-bg-primary);
+  padding: var(--spacing-xs);
+  border-radius: 4px;
+  position: relative;
+  align-items: center;
+}
+
 .input {
   width: 100%;
   padding: var(--spacing-xs);

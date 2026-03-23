@@ -71,3 +71,11 @@
   border-color: var(--color-accent);
   background-color: var(--color-bg-primary);
 }
+
+/* Money grid layout */
+.moneyGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  gap: var(--spacing-xs);
+  margin-top: var(--spacing-sm);
+}

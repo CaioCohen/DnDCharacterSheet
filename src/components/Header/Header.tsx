@@ -36,7 +36,7 @@ export const Header: FC<HeaderProps> = ({ onImport }) => {
 
   const handleSave = () => {
     // Since auto-save is already happening, this just confirms the save
-    alert('Character saved to local storage!');
+    alert('Character saved!');
   };
 
   return (

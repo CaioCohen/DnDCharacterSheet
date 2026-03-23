@@ -75,6 +75,7 @@ export const DEFAULT_CHARACTER: DndCharacter = {
   deathSaves: { successes: 0, failures: 0 },
 
   featuresTraits: [],
+  customCounters: [],
   inventory: [],
   backstory: '',
   spells: [],
@@ -88,6 +89,14 @@ export const DEFAULT_CHARACTER: DndCharacter = {
     7: { current: 0, max: 0 },
     8: { current: 0, max: 0 },
     9: { current: 0, max: 0 }
+  },
+
+  // Money fields (all start at 0)
+  money: {
+    copper: 0,
+    silver: 0,
+    gold: 0,
+    platinum: 0
   },
 
   createdAt: new Date().toISOString(),

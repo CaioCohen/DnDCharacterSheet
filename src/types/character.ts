@@ -44,6 +44,13 @@ export interface FeatureTrait {
   description: string;
 }
 
+// Custom counter added by user
+export interface CustomCounter {
+  id: string;
+  title: string;
+  value: number;
+}
+
 export interface InventoryItem {
   id: string;
   title: string;
@@ -97,10 +104,18 @@ export interface DndCharacter {
   deathSaves: DeathSaves;
 
   featuresTraits: FeatureTrait[];
+  customCounters: CustomCounter[];
   inventory: InventoryItem[];
   backstory: string;
   spells: Spell[];
   spellSlots: Record<number, { current: number; max: number }>;
+  // Money fields (copper, silver, gold, platinum)
+  money: {
+    copper: number;
+    silver: number;
+    gold: number;
+    platinum: number;
+  };
 
   createdAt: string;
   updatedAt: string;
