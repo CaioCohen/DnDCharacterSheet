@@ -1,8 +1,8 @@
 import React, { FC, useState } from 'react';
-import { useCharacterSheet } from '../../../hooks/useCharacterSheet';
-import { AttributeKey } from '../../../types/character';
-import { NumberInput } from '../../Common/NumberInput';
-import { Checkbox } from '../../Common/Checkbox';
+import { useCharacterSheet } from '@/hooks/useCharacterSheet';
+import { AttributeKey } from '@/types/character';
+import { NumberInput } from '@/components/Common//NumberInput';
+import { Checkbox } from '@/components/Common//Checkbox';
 import styles from './AttributeBlock.module.css';
 
 interface AttributeBlockProps {
@@ -80,3 +80,4 @@ export const AttributeBlock: FC<AttributeBlockProps> = ({ attribute, label }) =>
     </div>
   );
 };
+

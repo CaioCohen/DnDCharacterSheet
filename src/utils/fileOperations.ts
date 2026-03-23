@@ -1,4 +1,4 @@
-import { DndCharacter, ExportedCharacter } from '../types/character';
+import { DndCharacter, ExportedCharacter } from '@/types/character';
 import { validateCharacter } from './validation';
 
 export const exportCharacterAsJSON = (character: DndCharacter): void => {
@@ -57,3 +57,4 @@ export const importCharacterFromJSON = async (file: File): Promise<DndCharacter>
     reader.readAsText(file);
   });
 };
+

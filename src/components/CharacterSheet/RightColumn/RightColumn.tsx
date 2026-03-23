@@ -1,7 +1,7 @@
 import { FC, useState } from 'react';
-import { useCharacterSheet } from '../../../hooks/useCharacterSheet';
-import { NumberInput } from '../../Common/NumberInput';
-import { TextArea } from '../../Common/TextArea';
+import { useCharacterSheet } from '@/hooks/useCharacterSheet';
+import { NumberInput } from '@/components/Common//NumberInput';
+import { TextArea } from '@/components/Common//TextArea';
 import styles from './RightColumn.module.css';
 
 export const RightColumn: FC = () => {
@@ -219,3 +219,4 @@ export const RightColumn: FC = () => {
     </div>
   );
 };
+

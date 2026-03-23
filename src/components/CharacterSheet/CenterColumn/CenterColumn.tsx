@@ -1,6 +1,6 @@
 import { FC } from 'react';
-import { useCharacterSheet } from '../../../hooks/useCharacterSheet';
-import { NumberInput } from '../../Common/NumberInput';
+import { useCharacterSheet } from '@/hooks/useCharacterSheet';
+import { NumberInput } from '@/components/Common/NumberInput';
 import styles from './CenterColumn.module.css';
 
 export const CenterColumn: FC = () => {
@@ -63,3 +63,5 @@ export const CenterColumn: FC = () => {
     </div>
   );
 };
+
+

@@ -8,3 +8,5 @@
 - Do not mix business logic inside UI components
 - Use controlled inputs for forms
 - Split large components into smaller ones
+- Avoid relative imports, prefer absolute with alias imports
+- Avoid barrel files

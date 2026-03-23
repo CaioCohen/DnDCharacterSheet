@@ -1,8 +1,8 @@
-﻿import { createContext, ReactNode, useReducer, useEffect, useState } from 'react';
-import { DndCharacter } from '../types/character';
-import { DEFAULT_CHARACTER } from '../utils/defaults';
-import { loadCharacterFromStorage, saveCharacterToStorage } from '../utils/storage';
-import { getModifier, getProficiencyBonus } from '../utils/calculations';
+import { createContext, ReactNode, useReducer, useEffect, useState } from 'react';
+import { DndCharacter } from '@/types/character';
+import { DEFAULT_CHARACTER } from '@/utils/defaults';
+import { loadCharacterFromStorage, saveCharacterToStorage } from '@/utils/storage';
+import { getModifier, getProficiencyBonus } from '@/utils/calculations';
 
 export type CharacterAction =
   | { type: 'UPDATE_CHARACTER_INFO'; payload: Partial<DndCharacter> }
@@ -274,3 +274,4 @@ export const CharacterProvider = ({ children }: CharacterProviderProps) => {
     </CharacterContext.Provider>
   );
 };
+

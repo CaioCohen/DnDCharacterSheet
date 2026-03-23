@@ -1,6 +1,6 @@
 import { FC, useState } from 'react';
-import { useCharacterSheet } from '../../../hooks/useCharacterSheet';
-import { TextArea } from '../../Common/TextArea';
+import { useCharacterSheet } from '@/hooks/useCharacterSheet';
+import { TextArea } from '@/components/Common/TextArea';
 import styles from './BottomSection.module.css';
 
 export const BottomSection: FC = () => {
@@ -208,3 +208,4 @@ export const BottomSection: FC = () => {
     </div>
   );
 };
+

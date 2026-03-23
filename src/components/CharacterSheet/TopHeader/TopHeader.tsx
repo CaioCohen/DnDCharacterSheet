@@ -1,6 +1,6 @@
 import { FC } from 'react';
-import { useCharacterSheet } from '../../../hooks/useCharacterSheet';
-import { NumberInput } from '../../Common/NumberInput';
+import { useCharacterSheet } from '@/hooks/useCharacterSheet';
+import { NumberInput } from '@/components/Common//NumberInput';
 import styles from './TopHeader.module.css';
 
 export const TopHeader: FC = () => {
@@ -86,3 +86,4 @@ export const TopHeader: FC = () => {
     </div>
   );
 };
+

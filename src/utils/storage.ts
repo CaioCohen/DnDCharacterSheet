@@ -1,4 +1,4 @@
-import { DndCharacter } from '../types/character';
+import { DndCharacter } from '@/types/character';
 
 const STORAGE_KEY = 'dnd_character_sheet';
 
@@ -29,3 +29,4 @@ export const clearCharacterStorage = (): void => {
     console.error('Failed to clear character from localStorage:', error);
   }
 };
+

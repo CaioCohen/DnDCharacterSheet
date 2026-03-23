@@ -1,7 +1,7 @@
 import { FC } from 'react';
-import { useCharacterSheet } from '../../hooks/useCharacterSheet';
-import { exportCharacterAsJSON, importCharacterFromJSON } from '../../utils/fileOperations';
-import { DndCharacter } from '../../types/character';
+import { useCharacterSheet } from '@/hooks/useCharacterSheet';
+import { exportCharacterAsJSON, importCharacterFromJSON } from '@/utils/fileOperations';
+import { DndCharacter } from '@/types/character';
 import styles from './Header.module.css';
 
 interface HeaderProps {
@@ -59,3 +59,6 @@ export const Header: FC<HeaderProps> = ({ onImport }) => {
     </header>
   );
 };
+
+
+

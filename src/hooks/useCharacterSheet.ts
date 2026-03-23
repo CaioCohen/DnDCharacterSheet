@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import { CharacterContext, CharacterContextType } from '../context/CharacterContext';
+import { CharacterContext, CharacterContextType } from '@/context/CharacterContext';
 
 export const useCharacterSheet = (): CharacterContextType => {
   const context = useContext(CharacterContext);
@@ -10,3 +10,4 @@ export const useCharacterSheet = (): CharacterContextType => {
 
   return context;
 };
+

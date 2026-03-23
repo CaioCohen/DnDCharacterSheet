@@ -1,6 +1,6 @@
 import { FC } from 'react';
-import { useCharacterSheet } from '../../../hooks/useCharacterSheet';
-import { Checkbox } from '../../Common/Checkbox';
+import { useCharacterSheet } from '@/hooks/useCharacterSheet';
+import { Checkbox } from '@/components/Common//Checkbox';
 import styles from './SkillsColumn.module.css';
 
 export const SkillsColumn: FC = () => {

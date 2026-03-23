@@ -1,4 +1,4 @@
-import { DndCharacter, AttributeKey } from '../types/character';
+import { DndCharacter, AttributeKey } from '@/types/character';
 
 export const DEFAULT_ATTRIBUTES: AttributeKey[] = [
   'strength',
@@ -93,3 +93,4 @@ export const DEFAULT_CHARACTER: DndCharacter = {
   createdAt: new Date().toISOString(),
   updatedAt: new Date().toISOString()
 };
+

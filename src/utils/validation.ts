@@ -1,4 +1,4 @@
-import { DndCharacter, ValidationError } from '../types/character';
+import { DndCharacter, ValidationError } from '@/types/character';
 
 export const validateAttributeScore = (score: number): boolean => {
   return score >= 3 && score <= 20;
@@ -71,3 +71,4 @@ export const validateCharacter = (character: DndCharacter): ValidationError[] =>
 
   return errors;
 };
+
