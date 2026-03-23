@@ -1,4 +1,4 @@
-import { createContext, ReactNode, useReducer, useEffect, useState } from 'react';
+﻿import { createContext, ReactNode, useReducer, useEffect, useState } from 'react';
 import { DndCharacter } from '../types/character';
 import { DEFAULT_CHARACTER } from '../utils/defaults';
 import { loadCharacterFromStorage, saveCharacterToStorage } from '../utils/storage';
@@ -247,16 +247,19 @@ export interface CharacterProviderProps {
 }
 
 export const CharacterProvider = ({ children }: CharacterProviderProps) => {
-  const [character, dispatch] = useReducer(characterReducer, null, () => {
-    const stored = loadCharacterFromStorage();
-    return stored || DEFAULT_CHARACTER;
-  });
+  // Initialize state from storage (if any) or fall back to defaults.
+  const initialState = loadCharacterFromStorage() ?? DEFAULT_CHARACTER;
+  const [character, dispatch] = useReducer(characterReducer, initialState);
 
   const [isDirty, setIsDirty] = useState(false);
 
+  // Persist character changes with a debounce to avoid excessive writes.
   useEffect(() => {
-    saveCharacterToStorage(character);
-    setIsDirty(true);
+    const timer = setTimeout(() => {
+      saveCharacterToStorage(character);
+      setIsDirty(true);
+    }, 500);
+    return () => clearTimeout(timer);
   }, [character]);
 
   const value: CharacterContextType = {
