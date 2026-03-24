@@ -1,4 +1,4 @@
-.container {
+﻿.container {
   display: flex;
   flex-direction: column;
   gap: var(--spacing-lg);
@@ -110,6 +110,30 @@
   margin-bottom: var(--spacing-xs);
 }
 
+.spellSlotsContainer {
+  margin-bottom: var(--spacing-lg);
+  padding: var(--spacing-md);
+  background-color: var(--color-bg-primary);
+  border-radius: 4px;
+}
+
+.spellSlotRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-xs) 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.spellSlotRow:last-child {
+  border-bottom: none;
+}
+
+.spellSlotLabel {
+  font-weight: 600;
+  color: var(--color-text);
+}
+
 .spellSlotControls {
   display: flex;
   gap: var(--spacing-sm);
@@ -174,4 +198,3 @@
   border-radius: 4px;
   background-color: var(--color-bg-primary);
 }
-
