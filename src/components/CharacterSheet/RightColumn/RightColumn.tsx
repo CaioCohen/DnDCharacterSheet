@@ -18,12 +18,6 @@ export const RightColumn: FC = () => {
   const [counterTitle, setCounterTitle] = useState('');
   const [counterValue, setCounterValue] = useState(0);
   const [editingCounterId, setEditingCounterId] = useState<string | null>(null);
-  // Inventory modal state
-  const [isInventoryModalOpen, setIsInventoryModalOpen] = useState(false);
-  const [inventoryTitle, setInventoryTitle] = useState('');
-  const [inventoryQuantity, setInventoryQuantity] = useState(0);
-  const [inventoryDescription, setInventoryDescription] = useState('');
-  const [editingInventoryId, setEditingInventoryId] = useState<string | null>(null);
 
   const dexModifier = character.attributes.dexterity.modifier;
   const calculatedInitiative = dexModifier + customInitiativeModifier;
