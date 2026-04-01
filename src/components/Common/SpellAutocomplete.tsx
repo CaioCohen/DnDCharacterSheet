@@ -114,7 +114,8 @@ export const SpellAutocomplete: FC<SpellAutocompleteProps> = ({ isOpen, onClose,
       components: formData.components.trim() || undefined,
       castingTime: formData.castingTime.trim() || undefined,
       duration: formData.duration.trim() || undefined,
-      range: formData.range.trim() || undefined
+      range: formData.range.trim() || undefined,
+      checked: false
     });
     resetForm();
     onClose();

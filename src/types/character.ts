@@ -70,6 +70,7 @@ export interface Spell {
   castingTime?: string;
   duration?: string;
   range?: string;
+  checked?: boolean;
 }
 
 export interface DndCharacter {

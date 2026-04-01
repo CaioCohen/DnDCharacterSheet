@@ -39,7 +39,7 @@ export const BottomSection: FC = () => {
 
   return (
     <div className={styles.container}>
-      <section className={styles.section}>
+      <section className={`${styles.section} ${styles.backstorySection}`}>
         <h2 className={styles.heading}>Backstory</h2>
         <TextArea
           value={character.backstory}
@@ -53,7 +53,7 @@ export const BottomSection: FC = () => {
         />
       </section>
       {/* Inventory Section */}
-      <section className={styles.section}>
+      <section className={`${styles.section} ${styles.inventorySection}`}>
         <h2 className={styles.heading}>Inventory</h2>
 
         <div className={styles.accordionList}>
@@ -173,7 +173,7 @@ export const BottomSection: FC = () => {
       </section>
 
       {/* Spellcasting Section */}
-      <section className={styles.section}>
+      <section className={`${styles.section} ${styles.spellcastingSection}`}>
         <h2 className={styles.heading}>Spellcasting</h2>
 
         {/* Spells List */}
@@ -226,6 +226,18 @@ export const BottomSection: FC = () => {
                 {spells.map(spell => (
                   <details key={spell.id} className={styles.accordionItem}>
                     <summary className={styles.accordionSummary}>
+                      <input
+                        type="checkbox"
+                        checked={spell.checked ?? false}
+                        onChange={(e) => {
+                          e.stopPropagation();
+                          dispatch({ 
+                            type: 'UPDATE_SPELL', 
+                            payload: { ...spell, checked: e.target.checked } 
+                          });
+                        }}
+                        style={{ marginRight: '8px', cursor: 'pointer' }}
+                      />
                       {spell.title}
                       {spell.school && <span>({spell.school})</span>}
                     </summary>

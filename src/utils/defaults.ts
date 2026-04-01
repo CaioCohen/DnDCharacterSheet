@@ -31,7 +31,7 @@ export const SKILL_NAMES: { name: string; attribute: AttributeKey }[] = [
 ];
 
 export const DEFAULT_CHARACTER: DndCharacter = {
-  name: 'New Character',
+  name: 'John Doe',
   class: 'Fighter',
   level: 1,
   background: 'Peasant',

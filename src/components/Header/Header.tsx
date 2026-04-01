@@ -39,12 +39,19 @@ export const Header: FC<HeaderProps> = ({ onImport }) => {
     alert('Character saved!');
   };
 
+  const handlePrint = () => {
+    window.print();
+  };
+
   return (
     <header className={styles.header}>
       <h1 className={styles.title}>D&D Character Sheet</h1>
       <div className={styles.controls}>
         <button className={styles.button} onClick={handleSave}>
           💾 Save
+        </button>
+        <button className={styles.button} onClick={handlePrint}>
+          🖨️ Print
         </button>
         <button className={styles.button} onClick={handleExport}>
           📥 Export

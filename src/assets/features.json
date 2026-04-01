@@ -1,0 +1,3027 @@
+[
+  {
+    "name": "Rage",
+    "description": "You can imbue yourself with a primal power called Rage, a force that grants you extraordinary might and resilience. You can enter it as a Bonus Action if you aren't wearing Heavy armor.\n\nYou can enter your Rage the number of times shown for your Barbarian level in the Rages column of the Barbarian Features table. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.\n\nWhile active, your Rage follows the rules below.\nDamage Resistance. You have Resistance to Bludgeoning, Piercing, and Slashing damage.\n\nRage Damage. When you make an attack using Strength—with either a weapon or an Unarmed Strike—and deal damage to the target, you gain a bonus to the damage that increases as you gain levels as a Barbarian, as shown in the Rage Damage column of the Barbarian Features table.\n\nStrength Advantage. You have Advantage on Strength checks and Strength saving throws.\n\nNo Concentration or Spells. You can't maintain Concentration, and you can't cast spells.\n\nDuration. The Rage lasts until the end of your next turn, and it ends early if you don Heavy armor or have the Incapacitated condition. If your Rage is still active on your next turn, you can extend the Rage for another round by doing one of the following:\n\nMake an attack roll against an enemy.\nForce an enemy to make a saving throw.\nTake a Bonus Action to extend your Rage.\nEach time the Rage is extended, it lasts until the end of your next turn. You can maintain a Rage for up to 10 minutes.",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Unarmored Defense",
+    "description": "While not wearing armor, my base Armor Class equals 10 + Dex + Con, I can use Shields and still benefit.",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Weapon Mastery",
+    "description": "I gain mastery with a number of Simple/Martial Melee weapons. Can change 1 every long rest",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Dagger",
+    "description": "Nick : When I make the extra attack of the Light property, I can make it as part of the Attack action instead of as a Bonus Action. I can make this extra attack only once per turn.",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Greatclub",
+    "description": "Push : If I hit a creature with this weapon, I can push the creature up to 10 feet straight away from me if it is Large or smaller.",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Handaxe",
+    "description": "Vex : If I hit a creature with this weapon and deal damage to the creature, I have Advantage on my next attack roll against the creature before the end of my next turn.",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Javelin",
+    "description": "Slow : If I hit a creature with this weapon and deal damage to it, I can reduce its Speed by 10 feet until the start of my next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn't exceed 10 feet.",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Light Hammer",
+    "description": "Nick : When I make the extra attack of the Light property, I can make it as part of the Attack action instead of as a Bonus Action. I can make this extra attack only once per turn.",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Mace",
+    "description": "Sap : If I hit a creature with this weapon that creature has Disadvantage on its next attack roll before the start of my next turn.",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Quarterstaff",
+    "description": "Topple : If I hit a creature with this weapon, I can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and my Proficiency Bonus). On a failed save, the creature has the Prone condition.",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Sickle",
+    "description": "Nick : When I make the extra attack of the Light property, I can make it as part of the Attack action instead of as a Bonus Action. I can make this extra attack only once per turn.",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Spear",
+    "description": "Sap : If I hit a creature with this weapon that creature has Disadvantage on its next attack roll before the start of my next turn.",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Battleaxe",
+    "description": "Topple : If I hit a creature with this weapon, I can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and my Proficiency Bonus). On a failed save, the creature has the Prone condition.",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Flail",
+    "description": "Sap : If I hit a creature with this weapon that creature has Disadvantage on its next attack roll before the start of my next turn.",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Glaive",
+    "description": "Graze : If my attack roll with this weapon misses a creature, I can deal damage to that creature equal to the ability modifier I used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Greataxe",
+    "description": "Cleave : If I hit a creature with a melee attack roll using this weapon, I can make a melee attack roll with the weapon against a second creature within 5 feet of the first that is also within my reach. On a hit the second creature takes the weapon's damage, but don't add my ability modifier to that damage unless the modifier is negative. I can make this extra attack only once per turn.",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Greatsword",
+    "description": "Graze : If my attack roll with this weapon misses a creature, I can deal damage to that creature equal to the ability modifier I used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Halberd",
+    "description": "Cleave : If I hit a creature with a melee attack roll using this weapon, I can make a melee attack roll with the weapon against a second creature within 5 feet of the first that is also within my reach. On a hit the second creature takes the weapon's damage, but don't add my ability modifier to that damage unless the modifier is negative. I can make this extra attack only once per turn.",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Lance",
+    "description": "Topple : If I hit a creature with this weapon, I can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and my Proficiency Bonus). On a failed save, the creature has the Prone condition.",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Longsword",
+    "description": "Sap : If I hit a creature with this weapon that creature has Disadvantage on its next attack roll before the start of my next turn.",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Maul",
+    "description": "Topple : If I hit a creature with this weapon, I can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and my Proficiency Bonus). On a failed save, the creature has the Prone condition.",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Morningstar",
+    "description": "Sap : If I hit a creature with this weapon that creature has Disadvantage on its next attack roll before the start of my next turn.",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Pike",
+    "description": "Push : If I hit a creature with this weapon, I can push the creature up to 10 feet straight away from me if it is Large or smaller.",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Rapier",
+    "description": "Vex : If I hit a creature with this weapon and deal damage to the creature, I have Advantage on my next attack roll against the creature before the end of my next turn.",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Scimitar",
+    "description": "Nick : When I make the extra attack of the Light property, I can make it as part of the Attack action instead of as a Bonus Action. I can make this extra attack only once per turn.",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Shortsword",
+    "description": "Vex : If I hit a creature with this weapon and deal damage to the creature, I have Advantage on my next attack roll against the creature before the end of my next turn.",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Trident",
+    "description": "Topple : If I hit a creature with this weapon, I can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and my Proficiency Bonus). On a failed save, the creature has the Prone condition.",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Warhammer",
+    "description": "Push : If I hit a creature with this weapon, I can push the creature up to 10 feet straight away from me if it is Large or smaller.",
+    "origin": "barbarian"
+  },
+  {
+    "name": "War Pick",
+    "description": "Sap : If I hit a creature with this weapon that creature has Disadvantage on its next attack roll before the start of my next turn.",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Whip",
+    "description": "Slow : If I hit a creature with this weapon and deal damage to it, I can reduce its Speed by 10 feet until the start of my next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn't exceed 10 feet.",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Danger Sense",
+    "description": "I have Advantage on Dexterity saving throws unless I have the Incapacitated condition.",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Reckless Attack",
+    "description": "When I make my first attack roll on my turn, I can attack recklessly. Until the start of my next turn, I have Advantage on Strength-based attack rolls but attack rolls against me also have Advantage",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Barbarian Subclass",
+    "description": "Choose a Barbarian subclass and put it in the 'Class' field.",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Primal Knowledge",
+    "description": "Gain proficiency in one additional skill from the Barbarian level 1 skill list. While Raging, I can use Strength for ability checks with Acrobatics, Intimidation, Perception, Stealth, or Survival.",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Primal Knowledge : Athletics",
+    "description": "I gain proficiency in Athletics While Raging, I can use Strength for ability checks with Acrobatics, Intimidation, Perception, Stealth, or Survival",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Primal Knowledge : Intimidation",
+    "description": "I gain proficiency in Intimidation While Raging, I can use Strength for ability checks with Acrobatics, Intimidation, Perception, Stealth, or Survival",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Primal Knowledge : Nature",
+    "description": "I gain proficiency in Nature While Raging, I can use Strength for ability checks with Acrobatics, Intimidation, Perception, Stealth, or Survival",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Primal Knowledge : Perception",
+    "description": "I gain proficiency in Perception While Raging, I can use Strength for ability checks with Acrobatics, Intimidation, Perception, Stealth, or Survival",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Primal Knowledge : Survival",
+    "description": "I gain proficiency in Survival While Raging, I can use Strength for ability checks with Acrobatics, Intimidation, Perception, Stealth, or Survival",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Fast Movement",
+    "description": "My speed increases by 10 feet while I am not wearing Heavy armor.",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Feral Instinct",
+    "description": "My instincts are so honed that I have Advantage on Initiative rolls.",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Instinctive Pounce",
+    "description": "As part of the Bonus Action I take to enter my Rage, I can move up to half my Speed.",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Brutal Strike",
+    "description": "When using Reckless Attack, I can skip Advantage on a Strength-based attack without Disadvantage. If it hits, extra 1d10 damage and a Brutal Strike effect. (See Third Page).",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Hamstring Blow",
+    "description": "Reduce target's Speed by 15 feet until my next turn; only one effect at a time per target.",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Relentless Rage",
+    "description": "While Raging, if I drop to 0 HP but not killed outright, make a DC 10 Constitution save. On success, set HP to half my Barbarian level. Each subsequent use raises the DC by 5. DC resets to 10 after a Short or Long Rest.",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Improved Brutal Strike",
+    "description": "Gain 2 new Brutal Strike options. (See Third Page).",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Sundering Blow",
+    "description": "Next attack roll against the target gets a +5 bonus before my next turn. 1 effect per attack roll.",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Persistent Rage",
+    "description": "Regain all Rage uses when I roll Initiative, once per Long Rest. Rage lasts 10 minutes without extension actions; ends early if Unconscious or wearing Heavy armor.",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Indomitable Might",
+    "description": "If my total for a Strength check or Strength saving throw is less than my Strength score, I can use that score in place of the total.",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Epic Boon",
+    "description": "I gain an Epic Boon feat, or another feat of my choice for which I qualify.",
+    "origin": "barbarian"
+  },
+  {
+    "name": "Bardic Inspiration",
+    "description": "I can supernaturally inspire others using my Bardic Inspiration (BI) dice. As a Bonus Action I can give a creature w/in 60ft who can see/hear me a BI die (max 1). For 1 hr when it fails a D20 Test it can roll the BI die and add it, spending the BI die.",
+    "origin": "bard"
+  },
+  {
+    "name": "Spellcasting",
+    "description": "I can cast Cantrips & Prepared level 1+ Bard spells using Cha as my spellcasting ability. Prepared spells from other Bard features count as Bard spells & don't count against my prepared spells. When I gain a Bard level I can replace one cantrip/spell with another of the same type from the Bard spell list. I can use a Musical Instrument as a Spellcasting Focus for my Bard spells.",
+    "origin": "bard"
+  },
+  {
+    "name": "Jack of All Trades",
+    "description": "I can add half my Prof Bonus to skill checks that don't use it otherwise.",
+    "origin": "bard"
+  },
+  {
+    "name": "Bard Subclass",
+    "description": "Choose a Bard subclass and put it in the 'Class' field.",
+    "origin": "bard"
+  },
+  {
+    "name": "Font of Inspiration",
+    "description": "I regain all uses of Bardic Inspiration (BI) when I finish a Short or Long Rest. In addition, I can spend a spell slot (no action) to regain one use of BI.",
+    "origin": "bard"
+  },
+  {
+    "name": "Countercharm",
+    "description": "If I or a creature within 30 feet of me fails a saving throw against a Charmed or Frightened effect, I can use a Reaction to force a reroll with Adv.",
+    "origin": "bard"
+  },
+  {
+    "name": "Spellcasting",
+    "description": "I can cast Cantrips & Prepared level 1+ Cleric spells using Wis as my spellcasting ability & a Holy Symbol as a Spellcasting Focus. I can replace one cantrip with another when I gain a Cleric level; I can change my Prepared spells at the end of a Long Rest.",
+    "origin": "cleric"
+  },
+  {
+    "name": "Divine Order",
+    "description": "I gain proficiency with Martial weapons & Heavy armor training.",
+    "origin": "cleric"
+  },
+  {
+    "name": "Thaumaturge",
+    "description": "I know one extra cantrip from the Cleric spell list and can add my Wis mod (min 1) to my Int (Arcana and Religion) checks.",
+    "origin": "cleric"
+  },
+  {
+    "name": "Channel Divinity",
+    "description": "I regain one use on a Short Rest; All return on a Long Rest. If a Channel Divinity effect has a saving throw the DC is my Wis spell save DC. Channel Divinity: Divine Spark: As a Magic action I choose a creature I can see w/in 30 ft and roll 1d8 + my Wis mod. I either heal the creature for that amount or force it make a Con save; On a fail it takes that amount of Necrotic or Radiant dmg; half on a save. (2d8 at 7th level, 3d8 at 13th level, 4d8 at 18th level) Channel Divinity: Turn Undead: As a Magic action each Undead I choose w/in 30 ft must make a Wis save; On a fail it is Frightened & Incapacitated for 1 min; It also tries to move as far from me as it can on its turns. This ends early if it takes any damage, I'm Incapacitated, or I die.",
+    "origin": "cleric"
+  },
+  {
+    "name": "Cleric Subclass",
+    "description": "Choose a Cleric subclass and put it in the 'Class' field.",
+    "origin": "cleric"
+  },
+  {
+    "name": "Sear Undead",
+    "description": "When I use my Channel Divinity: Turn Undead, each Undead that fails its save against that use takes my Wis mod d8s Radiant damage (min 1) without ending the Turn effect.",
+    "origin": "cleric"
+  },
+  {
+    "name": "Blessed Strikes",
+    "description": "I can cause the target to take an extra 1d8 Necro or Radiant damage (my choice) once when I hit with a weapon on my turn.",
+    "origin": "cleric"
+  },
+  {
+    "name": "Potent Spellcasting",
+    "description": "",
+    "origin": "cleric"
+  },
+  {
+    "name": "Divine Intervention",
+    "description": "As a Magic action, once per Long Rest, I can cast one Cleric spell of level 5 or lower that doesn't require a Reaction to cast without a spell slot or Material components.",
+    "origin": "cleric"
+  },
+  {
+    "name": "Improved Blessed Strikes",
+    "description": "The extra damage of my Divine Strikes increases to 2d8",
+    "origin": "cleric"
+  },
+  {
+    "name": "Potent Spellcasting",
+    "description": "When I deal damage to a creature with a Cleric cantrip I can give 2 times my Wis mod HP to a creature w/in 60 ft or myself.",
+    "origin": "cleric"
+  },
+  {
+    "name": "Epic Boon",
+    "description": "I gain an Epic Boon feat, or another feat of my choice for which I qualify.",
+    "origin": "cleric"
+  },
+  {
+    "name": "Spellcasting",
+    "description": "I can cast druid spells using Wisdom as my spellcasting ability. I know druid cantrips and can prepare a number of spells from the druid list. I regain spell slots after a long rest.",
+    "origin": "druid"
+  },
+  {
+    "name": "Druidic",
+    "description": "",
+    "origin": "druid"
+  },
+  {
+    "name": "Primal Order",
+    "description": "",
+    "origin": "druid"
+  },
+  {
+    "name": "Warden",
+    "description": "Use the 'Choose Feature' button to select a Primal Order option.",
+    "origin": "druid"
+  },
+  {
+    "name": "Wild Shape",
+    "description": "Wild Shape allows me to transform into known beast forms as a bonus action, lasting for hours equal to half my druid level. Regain 1 on a short rest or all on a long rest. Initially, I know 4 forms (CR 1/4 or lower, no flying). While transformed, I gain temp HP equal to my druid level, use the beast's physical stats and proficiencies, but retain my mental stats, class features, and languages. I can't cast spells but maintain concentration. Equipment falls, merges, or is worn. The form ends if I'm incapacitated or die.",
+    "origin": "druid"
+  },
+  {
+    "name": "Wild Companion",
+    "description": "",
+    "origin": "druid"
+  },
+  {
+    "name": "Druid Subclass",
+    "description": "Choose a Druid subclass and put it in the 'Class' field.",
+    "origin": "druid"
+  },
+  {
+    "name": "Wild Resurgence",
+    "description": "Once per turn, I can regain a Wild Shape use by expending a spell slot. I can also exchange a Wild Shape use for a level 1 spell slot once per long rest.",
+    "origin": "druid"
+  },
+  {
+    "name": "Elemental Fury",
+    "description": "Once on each of my turns when I hit a creature with an attack roll using a weapon, I can cause the target to take an extra 1d8 Cold, Fire, Lightning, or Thunder damage (choose on hit).",
+    "origin": "druid"
+  },
+  {
+    "name": "Potent Spellcasting",
+    "description": "",
+    "origin": "druid"
+  },
+  {
+    "name": "Improved Elemental Fury",
+    "description": "The extra damage of my Primal Strikes increases to 2d8",
+    "origin": "druid"
+  },
+  {
+    "name": "Potent Spellcasting",
+    "description": "When I cast a Druid cantrip with a range of 10 feet or greater, the spell's range increases by 300 feet.",
+    "origin": "druid"
+  },
+  {
+    "name": "Beast Spells",
+    "description": "I can cast spells while in Wild Shape, except those with costly/consumed material components",
+    "origin": "druid"
+  },
+  {
+    "name": "Epic Boon",
+    "description": "I gain an Epic Boon feat, or another feat of my choice for which I qualify.",
+    "origin": "druid"
+  },
+  {
+    "name": "Fighting Style",
+    "description": "Choose a Fighting Style Feat using the 'Choose Feature' Button When I gain a Fighter Level, I can replace it with another",
+    "origin": "fighter"
+  },
+  {
+    "name": "Fighting Style [Blind Fighting]",
+    "description": "",
+    "origin": "fighter"
+  },
+  {
+    "name": "Fighting Style [Defense]",
+    "description": "",
+    "origin": "fighter"
+  },
+  {
+    "name": "Fighting Style [Dueling]",
+    "description": "",
+    "origin": "fighter"
+  },
+  {
+    "name": "Fighting Style [Great Weapon Fighting]",
+    "description": "",
+    "origin": "fighter"
+  },
+  {
+    "name": "Fighting Style [Interception]",
+    "description": "",
+    "origin": "fighter"
+  },
+  {
+    "name": "Fighting Style [Protection]",
+    "description": "",
+    "origin": "fighter"
+  },
+  {
+    "name": "Fighting Style [Thrown Weapon Fighting]",
+    "description": "",
+    "origin": "fighter"
+  },
+  {
+    "name": "Fighting Style [Two-Weapon Fighting]",
+    "description": "",
+    "origin": "fighter"
+  },
+  {
+    "name": "Fighting Style [Unarmed Fighting]",
+    "description": "",
+    "origin": "fighter"
+  },
+  {
+    "name": "Second Wind",
+    "description": "As a bonus action, I regain 1d10 + fighter level HP; I can use this feature a number of times before a Long Rest I regain 1 use after a Short Rest and all after a Long Rest",
+    "origin": "fighter"
+  },
+  {
+    "name": "Weapon Mastery",
+    "description": "I gain mastery with a number of simple/martial weapons. Can change 1 every long rest",
+    "origin": "fighter"
+  },
+  {
+    "name": "Dagger",
+    "description": "I gain access to the Dagger's 'Nick' Mastery feature Nick : When I make the extra attack of the Light property, I can make it as part of the Attack action instead of as a Bonus Action. I can make this extra attack only once per turn.",
+    "origin": "fighter"
+  },
+  {
+    "name": "Greatclub",
+    "description": "I gain access to the Greatclub's 'Push' Mastery feature Push : If I hit a creature with this weapon, I can push the creature up to 10 feet straight away from me if it is Large or smaller.",
+    "origin": "fighter"
+  },
+  {
+    "name": "Handaxe",
+    "description": "I gain access to the Handaxe's 'Vex' Mastery feature Vex : If I hit a creature with this weapon and deal damage to the creature, I have Advantage on my next attack roll against the creature before the end of my next turn.",
+    "origin": "fighter"
+  },
+  {
+    "name": "Javelin",
+    "description": "I gain access to the Javelin's 'Slow' Mastery feature Slow : If I hit a creature with this weapon and deal damage to it, I can reduce its Speed by 10 feet until the start of my next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn't exceed 10 feet.",
+    "origin": "fighter"
+  },
+  {
+    "name": "Light Hammer",
+    "description": "I gain access to the Light Hammer's 'Nick' Mastery feature Nick : When I make the extra attack of the Light property, I can make it as part of the Attack action instead of as a Bonus Action. I can make this extra attack only once per turn.",
+    "origin": "fighter"
+  },
+  {
+    "name": "Mace",
+    "description": "I gain access to the Mace's 'Sap' Mastery feature Sap : If I hit a creature with this weapon that creature has Disadvantage on its next attack roll before the start of my next turn.",
+    "origin": "fighter"
+  },
+  {
+    "name": "Quarterstaff",
+    "description": "I gain access to the Quarterstaff's 'Topple' Mastery feature Topple : If I hit a creature with this weapon, I can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and my Proficiency Bonus). On a failed save, the creature has the Prone condition.",
+    "origin": "fighter"
+  },
+  {
+    "name": "Sickle",
+    "description": "I gain access to the Sickle's 'Nick' Mastery feature Nick : When I make the extra attack of the Light property, I can make it as part of the Attack action instead of as a Bonus Action. I can make this extra attack only once per turn.",
+    "origin": "fighter"
+  },
+  {
+    "name": "Spear",
+    "description": "I gain access to the Spear's 'Sap' Mastery feature Sap : If I hit a creature with this weapon that creature has Disadvantage on its next attack roll before the start of my next turn.",
+    "origin": "fighter"
+  },
+  {
+    "name": "Dart",
+    "description": "I gain access to the Dart's 'Vex' Mastery feature Vex : If I hit a creature with this weapon and deal damage to the creature, I have Advantage on my next attack roll against the creature before the end of my next turn.",
+    "origin": "fighter"
+  },
+  {
+    "name": "Light Crossbow",
+    "description": "I gain access to the Light Crossbow's 'Slow' Mastery feature Slow : If I hit a creature with this weapon and deal damage to it, I can reduce its Speed by 10 feet until the start of my next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn't exceed 10 feet.",
+    "origin": "fighter"
+  },
+  {
+    "name": "Shortbow",
+    "description": "I gain access to the Shortbow's 'Vex' Mastery feature Vex : If I hit a creature with this weapon and deal damage to the creature, I have Advantage on my next attack roll against the creature before the end of my next turn.",
+    "origin": "fighter"
+  },
+  {
+    "name": "Sling",
+    "description": "I gain access to the Sling's 'Slow' Mastery feature Slow : If I hit a creature with this weapon and deal damage to it, I can reduce its Speed by 10 feet until the start of my next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn't exceed 10 feet.",
+    "origin": "fighter"
+  },
+  {
+    "name": "Battleaxe",
+    "description": "I gain access to the Battleaxe's 'Topple' Mastery feature Topple : If I hit a creature with this weapon, I can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and my Proficiency Bonus). On a failed save, the creature has the Prone condition.",
+    "origin": "fighter"
+  },
+  {
+    "name": "Flail",
+    "description": "I gain access to the Flail's 'Sap' Mastery feature Sap : If I hit a creature with this weapon that creature has Disadvantage on its next attack roll before the start of my next turn.",
+    "origin": "fighter"
+  },
+  {
+    "name": "Glaive",
+    "description": "I gain access to the Glaive's 'Graze' Mastery feature Graze : If my attack roll with this weapon misses a creature, I can deal damage to that creature equal to the ability modifier I used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.",
+    "origin": "fighter"
+  },
+  {
+    "name": "Greataxe",
+    "description": "I gain access to the Greataxe's 'Cleave' Mastery feature Cleave : If I hit a creature with a melee attack roll using this weapon, I can make a melee attack roll with the weapon against a second creature within 5 feet of the first that is also within my reach. On a hit the second creature takes the weapon's damage, but don't add my ability modifier to that damage unless the modifier is negative. I can make this extra attack only once per turn.",
+    "origin": "fighter"
+  },
+  {
+    "name": "Greatsword",
+    "description": "I gain access to the Greatsword's 'Graze' Mastery feature Graze : If my attack roll with this weapon misses a creature, I can deal damage to that creature equal to the ability modifier I used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.",
+    "origin": "fighter"
+  },
+  {
+    "name": "Halberd",
+    "description": "I gain access to the Halberd's 'Cleave' Mastery feature Cleave : If I hit a creature with a melee attack roll using this weapon, I can make a melee attack roll with the weapon against a second creature within 5 feet of the first that is also within my reach. On a hit the second creature takes the weapon's damage, but don't add my ability modifier to that damage unless the modifier is negative. I can make this extra attack only once per turn.",
+    "origin": "fighter"
+  },
+  {
+    "name": "Lance",
+    "description": "I gain access to the Lance's 'Topple' Mastery feature Topple : If I hit a creature with this weapon, I can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and my Proficiency Bonus). On a failed save, the creature has the Prone condition.",
+    "origin": "fighter"
+  },
+  {
+    "name": "Longsword",
+    "description": "I gain access to the Longsword's 'Sap' Mastery feature Sap : If I hit a creature with this weapon that creature has Disadvantage on its next attack roll before the start of my next turn.",
+    "origin": "fighter"
+  },
+  {
+    "name": "Maul",
+    "description": "I gain access to the Maul's 'Topple' Mastery feature Topple : If I hit a creature with this weapon, I can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and my Proficiency Bonus). On a failed save, the creature has the Prone condition.",
+    "origin": "fighter"
+  },
+  {
+    "name": "Morningstar",
+    "description": "I gain access to the Morningstar's 'Sap' Mastery feature Sap : If I hit a creature with this weapon that creature has Disadvantage on its next attack roll before the start of my next turn.",
+    "origin": "fighter"
+  },
+  {
+    "name": "Pike",
+    "description": "I gain access to the Pike's 'Push' Mastery feature Push : If I hit a creature with this weapon, I can push the creature up to 10 feet straight away from me if it is Large or smaller.",
+    "origin": "fighter"
+  },
+  {
+    "name": "Rapier",
+    "description": "I gain access to the Rapier's 'Vex' Mastery feature Vex : If I hit a creature with this weapon and deal damage to the creature, I have Advantage on my next attack roll against the creature before the end of my next turn.",
+    "origin": "fighter"
+  },
+  {
+    "name": "Scimitar",
+    "description": "I gain access to the Scimitar's 'Nick' Mastery feature Nick : When I make the extra attack of the Light property, I can make it as part of the Attack action instead of as a Bonus Action. I can make this extra attack only once per turn.",
+    "origin": "fighter"
+  },
+  {
+    "name": "Shortsword",
+    "description": "I gain access to the Shortsword's 'Vex' Mastery feature Vex : If I hit a creature with this weapon and deal damage to the creature, I have Advantage on my next attack roll against the creature before the end of my next turn.",
+    "origin": "fighter"
+  },
+  {
+    "name": "Trident",
+    "description": "I gain access to the Trident's 'Topple' Mastery feature Topple : If I hit a creature with this weapon, I can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and my Proficiency Bonus). On a failed save, the creature has the Prone condition.",
+    "origin": "fighter"
+  },
+  {
+    "name": "Warhammer",
+    "description": "I gain access to the Warhammer's 'Push' Mastery feature Push : If I hit a creature with this weapon, I can push the creature up to 10 feet straight away from me if it is Large or smaller.",
+    "origin": "fighter"
+  },
+  {
+    "name": "War Pick",
+    "description": "I gain access to the War Pick's 'Sap' Mastery feature Sap : If I hit a creature with this weapon that creature has Disadvantage on its next attack roll before the start of my next turn.",
+    "origin": "fighter"
+  },
+  {
+    "name": "Whip",
+    "description": "I gain access to the Whip's 'Slow' Mastery feature Slow : If I hit a creature with this weapon and deal damage to it, I can reduce its Speed by 10 feet until the start of my next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn't exceed 10 feet.",
+    "origin": "fighter"
+  },
+  {
+    "name": "Blowgun",
+    "description": "I gain access to the Blowgun's 'Vex' Mastery feature Vex : If I hit a creature with this weapon and deal damage to the creature, I have Advantage on my next attack roll against the creature before the end of my next turn.",
+    "origin": "fighter"
+  },
+  {
+    "name": "Hand Crossbow",
+    "description": "I gain access to the Hand Crossbow's 'Vex' Mastery feature Vex : If I hit a creature with this weapon and deal damage to the creature, I have Advantage on my next attack roll against the creature before the end of my next turn.",
+    "origin": "fighter"
+  },
+  {
+    "name": "Heavy Crossbow",
+    "description": "I gain access to the Heavy Crossbow's 'Push' Mastery feature Push : If I hit a creature with this weapon, I can push the creature up to 10 feet straight away from me if it is Large or smaller.",
+    "origin": "fighter"
+  },
+  {
+    "name": "Longbow",
+    "description": "I gain access to the Longbow's 'Slow' Mastery feature Slow : If I hit a creature with this weapon and deal damage to it, I can reduce its Speed by 10 feet until the start of my next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn't exceed 10 feet.",
+    "origin": "fighter"
+  },
+  {
+    "name": "Musket",
+    "description": "I gain access to the Musket's 'Slow' Mastery feature Slow : If I hit a creature with this weapon and deal damage to it, I can reduce its Speed by 10 feet until the start of my next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn't exceed 10 feet.",
+    "origin": "fighter"
+  },
+  {
+    "name": "Pistol",
+    "description": "I gain access to the Pistol's 'Vex' Mastery feature Vex : If I hit a creature with this weapon and deal damage to the creature, I have Advantage on my next attack roll against the creature before the end of my next turn.",
+    "origin": "fighter"
+  },
+  {
+    "name": "Action Surge",
+    "description": "I can take one additional action on my turn (no Magic action)",
+    "origin": "fighter"
+  },
+  {
+    "name": "Tactical Mind",
+    "description": "When I fail an ability check, expend a Second Wind to add 1d10; on fail, not expended",
+    "origin": "fighter"
+  },
+  {
+    "name": "Fighter Subclass",
+    "description": "Choose a Fighter subclass and put it in the 'Class' field.",
+    "origin": "fighter"
+  },
+  {
+    "name": "Extra Attack",
+    "description": "I can attack twice instead of once whenever I take the Attack Action on my Turn",
+    "origin": "fighter"
+  },
+  {
+    "name": "Tactical Shift",
+    "description": "When using Second Wind, can move half my speed without provoking Opportunity Attacks",
+    "origin": "fighter"
+  },
+  {
+    "name": "Indomitable",
+    "description": "I can reroll a failed saving throw and add my Fighter level, but must keep new result",
+    "origin": "fighter"
+  },
+  {
+    "name": "Tactical Master",
+    "description": "Can replace one weapon master property with Push/Sap/Slow for that attack",
+    "origin": "fighter"
+  },
+  {
+    "name": "Two Extra Attack",
+    "description": "Can attack three times instead of twice whenever I take the Attack action on my turn.",
+    "origin": "fighter"
+  },
+  {
+    "name": "Studied Attacks",
+    "description": "On attack roll miss, gain adv. on next attack against same creature till end my next turn",
+    "origin": "fighter"
+  },
+  {
+    "name": "Epic Boon",
+    "description": "I gain an Epic Boon feat, or another feat of my choice for which I qualify.",
+    "origin": "fighter"
+  },
+  {
+    "name": "Martial Arts",
+    "description": "",
+    "origin": "monk"
+  },
+  {
+    "name": "Unarmored Defense",
+    "description": "My AC is 10 + Dex mod + Wis mod",
+    "origin": "monk"
+  },
+  {
+    "name": "Monk's Focus",
+    "description": "I can spend Focus Points to fuel special actions (see third page).",
+    "origin": "monk"
+  },
+  {
+    "name": "Patient Defense",
+    "description": "",
+    "origin": "monk"
+  },
+  {
+    "name": "Step of the Wind",
+    "description": "",
+    "origin": "monk"
+  },
+  {
+    "name": "Unarmored Movement",
+    "description": "",
+    "origin": "monk"
+  },
+  {
+    "name": "Uncanny Metabolism",
+    "description": "When I roll initiative, I can restore all Focus Points and heal 1 Martial die roll + Monk Level.",
+    "origin": "monk"
+  },
+  {
+    "name": "Deflect Attacks",
+    "description": "As a reaction, I can reduce Bludg., Pierc., or Slash. dmg done to me If the damage is negated, I can redirect the melee or ranged atk (60ft). Dex save or 2x Martial die roll + Dex mod dmg of the same type.",
+    "origin": "monk"
+  },
+  {
+    "name": "Monk Subclass",
+    "description": "Choose a Monk subclass and put it in the 'Class' field.",
+    "origin": "monk"
+  },
+  {
+    "name": "Slow Fall",
+    "description": "As a Reaction, I can reduce fall damage by 5x my Monk level.",
+    "origin": "monk"
+  },
+  {
+    "name": "Empowered Strikes",
+    "description": "My Unarmed Strikes can deal Force damage or their normal damage type.",
+    "origin": "monk"
+  },
+  {
+    "name": "Evasion",
+    "description": "When not Incapacitated and must make a Dex save to take half damage on an effect I take no damage on a pass & half damage on a fail.",
+    "origin": "monk"
+  },
+  {
+    "name": "Acrobatic Movement",
+    "description": "I can move on vertical surfaces and across liquids without falling during my turn",
+    "origin": "monk"
+  },
+  {
+    "name": "Heightened Focus",
+    "description": "My Monk's Focus Features have Improved, (see third page).",
+    "origin": "monk"
+  },
+  {
+    "name": "Self-Restoration",
+    "description": "At the end of each of my turns, I can remove the Charmed, Frightened, or Poisoned condition. I also don't gain Exhaustion from skipping food or drink.",
+    "origin": "monk"
+  },
+  {
+    "name": "Deflect Energy",
+    "description": "Deflect Attacks works against any damage type.",
+    "origin": "monk"
+  },
+  {
+    "name": "Disciplined Survivor",
+    "description": "",
+    "origin": "monk"
+  },
+  {
+    "name": "Perfect Focus",
+    "description": "If I roll Initiative and I have less than 4 FP, I regain up to 4 FP.",
+    "origin": "monk"
+  },
+  {
+    "name": "Superior Defense",
+    "description": "At the start of my turn, 3 FP to resist non-Force damage for 1 minute, unless Incapacitated.",
+    "origin": "monk"
+  },
+  {
+    "name": "Epic Boon",
+    "description": "I gain an Epic Boon feat, or another feat of my choice for which I qualify.",
+    "origin": "monk"
+  },
+  {
+    "name": "Lay on Hands",
+    "description": "As a Bonus Action, I can draw from a pool of healing to restore HP to a creature I touch. I can instead spend 5 HP from the pool to remove Poisoned; Those don't also restore HP.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Spellcasting",
+    "description": "I can cast prepared level 1+ Paladin spells using Charisma as my spellcasting ability. I can use a Holy Symbol as a spellcasting focus for my paladin spells. I can change one prepared spell at the end of a long rest.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Weapon Mastery",
+    "description": "I choose two weapons I'm proficient with and gain their mastery features. I can change these on a long rest; use ‘Choose Feature’ above to select two. (See page 3)",
+    "origin": "paladin"
+  },
+  {
+    "name": "Dagger",
+    "description": "I gain access to the Dagger's 'Nick' Mastery feature Nick : When I make the extra attack of the Light property, I can make it as part of the Attack action instead of as a Bonus Action. I can make this extra attack only once per turn.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Greatclub",
+    "description": "I gain access to the Greatclub's 'Push' Mastery feature Push : If I hit a creature with this weapon, I can push the creature up to 10 feet straight away from me if it is Large or smaller.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Handaxe",
+    "description": "I gain access to the Handaxe's 'Vex' Mastery feature Vex : If I hit a creature with this weapon and deal damage to the creature, I have Advantage on my next attack roll against the creature before the end of my next turn.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Javelin",
+    "description": "I gain access to the Javelin's 'Slow' Mastery feature Slow : If I hit a creature with this weapon and deal damage to it, I can reduce its Speed by 10 feet until the start of my next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn't exceed 10 feet.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Light Hammer",
+    "description": "I gain access to the Light Hammer's 'Nick' Mastery feature Nick : When I make the extra attack of the Light property, I can make it as part of the Attack action instead of as a Bonus Action. I can make this extra attack only once per turn.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Mace",
+    "description": "I gain access to the Mace's 'Sap' Mastery feature Sap : If I hit a creature with this weapon that creature has Disadvantage on its next attack roll before the start of my next turn.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Quarterstaff",
+    "description": "I gain access to the Quarterstaff's 'Topple' Mastery feature Topple : If I hit a creature with this weapon, I can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and my Proficiency Bonus). On a failed save, the creature has the Prone condition.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Sickle",
+    "description": "I gain access to the Sickle's 'Nick' Mastery feature Nick : When I make the extra attack of the Light property, I can make it as part of the Attack action instead of as a Bonus Action. I can make this extra attack only once per turn.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Spear",
+    "description": "I gain access to the Spear's 'Sap' Mastery feature Sap : If I hit a creature with this weapon that creature has Disadvantage on its next attack roll before the start of my next turn.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Dart",
+    "description": "I gain access to the Dart's 'Vex' Mastery feature Vex : If I hit a creature with this weapon and deal damage to the creature, I have Advantage on my next attack roll against the creature before the end of my next turn.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Light Crossbow",
+    "description": "I gain access to the Light Crossbow's 'Slow' Mastery feature Slow : If I hit a creature with this weapon and deal damage to it, I can reduce its Speed by 10 feet until the start of my next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn't exceed 10 feet.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Shortbow",
+    "description": "I gain access to the Shortbow's 'Vex' Mastery feature Vex : If I hit a creature with this weapon and deal damage to the creature, I have Advantage on my next attack roll against the creature before the end of my next turn.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Sling",
+    "description": "I gain access to the Sling's 'Slow' Mastery feature Slow : If I hit a creature with this weapon and deal damage to it, I can reduce its Speed by 10 feet until the start of my next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn't exceed 10 feet.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Battleaxe",
+    "description": "I gain access to the Battleaxe's 'Topple' Mastery feature Topple : If I hit a creature with this weapon, I can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and my Proficiency Bonus). On a failed save, the creature has the Prone condition.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Flail",
+    "description": "I gain access to the Flail's 'Sap' Mastery feature Sap : If I hit a creature with this weapon that creature has Disadvantage on its next attack roll before the start of my next turn.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Glaive",
+    "description": "I gain access to the Glaive's 'Graze' Mastery feature Graze : If my attack roll with this weapon misses a creature, I can deal damage to that creature equal to the ability modifier I used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Greataxe",
+    "description": "I gain access to the Greataxe's 'Cleave' Mastery feature Cleave : If I hit a creature with a melee attack roll using this weapon, I can make a melee attack roll with the weapon against a second creature within 5 feet of the first that is also within my reach. On a hit, the second creature takes the weapon's damage, but don't add my ability modifier to that damage unless the modifier is negative. I can make this extra attack only once per turn.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Greatsword",
+    "description": "I gain access to the Greatsword's 'Graze' Mastery feature Graze : If my attack roll with this weapon misses a creature, I can deal damage to that creature equal to the ability modifier I used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Halberd",
+    "description": "I gain access to the Halberd's 'Cleave' Mastery feature Cleave : If I hit a creature with a melee attack roll using this weapon, I can make a melee attack roll with the weapon against a second creature within 5 feet of the first that is also within my reach. On a hit, the second creature takes the weapon's damage, but don't add my ability modifier to that damage unless the modifier is negative. I can make this extra attack only once per turn.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Lance",
+    "description": "I gain access to the Lance's 'Topple' Mastery feature Topple : If I hit a creature with this weapon, I can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and my Proficiency Bonus). On a failed save, the creature has the Prone condition.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Longsword",
+    "description": "I gain access to the Longsword's 'Sap' Mastery feature Sap : If I hit a creature with this weapon that creature has Disadvantage on its next attack roll before the start of my next turn.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Maul",
+    "description": "I gain access to the Maul's 'Topple' Mastery feature Topple : If I hit a creature with this weapon, I can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and my Proficiency Bonus). On a failed save, the creature has the Prone condition.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Morningstar",
+    "description": "I gain access to the Morningstar's 'Sap' Mastery feature Sap : If I hit a creature with this weapon that creature has Disadvantage on its next attack roll before the start of my next turn.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Pike",
+    "description": "I gain access to the Pike's 'Push' Mastery feature Push : If I hit a creature with this weapon, I can push the creature up to 10 feet straight away from me if it is Large or smaller.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Rapier",
+    "description": "I gain access to the Rapier's 'Vex' Mastery feature Vex : If I hit a creature with this weapon and deal damage to the creature, I have Advantage on my next attack roll against the creature before the end of my next turn.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Scimitar",
+    "description": "I gain access to the Scimitar's 'Nick' Mastery feature Nick : When I make the extra attack of the Light property, I can make it as part of the Attack action instead of as a Bonus Action. I can make this extra attack only once per turn.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Shortsword",
+    "description": "I gain access to the Shortsword's 'Vex' Mastery feature Vex : If I hit a creature with this weapon and deal damage to the creature, I have Advantage on my next attack roll against the creature before the end of my next turn.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Trident",
+    "description": "I gain access to the Trident's 'Topple' Mastery feature Topple : If I hit a creature with this weapon, I can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and my Proficiency Bonus). On a failed save, the creature has the Prone condition.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Warhammer",
+    "description": "I gain access to the Warhammer's 'Push' Mastery feature Push : If I hit a creature with this weapon, I can push the creature up to 10 feet straight away from me if it is Large or smaller.",
+    "origin": "paladin"
+  },
+  {
+    "name": "War Pick",
+    "description": "I gain access to the War Pick's 'Sap' Mastery feature Sap : If I hit a creature with this weapon that creature has Disadvantage on its next attack roll before the start of my next turn.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Whip",
+    "description": "I gain access to the Whip's 'Slow' Mastery feature Slow : If I hit a creature with this weapon and deal damage to it, I can reduce its Speed by 10 feet until the start of my next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn't exceed 10 feet.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Blowgun",
+    "description": "I gain access to the Blowgun's 'Vex' Mastery feature Vex : If I hit a creature with this weapon and deal damage to the creature, I have Advantage on my next attack roll against the creature before the end of my next turn.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Hand Crossbow",
+    "description": "I gain access to the Hand Crossbow's 'Vex' Mastery feature Vex : If I hit a creature with this weapon and deal damage to the creature, I have Advantage on my next attack roll against the creature before the end of my next turn.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Heavy Crossbow",
+    "description": "I gain access to the Heavy Crossbow's 'Push' Mastery feature Push : If I hit a creature with this weapon, I can push the creature up to 10 feet straight away from me if it is Large or smaller.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Longbow",
+    "description": "I gain access to the Longbow's 'Slow' Mastery feature Slow : If I hit a creature with this weapon and deal damage to it, I can reduce its Speed by 10 feet until the start of my next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn't exceed 10 feet.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Musket",
+    "description": "I gain access to the Musket's 'Slow' Mastery feature Slow : If I hit a creature with this weapon and deal damage to it, I can reduce its Speed by 10 feet until the start of my next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn't exceed 10 feet.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Pistol",
+    "description": "I gain access to the Pistol's 'Vex' Mastery feature Vex : If I hit a creature with this weapon and deal damage to the creature, I have Advantage on my next attack roll against the creature before the end of my next turn.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Fighting Style",
+    "description": "Pick a 'Fighting Style' feat or 'Blessed Warrior'; use Choose Feature above.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Fighting Style [Blessed Warrior]",
+    "description": "I learn two Cleric cantrips that count as Paladin spells; I use Cha for spellcasting. When I gain a Paladin level I can swap one of these for another Cleric cantrip.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Fighting Style [Blind Fighting]",
+    "description": "",
+    "origin": "paladin"
+  },
+  {
+    "name": "Fighting Style [Defense]",
+    "description": "",
+    "origin": "paladin"
+  },
+  {
+    "name": "Fighting Style [Dueling]",
+    "description": "",
+    "origin": "paladin"
+  },
+  {
+    "name": "Fighting Style [Great Weapon Fighting]",
+    "description": "",
+    "origin": "paladin"
+  },
+  {
+    "name": "Fighting Style [Interception]",
+    "description": "",
+    "origin": "paladin"
+  },
+  {
+    "name": "Fighting Style [Protection]",
+    "description": "",
+    "origin": "paladin"
+  },
+  {
+    "name": "Fighting Style [Thrown Weapon Fighting]",
+    "description": "",
+    "origin": "paladin"
+  },
+  {
+    "name": "Fighting Style [Two-Weapon Fighting]",
+    "description": "",
+    "origin": "paladin"
+  },
+  {
+    "name": "Fighting Style [Unarmed Fighting]",
+    "description": "",
+    "origin": "paladin"
+  },
+  {
+    "name": "Paladin's Smite",
+    "description": "I always have the Divine Smite spell prepared, once per Long Rest, I can cast this spell without expending a spell slot.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Channel Divinity",
+    "description": "If a Channel Divinity effect has a saving throw the DC is my Cha spell save DC. I get two uses (three at level 11); one returns on a Short Rest; all return on a Long Rest. \\u2022 Channel Divinity: Divine Sense As a Bonus Action I sense and locate Celestials, Fiends, Undead and consecrated/desecrated places/obj within 60 ft for 10 min or until Incapacitated",
+    "origin": "paladin"
+  },
+  {
+    "name": "Paladin Subclass",
+    "description": "Choose a Paladin subclass and put it in the 'Class' field.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Faithful Steed",
+    "description": "I always have the Find Steed spell prepared, once per Long Rest, I can cast this spell without expending a spell slot.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Aura of Protection",
+    "description": "",
+    "origin": "paladin"
+  },
+  {
+    "name": "Channel Divinity : Abjure Foes",
+    "description": "As a Magic action I target my Cha mod (min 1) creatures I can see within 60 ft Each target must succeed a Wis saving throw or be Frightened for 1 min or until damaged.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Aura of Courage",
+    "description": "",
+    "origin": "paladin"
+  },
+  {
+    "name": "Radiant Strikes",
+    "description": "",
+    "origin": "paladin"
+  },
+  {
+    "name": "Restoring Touch",
+    "description": "I spend 5 Hit Points of Lay on Hands to remove one of the following: Blinded, Charmed, Deafened, Frightened, Paralyzed, Stunned. Those points don't also restore HP; I can spend more points for more conditions.",
+    "origin": "paladin"
+  },
+  {
+    "name": "Favored Enemy",
+    "description": "",
+    "origin": "ranger"
+  },
+  {
+    "name": "Spellcasting",
+    "description": "I can cast ranger spells using Wis as my casting ability. I can use a Druidic Focus as a spellcasting focus. I can change one prepared spell at the end of a long rest.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Weapon Mastery",
+    "description": "I can use the Mastery properties of two Weapon types. I can change these Weapon types after a Long Rest.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Dagger",
+    "description": "I gain access to the Dagger's 'Nick' Mastery feature Nick : When I make the extra attack of the Light property, I can make it as part of the Attack action instead of as a Bonus Action. I can make this extra attack only once per turn.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Greatclub",
+    "description": "I gain access to the Greatclub's 'Push' Mastery feature Push : If I hit a creature with this weapon, I can push the creature up to 10 feet straight away from me if it is Large or smaller.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Handaxe",
+    "description": "I gain access to the Handaxe's 'Vex' Mastery feature Vex : If I hit a creature with this weapon and deal damage to the creature, I have Advantage on my next attack roll against the creature before the end of my next turn.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Javelin",
+    "description": "I gain access to the Javelin's 'Slow' Mastery feature Slow : If I hit a creature with this weapon and deal damage to it, I can reduce its Speed by 10 feet until the start of my next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn't exceed 10 feet.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Light Hammer",
+    "description": "I gain access to the Light Hammer's 'Nick' Mastery feature Nick : When I make the extra attack of the Light property, I can make it as part of the Attack action instead of as a Bonus Action. I can make this extra attack only once per turn.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Mace",
+    "description": "I gain access to the Mace's 'Sap' Mastery feature Sap : If I hit a creature with this weapon that creature has Disadvantage on its next attack roll before the start of my next turn.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Quarterstaff",
+    "description": "I gain access to the Quarterstaff's 'Topple' Mastery feature Topple : If I hit a creature with this weapon, I can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and my Proficiency Bonus). On a failed save, the creature has the Prone condition.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Sickle",
+    "description": "I gain access to the Sickle's 'Nick' Mastery feature Nick : When I make the extra attack of the Light property, I can make it as part of the Attack action instead of as a Bonus Action. I can make this extra attack only once per turn.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Spear",
+    "description": "I gain access to the Spear's 'Sap' Mastery feature Sap : If I hit a creature with this weapon that creature has Disadvantage on its next attack roll before the start of my next turn.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Dart",
+    "description": "I gain access to the Dart's 'Vex' Mastery feature Vex : If I hit a creature with this weapon and deal damage to the creature, I have Advantage on my next attack roll against the creature before the end of my next turn.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Light Crossbow",
+    "description": "I gain access to the Light Crossbow's 'Slow' Mastery feature Slow : If I hit a creature with this weapon and deal damage to it, I can reduce its Speed by 10 feet until the start of my next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn't exceed 10 feet.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Shortbow",
+    "description": "I gain access to the Shortbow's 'Vex' Mastery feature Vex : If I hit a creature with this weapon and deal damage to the creature, I have Advantage on my next attack roll against the creature before the end of my next turn.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Sling",
+    "description": "I gain access to the Sling's 'Slow' Mastery feature Slow : If I hit a creature with this weapon and deal damage to it, I can reduce its Speed by 10 feet until the start of my next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn't exceed 10 feet.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Battleaxe",
+    "description": "I gain access to the Battleaxe's 'Topple' Mastery feature Topple : If I hit a creature with this weapon, I can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and my Proficiency Bonus). On a failed save, the creature has the Prone condition.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Flail",
+    "description": "I gain access to the Flail's 'Sap' Mastery feature Sap : If I hit a creature with this weapon that creature has Disadvantage on its next attack roll before the start of my next turn.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Glaive",
+    "description": "I gain access to the Glaive's 'Graze' Mastery feature Graze : If my attack roll with this weapon misses a creature, I can deal damage to that creature equal to the ability modifier I used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Greataxe",
+    "description": "I gain access to the Greataxe's 'Cleave' Mastery feature Cleave : If I hit a creature with a melee attack roll using this weapon, I can make a melee attack roll with the weapon against a second creature within 5 feet of the first that is also within my reach. On a hit, the second creature takes the weapon's damage, but don't add my ability modifier to that damage unless the modifier is negative. I can make this extra attack only once per turn.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Greatsword",
+    "description": "I gain access to the Greatsword's 'Graze' Mastery feature Graze : If my attack roll with this weapon misses a creature, I can deal damage to that creature equal to the ability modifier I used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Halberd",
+    "description": "I gain access to the Halberd's 'Cleave' Mastery feature Cleave : If I hit a creature with a melee attack roll using this weapon, I can make a melee attack roll with the weapon against a second creature within 5 feet of the first that is also within my reach. On a hit, the second creature takes the weapon's damage, but don't add my ability modifier to that damage unless the modifier is negative. I can make this extra attack only once per turn.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Lance",
+    "description": "I gain access to the Lance's 'Topple' Mastery feature Topple : If I hit a creature with this weapon, I can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and my Proficiency Bonus). On a failed save, the creature has the Prone condition.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Longsword",
+    "description": "I gain access to the Longsword's 'Sap' Mastery feature Sap : If I hit a creature with this weapon that creature has Disadvantage on its next attack roll before the start of my next turn.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Maul",
+    "description": "I gain access to the Maul's 'Topple' Mastery feature Topple : If I hit a creature with this weapon, I can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and my Proficiency Bonus). On a failed save, the creature has the Prone condition.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Morningstar",
+    "description": "I gain access to the Morningstar's 'Sap' Mastery feature Sap : If I hit a creature with this weapon that creature has Disadvantage on its next attack roll before the start of my next turn.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Pike",
+    "description": "I gain access to the Pike's 'Push' Mastery feature Push : If I hit a creature with this weapon, I can push the creature up to 10 feet straight away from me if it is Large or smaller.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Rapier",
+    "description": "I gain access to the Rapier's 'Vex' Mastery feature Vex : If I hit a creature with this weapon and deal damage to the creature, I have Advantage on my next attack roll against the creature before the end of my next turn.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Scimitar",
+    "description": "I gain access to the Scimitar's 'Nick' Mastery feature Nick : When I make the extra attack of the Light property, I can make it as part of the Attack action instead of as a Bonus Action. I can make this extra attack only once per turn.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Shortsword",
+    "description": "I gain access to the Shortsword's 'Vex' Mastery feature Vex : If I hit a creature with this weapon and deal damage to the creature, I have Advantage on my next attack roll against the creature before the end of my next turn.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Trident",
+    "description": "I gain access to the Trident's 'Topple' Mastery feature Topple : If I hit a creature with this weapon, I can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and my Proficiency Bonus). On a failed save, the creature has the Prone condition.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Warhammer",
+    "description": "I gain access to the Warhammer's 'Push' Mastery feature Push : If I hit a creature with this weapon, I can push the creature up to 10 feet straight away from me if it is Large or smaller.",
+    "origin": "ranger"
+  },
+  {
+    "name": "War Pick",
+    "description": "I gain access to the War Pick's 'Sap' Mastery feature Sap : If I hit a creature with this weapon that creature has Disadvantage on its next attack roll before the start of my next turn.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Whip",
+    "description": "I gain access to the Whip's 'Slow' Mastery feature Slow : If I hit a creature with this weapon and deal damage to it, I can reduce its Speed by 10 feet until the start of my next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn't exceed 10 feet.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Blowgun",
+    "description": "I gain access to the Blowgun's 'Vex' Mastery feature Vex : If I hit a creature with this weapon and deal damage to the creature, I have Advantage on my next attack roll against the creature before the end of my next turn.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Hand Crossbow",
+    "description": "I gain access to the Hand Crossbow's 'Vex' Mastery feature Vex : If I hit a creature with this weapon and deal damage to the creature, I have Advantage on my next attack roll against the creature before the end of my next turn.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Heavy Crossbow",
+    "description": "I gain access to the Heavy Crossbow's 'Push' Mastery feature Push : If I hit a creature with this weapon, I can push the creature up to 10 feet straight away from me if it is Large or smaller.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Longbow",
+    "description": "I gain access to the Longbow's 'Slow' Mastery feature Slow : If I hit a creature with this weapon and deal damage to it, I can reduce its Speed by 10 feet until the start of my next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn't exceed 10 feet.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Musket",
+    "description": "I gain access to the Musket's 'Slow' Mastery feature Slow : If I hit a creature with this weapon and deal damage to it, I can reduce its Speed by 10 feet until the start of my next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn't exceed 10 feet.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Pistol",
+    "description": "I gain access to the Pistol's 'Vex' Mastery feature Vex : If I hit a creature with this weapon and deal damage to the creature, I have Advantage on my next attack roll against the creature before the end of my next turn.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Fighting Style",
+    "description": "I gain either one 'Fighting Style' or 'Druidic Warrior'.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Fighting Style [Druidic Warrior]",
+    "description": "I learn two Druid cantrips that count as Ranger spells; I use Wis for spellcasting. When I gain a Ranger level I can swap one of these for another Druid cantrip.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Fighting Style [Blind Fighting]",
+    "description": "",
+    "origin": "ranger"
+  },
+  {
+    "name": "Fighting Style [Defense]",
+    "description": "",
+    "origin": "ranger"
+  },
+  {
+    "name": "Fighting Style [Dueling]",
+    "description": "",
+    "origin": "ranger"
+  },
+  {
+    "name": "Fighting Style [Great Weapon Fighting]",
+    "description": "",
+    "origin": "ranger"
+  },
+  {
+    "name": "Fighting Style [Interception]",
+    "description": "",
+    "origin": "ranger"
+  },
+  {
+    "name": "Fighting Style [Protection]",
+    "description": "",
+    "origin": "ranger"
+  },
+  {
+    "name": "Fighting Style [Thrown Weapon Fighting]",
+    "description": "",
+    "origin": "ranger"
+  },
+  {
+    "name": "Fighting Style [Two-Weapon Fighting]",
+    "description": "",
+    "origin": "ranger"
+  },
+  {
+    "name": "Fighting Style [Unarmed Fighting]",
+    "description": "",
+    "origin": "ranger"
+  },
+  {
+    "name": "Ranger Subclass",
+    "description": "Choose a Ranger subclass and put it in the 'Class' field.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Roving",
+    "description": "My Speed increases +10 when not wearing Heavy armor. My Climb Speed and Swim Speed equals my Speed.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Tireless",
+    "description": "Using an action I gain Temp HP equal to 1d8 + Wis mod. A Short Rest decreases my Exhaustion level by 1.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Relentless Hunter",
+    "description": "I maintain Hunter's Mark after taking damage.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Nature's Veil",
+    "description": "As a Bonus Action, I turn Invisible until the end of my next turn. I can do this a number times equal to my Wis mod (min 1).",
+    "origin": "ranger"
+  },
+  {
+    "name": "Precise Hunter",
+    "description": "I have Adv on attack rolls on those marked by my Hunter's Mark.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Feral Senses",
+    "description": "I gain 30 ft Blindsight.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Epic Boon",
+    "description": "I gain an Epic Boon feat, or another feat of my choice for which I qualify.",
+    "origin": "ranger"
+  },
+  {
+    "name": "Sneak Attack",
+    "description": "Once per turn, I can add damage to a finesse/ranged weapon attack if I have Adv or a conscious ally is within 5 ft of the target & I don't have Disadv.",
+    "origin": "rogue"
+  },
+  {
+    "name": "Thieves' Cant",
+    "description": "I know Thieves' Cant and one other language of my choice.",
+    "origin": "rogue"
+  },
+  {
+    "name": "Weapon Mastery",
+    "description": "I choose two weapons I'm proficient with & gain their mastery features. I can change these on a long rest; Use Choose Feature above to pick. (See page 3)",
+    "origin": "rogue"
+  },
+  {
+    "name": "Dagger",
+    "description": "I gain access to the Dagger's 'Nick' Mastery feature Nick : When I make the extra attack of the Light property, I can make it as part of the Attack action instead of as a Bonus Action. I can make this extra attack only once per turn.",
+    "origin": "rogue"
+  },
+  {
+    "name": "Greatclub",
+    "description": "I gain access to the Greatclub's 'Push' Mastery feature Push : If I hit a creature with this weapon, I can push the creature up to 10 feet straight away from me if it is Large or smaller.",
+    "origin": "rogue"
+  },
+  {
+    "name": "Handaxe",
+    "description": "I gain access to the Handaxe's 'Vex' Mastery feature Vex : If I hit a creature with this weapon and deal damage to the creature, I have Advantage on my next attack roll against the creature before the end of my next turn.",
+    "origin": "rogue"
+  },
+  {
+    "name": "Javelin",
+    "description": "I gain access to the Javelin's 'Slow' Mastery feature Slow : If I hit a creature with this weapon and deal damage to it, I can reduce its Speed by 10 feet until the start of my next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn't exceed 10 feet.",
+    "origin": "rogue"
+  },
+  {
+    "name": "Light Hammer",
+    "description": "I gain access to the Light Hammer's 'Nick' Mastery feature Nick : When I make the extra attack of the Light property, I can make it as part of the Attack action instead of as a Bonus Action. I can make this extra attack only once per turn.",
+    "origin": "rogue"
+  },
+  {
+    "name": "Mace",
+    "description": "I gain access to the Mace's 'Sap' Mastery feature Sap : If I hit a creature with this weapon that creature has Disadvantage on its next attack roll before the start of my next turn.",
+    "origin": "rogue"
+  },
+  {
+    "name": "Quarterstaff",
+    "description": "I gain access to the Quarterstaff's 'Topple' Mastery feature Topple : If I hit a creature with this weapon, I can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and my Proficiency Bonus). On a failed save, the creature has the Prone condition.",
+    "origin": "rogue"
+  },
+  {
+    "name": "Sickle",
+    "description": "I gain access to the Sickle's 'Nick' Mastery feature Nick : When I make the extra attack of the Light property, I can make it as part of the Attack action instead of as a Bonus Action. I can make this extra attack only once per turn.",
+    "origin": "rogue"
+  },
+  {
+    "name": "Spear",
+    "description": "I gain access to the Spear's 'Sap' Mastery feature Sap : If I hit a creature with this weapon that creature has Disadvantage on its next attack roll before the start of my next turn.",
+    "origin": "rogue"
+  },
+  {
+    "name": "Dart",
+    "description": "I gain access to the Dart's 'Vex' Mastery feature Vex : If I hit a creature with this weapon and deal damage to the creature, I have Advantage on my next attack roll against the creature before the end of my next turn.",
+    "origin": "rogue"
+  },
+  {
+    "name": "Light Crossbow",
+    "description": "I gain access to the Light Crossbow's 'Slow' Mastery feature Slow : If I hit a creature with this weapon and deal damage to it, I can reduce its Speed by 10 feet until the start of my next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn't exceed 10 feet.",
+    "origin": "rogue"
+  },
+  {
+    "name": "Shortbow",
+    "description": "I gain access to the Shortbow's 'Vex' Mastery feature Vex : If I hit a creature with this weapon and deal damage to the creature, I have Advantage on my next attack roll against the creature before the end of my next turn.",
+    "origin": "rogue"
+  },
+  {
+    "name": "Sling",
+    "description": "I gain access to the Sling's 'Slow' Mastery feature Slow : If I hit a creature with this weapon and deal damage to it, I can reduce its Speed by 10 feet until the start of my next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn't exceed 10 feet.",
+    "origin": "rogue"
+  },
+  {
+    "name": "Rapier",
+    "description": "I gain access to the Rapier's 'Vex' Mastery feature Vex : If I hit a creature with this weapon and deal damage to the creature, I have Advantage on my next attack roll against the creature before the end of my next turn.",
+    "origin": "rogue"
+  },
+  {
+    "name": "Scimitar",
+    "description": "I gain access to the Scimitar's 'Nick' Mastery feature Nick : When I make the extra attack of the Light property, I can make it as part of the Attack action instead of as a Bonus Action. I can make this extra attack only once per turn.",
+    "origin": "rogue"
+  },
+  {
+    "name": "Shortsword",
+    "description": "I gain access to the Shortsword's 'Vex' Mastery feature Vex : If I hit a creature with this weapon and deal damage to the creature, I have Advantage on my next attack roll against the creature before the end of my next turn.",
+    "origin": "rogue"
+  },
+  {
+    "name": "Whip",
+    "description": "I gain access to the Whip's 'Slow' Mastery feature Slow : If I hit a creature with this weapon and deal damage to it, I can reduce its Speed by 10 feet until the start of my next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn't exceed 10 feet.",
+    "origin": "rogue"
+  },
+  {
+    "name": "Hand Crossbow",
+    "description": "I gain access to the Hand Crossbow's 'Vex' Mastery feature Vex : If I hit a creature with this weapon and deal damage to the creature, I have Advantage on my next attack roll against the creature before the end of my next turn.",
+    "origin": "rogue"
+  },
+  {
+    "name": "Cunning Action",
+    "description": "On my turn, I can take one of these actions as a Bonus Action: Dash, Disengage, or Hide.",
+    "origin": "rogue"
+  },
+  {
+    "name": "Rogue Subclass",
+    "description": "Choose a Rogue subclass and put it in the 'Class' field.",
+    "origin": "rogue"
+  },
+  {
+    "name": "Steady Aim",
+    "description": "If I haven't moved on my turn I can use my Bonus Action and give up my Movement for Advantage on my next attack roll this turn.",
+    "origin": "rogue"
+  },
+  {
+    "name": "Cunning Strike",
+    "description": "When I deal Sneak Attack damage I can add one of the following Cunning Strike effects at the cost of Sneak Attack damage dice: Poison (Cost 1d6): If I possess a Poisoner's Kit, on a failed Con save the target is Poisoned for 1 min. It repeats the save at the end of each of its turns, ending it on a success. Trip (Cost 1d6): If the target is Large or smaller it must pass a Dex save or fall Prone. Withdraw (Cost 1d6): Right after I attack I move up to half my Speed without provoking Opp Attacks. If a Cunning Strike effect requires a saving throw the DC is 8 + Dex mod + Prof Bonus.",
+    "origin": "rogue"
+  },
+  {
+    "name": "Uncanny Dodge",
+    "description": "As a reaction, I can halve the damage of an attack from an attacker I can see (round down).",
+    "origin": "rogue"
+  },
+  {
+    "name": "Evasion",
+    "description": "When not Incapacitated and must make a Dex save to take half damage on an effect I take no damage on a pass & half damage on a fail.",
+    "origin": "rogue"
+  },
+  {
+    "name": "Reliable Talent",
+    "description": "When I make an ability check that uses one of my skill or tool proficiencies, d20 rolls of 9 or lower are 10.",
+    "origin": "rogue"
+  },
+  {
+    "name": "Improved Cunning Strike",
+    "description": "Use up to two Cunning Strike effects when I deal Sneak Attack damage, paying the cost for each.",
+    "origin": "rogue"
+  },
+  {
+    "name": "Devious Strikes",
+    "description": "These effects are now among my Cunning Strike options: Dose (Cost 2d6) : Target must pass a Con save or on its next turn it can do only one: move/action/Bonus Action. Knock Out (Cost 6d6) : Target must pass a Con save or be Unconscious for 1 min or until damaged. It repeats the save at the end of each of its turns, ending the effect on a pass. Obscure (Cost 3d6) : Target must pass a Dex save or be Blinded until the end of its next turn.",
+    "origin": "rogue"
+  },
+  {
+    "name": "Slippery Mind",
+    "description": "I gain proficiency in Wis and Cha saves.",
+    "origin": "rogue"
+  },
+  {
+    "name": "Elusive",
+    "description": "No attack roll can have Advantage against me while I'm conscious.",
+    "origin": "rogue"
+  },
+  {
+    "name": "Epic Boon",
+    "description": "I gain an Epic Boon feat, or another feat of my choice for which I qualify.",
+    "origin": "rogue"
+  },
+  {
+    "name": "Spellcasting",
+    "description": "I can cast Cantrips and Prepared level 1+ Sorcerer spells with Cha as my Spellcasting Ability and an Arcane Focus as my Spellcasting Focus. I can replace a cantrip and a Level 1+ spell each time I gain a Sorcerer level. Prepared spells for other Sorcerer features don't count against me & count as Sorcerer spells.",
+    "origin": "sorcerer"
+  },
+  {
+    "name": "Innate Sorcery",
+    "description": "As a Bonus Action twice per Long Rest I can gain the following benefits for 1 min: The Spell save DC of my Sorcerer spells goes up by 1. I have Adv on attack rolls of Sorcerer spells I cast.",
+    "origin": "sorcerer"
+  },
+  {
+    "name": "Font of Magic",
+    "description": "As a bonus action, I can use sorcery points to create spell slots and vice versa I can convert spell slots to sorcery points at a rate of 1 point per spell slot level I can convert sorcery points to spell slots, which last until I finish a long rest, as follows: Level 1 for 2 sorcery points; level 2 for 3 sorcery points; level 3 for 5 sorcery points Level 4 for 6 sorcery points; level 5 for 7 sorcery points",
+    "origin": "sorcerer"
+  },
+  {
+    "name": "Metamagic",
+    "description": "Use 'Choose Feature' above to select Metamagic options. Only one can be used per spell cast unless noted. I can replace one Metamagic option when I gain a Sorcerer level.",
+    "origin": "sorcerer"
+  },
+  {
+    "name": "Distant Spell",
+    "description": "[1 Sorcery Point] When I cast a spell that has a range of at least 5 feet, I can spend 1 Sorcery Point to double the spell's range. Or when I cast a spell that has a range of Touch, I can spend 1 Sorcery Point to make the spell's range 30 feet.",
+    "origin": "sorcerer"
+  },
+  {
+    "name": "Empowered Spell",
+    "description": "[1 Sorcery Point] When I roll damage for a spell, I can spend 1 Sorcery Point to reroll a number of the damage dice up to my Charisma modifier (minimum of one), and I must use the new rolls. I can use Empowered Spell even if I've already used a different Metamagic option during the casting of the spell.",
+    "origin": "sorcerer"
+  },
+  {
+    "name": "Extended Spell",
+    "description": "[1 Sorcery Point] When I cast a spell that has a duration of 1 minute or longer, I can spend 1 Sorcery Point to double its duration to a maximum duration of 24 hours. If the affected spell requires Concentration, I have Advantage on any saving throw I make to maintain Concentration.",
+    "origin": "sorcerer"
+  },
+  {
+    "name": "Heightened Spell",
+    "description": "[2 Sorcery Points] When I cast a spell that forces a creature to make a saving throw, I can spend 2 Sorcery Points to give one target of the spell Disadvantage on saves against the spell.",
+    "origin": "sorcerer"
+  },
+  {
+    "name": "Quickened Spell",
+    "description": "[2 Sorcery Points] When I cast a spell that has a casting time of an action, I can spend 2 Sorcery Points to change the casting time to a Bonus Action for this casting, I can't modify a spell in this way if I've already cast a level 1+ spell on the current turn, nor can I cast a level 1+ spell on this turn after modifying a spell in this way.",
+    "origin": "sorcerer"
+  },
+  {
+    "name": "Seeking Spell",
+    "description": "[1 Sorcery Point] If I make an attack roll for a spell and miss, I can spend 1 Sorcery Point to reroll the d20, and I must use the new roll. I can use Seeking Spell even if I've already used a different Metamagic option during the casting of the spell.",
+    "origin": "sorcerer"
+  },
+  {
+    "name": "Subtle Spell",
+    "description": "[1 Sorcery Point] When I cast a spell, I can spend 1 Sorcery Point to cast it without any Verbal, Somatic, or Material components, except Material Components that are consumed by the spell or that have a cost specified in the spell.",
+    "origin": "sorcerer"
+  },
+  {
+    "name": "Transmuted Spell",
+    "description": "[1 Sorcery Point] When I cast a spell that deals a type of damage from the following list, I can spend 1 Sorcery Point to change that damage type to one of the other listed types; Acid, Cold, Fire, Lightning, Poison, Thunder.",
+    "origin": "sorcerer"
+  },
+  {
+    "name": "Twinned Spell",
+    "description": "[1 Sorcery Point] When I cast a spell, such as Charm Person, that can be cast with a higher level spell slot to target an additional creature, I can spend 1 Sorcery Point to increase the spell's effective level by 1.",
+    "origin": "sorcerer"
+  },
+  {
+    "name": "Sorcerer Subclass",
+    "description": "Choose a Sorcerer subclass and put it in the 'Class' field.",
+    "origin": "sorcerer"
+  },
+  {
+    "name": "Sorcerous Restoration",
+    "description": "Once per Long Rest I can regain spent SP up to half my Sorcerer level at the end of a Short Rest.",
+    "origin": "sorcerer"
+  },
+  {
+    "name": "Sorcery Incarnate",
+    "description": "I can spend 2 SP to use Innate Sorcery when I have no uses left While it's active I can use up to two Metamagic options on each spell I cast.",
+    "origin": "sorcerer"
+  },
+  {
+    "name": "Epic Boon",
+    "description": "I gain an Epic Boon feat, or another feat of my choice for which I qualify.",
+    "origin": "sorcerer"
+  },
+  {
+    "name": "Eldritch Invocations",
+    "description": "Use the 'Choose Feature' button above to add Eldritch Invocations (EI) to the third page. I must meet all prereqs. When I gain a Warlock level I can replace one EI with another unless it's a prereq for another EI I have.",
+    "origin": "warlock"
+  },
+  {
+    "name": "Agonizing Blast [Eldritch Blast] (2+)",
+    "description": "",
+    "origin": "warlock"
+  },
+  {
+    "name": "Agonizing Blast [Mind Sliver] (2+)",
+    "description": "",
+    "origin": "warlock"
+  },
+  {
+    "name": "Agonizing Blast [Poison Spray] (2+)",
+    "description": "",
+    "origin": "warlock"
+  },
+  {
+    "name": "Agonizing Blast [True Strike] (2+)",
+    "description": "",
+    "origin": "warlock"
+  },
+  {
+    "name": "Armor of Shadows",
+    "description": "I can cast Mage Armor on myself without expending a spell slot.",
+    "origin": "warlock"
+  },
+  {
+    "name": "Ascendant Step (5+)",
+    "description": "I can cast Levitate on myself without expending a spell slot.",
+    "origin": "warlock"
+  },
+  {
+    "name": "Devil's Sight (2+)",
+    "description": "I can see normally in Dim Light and Darkness both magical and non-magical - within 120 feet of myself.",
+    "origin": "warlock"
+  },
+  {
+    "name": "Devouring Blade (PoB, 12+)",
+    "description": "The Extra Attack of my Thirsting Blade invocation confers two extra attacks rather than one.",
+    "origin": "warlock"
+  },
+  {
+    "name": "Eldritch Mind",
+    "description": "I have Advantage on Constitution saving throws that I make to maintain Concentration",
+    "origin": "warlock"
+  },
+  {
+    "name": "Eldritch Smite (PoB, 5+)",
+    "description": "Once per turn when I hit a creature with my pact weapon, I can expend a Pact Magic spell slot to deal an extra 1d8 Force damage to the target, plus another 1d8 per level of the spell slot, and I can give the target the Prone condition if it is Huge or smaller.",
+    "origin": "warlock"
+  },
+  {
+    "name": "Eldritch Spear [Eldritch Blast] (2+)",
+    "description": "",
+    "origin": "warlock"
+  },
+  {
+    "name": "Eldritch Spear [Mind Sliver] (2+)",
+    "description": "",
+    "origin": "warlock"
+  },
+  {
+    "name": "Eldritch Spear [Poison Spray] (2+)",
+    "description": "",
+    "origin": "warlock"
+  },
+  {
+    "name": "Fiendish Vigor (2+)",
+    "description": "I can cast False Life on myself without expending a spell slot. When I cast the spell with this feature, I don't roll the die for the Temporary Hit Points; I automatically get the highest number on the die.",
+    "origin": "warlock"
+  },
+  {
+    "name": "Gaze of Two Minds (5+)",
+    "description": "I can use a Bonus Action to touch a willing creature and perceive through its senses until the end of my next turn. As long as the creature is on the same plane of existence as me, I can take a Bonus Action on subsequent turns to maintain this connection, extending the duration until the end of my next turn. The connection ends if I don't maintain it in this way. While perceiving through the other creature's senses, I benefit from any special senses possessed by that creature, and I can cast spells as if I were in my space or the other creature's space if the two of I are within 60 feet of each other.",
+    "origin": "warlock"
+  },
+  {
+    "name": "Gift of the Depths (5+)",
+    "description": "",
+    "origin": "warlock"
+  },
+  {
+    "name": "Gift of the Protectors (PoT, 9+)",
+    "description": "A new page appears in my Book of Shadows when I conjure it. With my permission, a creature can take an action to write its name on that pace, which can contain a number of names equal to my Charisma modifier (minimum of one name). When any creature whose name is on the page is reduced to 0 Hit Points but not killed outright, the creature magically drops to 1 Hit Point instead. Once this magic is triggered, no creature can benefit from it until I finish a Long Rest. As a Magic action, I can erase a name on the page by touching it.",
+    "origin": "warlock"
+  },
+  {
+    "name": "Investment of the Chain Master (PoC, 5+)",
+    "description": "When I cast Find Familiar, I infuse the summoned familiar with a measure of my eldritch power, granting the creature the following benefits. Aerial or Aquatic : The familiar gains either a Fly or a Swim speed (my choice) of 40 feet. Quick Attack : As a Bonus Action, I can command the familiar to take the Attack action. Necrotic or Radiant Damage : Whenever the familiar deals Bludgeoning, Piercing, or Slashing damage, I can make it deal Necrotic or Radiant damage instead. my Save DC : If the familiar forces a creature to make a saving throw, it uses my spell save DC. Resistance : When the familiar takes damage, I can take a Reaction to grant it Resistance against that damage.",
+    "origin": "warlock"
+  },
+  {
+    "name": "Lessons of the First Ones (2+)",
+    "description": "I have received knowledge from an elder entity of the multiverse, allowing me to gain one Origin feat of my choice (see Chapter 5). Repeatable : I can gain this invocation more than once. Each time I do so, choose a different Origin feat.",
+    "origin": "warlock"
+  },
+  {
+    "name": "Lifedrinker (PoB, 9+)",
+    "description": "",
+    "origin": "warlock"
+  },
+  {
+    "name": "Mask of Many Faces (2+)",
+    "description": "I can cast Disguise Self on myself without expending a spell slot.",
+    "origin": "warlock"
+  },
+  {
+    "name": "Master of Myriad Forms (5+)",
+    "description": "I can cast Alter Self on myself without expending a spell slot.",
+    "origin": "warlock"
+  },
+  {
+    "name": "Misty Visions (2+)",
+    "description": "I can cast Silent Image on myself without expending a spell slot.",
+    "origin": "warlock"
+  },
+  {
+    "name": "One with Shadows (5+)",
+    "description": "While I'm in an area of Dim Light or Darkness, I can cast Invisibility on myself without expending a spell slot.",
+    "origin": "warlock"
+  },
+  {
+    "name": "Otherworldly Leap (2+)",
+    "description": "I can cast Jump on myself without expending a spell slot.",
+    "origin": "warlock"
+  },
+  {
+    "name": "Pact of the Blade",
+    "description": "",
+    "origin": "warlock"
+  },
+  {
+    "name": "Pact of the Chain",
+    "description": "I learn the Find Familiar spell and can cast it as a Magic action without expending a spell slot. When I cast the spell, I choose one of the normal forms for my familiar or one of the following special forms; Imp, Pseudodragon, Quasit, Skeleton, Slaad Tadpole, Sphinx of Wonder, Sprite, or Venomous Snake (see appendix B for the familiar's stat block). Additionally, when I take the Attack action, I can forgo one of my own attacks to allow my familiar to make one attack of its own with its Reaction",
+    "origin": "warlock"
+  },
+  {
+    "name": "Pact of the Tome",
+    "description": "Stitching together strands of shadow, I conjure forth a book in my hand at the end of a Short or Long Rest. This Book of Shadows (I determine its appearance) contains eldritch magic that only I can access, granting me the benefits below. The book disappears if I conjure another book with this feature or if I die. Cantrips and Rituals : When the book appears, choose three cantrips, and choose two level 1 spells that have the Ritual tag. The spells can be from any class's spell list, and they must be spells I don't already have prepared. While the book is on my person, I have the chosen spells prepared, and they function as Warlock spells for me. Spellcasting Focus : I can use the book as a Spellcasting Focus.",
+    "origin": "warlock"
+  },
+  {
+    "name": "Repelling Blast [Chill Touch] (2+)",
+    "description": "",
+    "origin": "warlock"
+  },
+  {
+    "name": "Repelling Blast [Eldritch Blast] (2+)",
+    "description": "",
+    "origin": "warlock"
+  },
+  {
+    "name": "Repelling Blast [Poison Spray] (2+)",
+    "description": "",
+    "origin": "warlock"
+  },
+  {
+    "name": "Repelling Blast [True Strike] (2+)",
+    "description": "",
+    "origin": "warlock"
+  },
+  {
+    "name": "Thirsting Blade (PoB, 5+)",
+    "description": "I gain the Extra Attack feature for my pact weapon only. With that feature, I can attack twice with the weapon instead of once when I take the Attack action on my turn.",
+    "origin": "warlock"
+  },
+  {
+    "name": "Visions of Distant Realms (9+)",
+    "description": "I can cast Arcane Eye without expending a spell slot.",
+    "origin": "warlock"
+  },
+  {
+    "name": "Whispers of the Grave (7+)",
+    "description": "I can cast Speak with Dead without expending a spell slot.",
+    "origin": "warlock"
+  },
+  {
+    "name": "Witch Sight (15+)",
+    "description": "I have Truesight with a range of 30 feet.",
+    "origin": "warlock"
+  },
+  {
+    "name": "Pact Magic",
+    "description": "I can cast cantrips and Prepared Level 1+ Warlock spells using Cha as my spellcasting ability and an Arcane Focus as my Spellcasting Focus. When I gain a Warlock level, I can replace one of these cantrips with another. Prepared Spells for other Warlock features count as Warlock spells & don't count against me. I regain all expended Pact Magic spell slots when I finish a Short or Long Rest. I can change one Prepared Spell each time I gain a Warlock level.",
+    "origin": "warlock"
+  },
+  {
+    "name": "Magical Cunning",
+    "description": "I can do a 1 min rite to regain up to half my max Pact Magic spell slots.",
+    "origin": "warlock"
+  },
+  {
+    "name": "Warlock Subclass",
+    "description": "Choose a Warlock subclass and put it in the 'Class' field.",
+    "origin": "warlock"
+  },
+  {
+    "name": "Contact Patron",
+    "description": "Once per Long Rest, I can cast Contact Other Plane to contact my Patron without expending a spell slot. I automatically pass the save.",
+    "origin": "warlock"
+  },
+  {
+    "name": "Mystic Arcanum",
+    "description": "I choose a Warlock spell of the above Level(s) as my Arcanum & can cast each without a spell slot once per Long Rest. I can replace one each time I gain a Warlock level.",
+    "origin": "warlock"
+  },
+  {
+    "name": "Epic Boon",
+    "description": "I gain an Epic Boon feat, or another feat of my choice for which I qualify.",
+    "origin": "warlock"
+  },
+  {
+    "name": "Spellcasting",
+    "description": "I can cast Prepared Level 1+ Wizard spells using Int as my spellcasting ability. I have a unique spellbook for Level 1+ spells; only I or the Identify spell can read it. Prepared spells from other Wizard features count as Wizard spells & don't count against my Prepared Spells. I regain all slots and can replace my Prepared Spells & one cantrip when I finish a Long Rest. I can use an Arcane Focus as a Spellcasting Focus for my Wizard spells.",
+    "origin": "wizard"
+  },
+  {
+    "name": "Ritual Adept",
+    "description": "I can cast any spell as a Ritual if that spell has the Ritual tag and is in my spellbook.",
+    "origin": "wizard"
+  },
+  {
+    "name": "Arcane Recovery",
+    "description": "On a Short Rest, I can recover spell slots up to a combined level equal to no more than half my Wizard level (round up) up to & including Level 5. I can do this once per Long Rest.",
+    "origin": "wizard"
+  },
+  {
+    "name": "Wizard Subclass",
+    "description": "Choose a Wizard subclass and put it in the 'Class' field.",
+    "origin": "wizard"
+  },
+  {
+    "name": "Memorize Spell",
+    "description": "When I finish a Short Rest I can replace one Prepared level 1+ Wizard spell with another.",
+    "origin": "wizard"
+  },
+  {
+    "name": "Spell Mastery",
+    "description": "One level 1 & one level 2 spell in my spellbook with a casting time of 1 action are always Prepared. I can cast them at their lowest level without a spell slot; To cast either at a higher level I must spend a spell slot. I can replace these at the end of a Long Rest.",
+    "origin": "wizard"
+  },
+  {
+    "name": "Epic Boon",
+    "description": "I gain an Epic Boon feat, or another feat of my choice for which I qualify.",
+    "origin": "wizard"
+  },
+  {
+    "name": "Frenzy",
+    "description": "While Raging and using Reckless Attack, deal a number of d6 extra damage to the first target hit on my turn.",
+    "origin": "barbarian:berserker"
+  },
+  {
+    "name": "Mindless Rage",
+    "description": "While Raging, I am immune to Charmed and Frightened conditions. These conditions end when I enter Rage.",
+    "origin": "barbarian:berserker"
+  },
+  {
+    "name": "Retaliation",
+    "description": "As a Reaction, make a melee attack against a creature within 5 feet when it damages me.",
+    "origin": "barbarian:berserker"
+  },
+  {
+    "name": "Animal Speaker",
+    "description": "Cast *Beast Sense* and *Speak with Animals* as Rituals using Wisdom.",
+    "origin": "barbarian:wild heart"
+  },
+  {
+    "name": "Rage of the Wilds",
+    "description": "Choose a Rage of the Wilds animal aspect when I enter a Rage (See Third Page).",
+    "origin": "barbarian:wild heart"
+  },
+  {
+    "name": "Eagle",
+    "description": "Disengage and Dash as a Bonus Action.",
+    "origin": "barbarian:wild heart"
+  },
+  {
+    "name": "Wolf",
+    "description": "Allies have Advantage on attacks against enemies within 5 feet of me.",
+    "origin": "barbarian:wild heart"
+  },
+  {
+    "name": "Aspect of the Wilds",
+    "description": "I have Darkvision with a range of 60 feet. If I already have Darkvision, its range increases by 60 feet.",
+    "origin": "barbarian:wild heart"
+  },
+  {
+    "name": "Panther",
+    "description": "",
+    "origin": "barbarian:wild heart"
+  },
+  {
+    "name": "Salmon",
+    "description": "",
+    "origin": "barbarian:wild heart"
+  },
+  {
+    "name": "Nature Speaker",
+    "description": "I can cast the Commune with Nature spell but only as a Ritual. Wisdom is my spellcasting ability for it.",
+    "origin": "barbarian:wild heart"
+  },
+  {
+    "name": "Power of the Wilds",
+    "description": "When I enter a Rage, I gain the Benefits of an animal aspect from the Rage of the Wilds Feature and one animal aspect from this Feature (See Third Page).",
+    "origin": "barbarian:wild heart"
+  },
+  {
+    "name": "Lion",
+    "description": "Enemies with in 5 ft of me have Disadvantage on attacks against targets other than me or another Barbarian w/ this feature.",
+    "origin": "barbarian:wild heart"
+  },
+  {
+    "name": "Divine Fury",
+    "description": "While Raging, my first hit each turn deals extra damage. Choose Necrotic or Radiant damage each time.",
+    "origin": "barbarian:zealot"
+  },
+  {
+    "name": "Warrior of the Gods",
+    "description": "As a Bonus Action, expend d12s from a healing pool to regain HP. Regain all dice after a Long Rest.",
+    "origin": "barbarian:zealot"
+  },
+  {
+    "name": "Fanatical Focus",
+    "description": "Once per Rage, reroll a failed save with a bonus equal to my Rage Damage bonus. I must use new roll",
+    "origin": "barbarian:zealot"
+  },
+  {
+    "name": "Zealous Presence",
+    "description": "As a Bonus Action, give up to ten creatures within 60 feet Advantage on attacks and saves until my next turn. Recharge after Long Rest or by expending Rage.",
+    "origin": "barbarian:zealot"
+  },
+  {
+    "name": "Beguiling Magic",
+    "description": "I always have Charm Person and Mirror Image prepared. After I cast an Ench or Illus spell with a spell slot, I can force a Wis save on a creature I can see within 60 ft On a fail the target is Charmed OR Frightened for 1 min. It repeats the save at the end of each of its turns, ending the effect on a success. I can spend one Bardic Inspiration (no action) or Long Rest to restore this feature.",
+    "origin": "bard:glamour"
+  },
+  {
+    "name": "Mantle of Inspiration",
+    "description": "As a Bonus Action up to my Cha mod (min 1) creatures within 60 feet gain [2 x one BI die roll] Temp HP and can move up to its Speed as a Reaction w/out Opportunity Attacks.",
+    "origin": "bard:glamour"
+  },
+  {
+    "name": "Mantle of Majesty",
+    "description": "I always have Command prepared. As a bonus action, I can appear unearthly up to 1 min; At the same time & during this I can cast Command without spell slots; Creatures charmed by me automatically fail. I can restore it by spending a level 3+ spell slot (no action) or finish a Long Rest.",
+    "origin": "bard:glamour"
+  },
+  {
+    "name": "Bonus Proficiencies",
+    "description": "I gain proficiency with three skills.",
+    "origin": "bard:lore"
+  },
+  {
+    "name": "Cutting Words",
+    "description": "When a creature I can see within 60 ft rolls for damage, passes a check, or attacks, I can take a Reaction to spend BI die; Subtract the number rolled from the creature's roll.",
+    "origin": "bard:lore"
+  },
+  {
+    "name": "Magical Discoveries",
+    "description": "Learn two spells from the Cleric, Druid, or Wizard spell lists. They're always prepared. When I gain a Bard level I can replace one spell with another that I have slots for.",
+    "origin": "bard:lore"
+  },
+  {
+    "name": "Combat Inspiration",
+    "description": "A creature with a BI die from me can use it for one of the following: Defense: When hit by an attack it can roll the BI die as a Reaction & add it to its AC. Offense: When it hits with an attack it can roll the BI die & add it to the damage.",
+    "origin": "bard:valor"
+  },
+  {
+    "name": "Martial Training",
+    "description": "I gain proficiency with Martial weapons & training with Medium armor & Shields. I can use a Simple/Martial weapon as a Spellcasting Focus to cast my Bard Spells.",
+    "origin": "bard:valor"
+  },
+  {
+    "name": "Extra Attack",
+    "description": "I can attack twice instead of once when I Attack on my turn. I can cast a cantrip that has a casting time of an action in place of one of those attacks.",
+    "origin": "bard:valor"
+  },
+  {
+    "name": "Disciple of Life",
+    "description": "When I cast a spell with a spell slot that gives HP it gives addtl 2 + slot level HP.",
+    "origin": "cleric:life"
+  },
+  {
+    "name": "Channel Divinity: Preserve Life",
+    "description": "As a Magic action I restore 5 x my Cleric level HP, divided among Bloodied creatures I choose within 30 ft, up to half their max HP.",
+    "origin": "cleric:life"
+  },
+  {
+    "name": "Blessed Healer",
+    "description": "When I restore HP with a spell slot to another creature(s), I regain 2 + slot level HP.",
+    "origin": "cleric:life"
+  },
+  {
+    "name": "Channel Divinity: Radiance of Dawn",
+    "description": "As a Magic action I dispel magical Darkness w/in 30 ft Each creature of my choice in that area must pass a Con save for half damage or take Radiant damage.",
+    "origin": "cleric:light"
+  },
+  {
+    "name": "Warding Flare",
+    "description": "When a creature I can see w/in 30 feet makes an attack roll I can impose Disadv as a reaction.",
+    "origin": "cleric:light"
+  },
+  {
+    "name": "Improved Warding Flare",
+    "description": "I regain all uses of Warding Flare when I finish a rest. When I use it I can give the target of the attack 2d6 + my Wis mod Temp HP.",
+    "origin": "cleric:light"
+  },
+  {
+    "name": "Blessing of the Trickster",
+    "description": "As a Magic action I can give a willing creature w/in 30 ft or myself Adv on Dex (Stealth) checks until I finish a Long Rest or use this again.",
+    "origin": "cleric:trickery"
+  },
+  {
+    "name": "Channel Divinity: Invoke Duplicity",
+    "description": "As a Bonus Action I can create an animated intangible illusory double of myself in an empty space w/in 30 ft for 1 min, until dismissed (no action), or I'm Incapacitated; it doesn't occupy its space. While active I have these benefits: Cast Spells: I can cast spells through my double but must use my own senses. Distract: I have Adv on Attack rolls against creatures w/in 5 ft of my double & I. Move: As a Bonus Action I can move my double up to 30 ft to an empty space w/in 120 ft of me.",
+    "origin": "cleric:trickery"
+  },
+  {
+    "name": "Trickster's Transposition",
+    "description": "When I use a Bonus Action to create or move my double I can swap places with it.",
+    "origin": "cleric:trickery"
+  },
+  {
+    "name": "Channel Divinity: Guided Strikes",
+    "description": "I can give a +10 bonus when a creature within 300 ft (Reaction) or I (no action) miss an attack roll.",
+    "origin": "cleric:war"
+  },
+  {
+    "name": "War Priest",
+    "description": "As a Bonus Action, I can make one attack with a weapon or an Unarmed Strike.",
+    "origin": "cleric:war"
+  },
+  {
+    "name": "Channel Divinity: War God's Blessing",
+    "description": "I can cast Shield of Faith or Spiritual Weapon without a spell slot or Conc; it lasts 1 min, until I cast it again, become Incapacitated, or die.",
+    "origin": "cleric:war"
+  },
+  {
+    "name": "Circle of the Land Spells",
+    "description": "Whenever I finish a Long Rest, choose one type of land; arid, polar, temperate, or tropical. I have certain spells prepared based on the land chosen.",
+    "origin": "druid:land"
+  },
+  {
+    "name": "Polar Land",
+    "description": "Whenever I finish a Long Rest, choose one type of land; arid, polar, temperate, or tropical. I have certain spells prepared based on the land chosen.",
+    "origin": "druid:land"
+  },
+  {
+    "name": "Temperate Land",
+    "description": "Whenever I finish a Long Rest, choose one type of land; arid, polar, temperate, or tropical. I have certain spells prepared based on the land chosen.",
+    "origin": "druid:land"
+  },
+  {
+    "name": "Tropical Land",
+    "description": "Whenever I finish a Long Rest, choose one type of land; arid, polar, temperate, or tropical. I have certain spells prepared based on the land chosen.",
+    "origin": "druid:land"
+  },
+  {
+    "name": "Land's Aid",
+    "description": "As a Magic action, expend a Wild Shape use to create a 10-foot sphere within 60 feet. Chosen creatures in the sphere make a Constitution save against my spell DC, taking a number of d6s Necrotic damage (half on success). One creature in the area regains the same number of d6s HP.",
+    "origin": "druid:land"
+  },
+  {
+    "name": "Natural Recovery",
+    "description": "Once per long rest, cast a prepared circle spell (level 1+) without using a spell slot. After a short rest, recover expended spell slots totaling up to half my druid level (rounded up, max 5th level).",
+    "origin": "druid:land"
+  },
+  {
+    "name": "Nature's Ward",
+    "description": "I am immune to the Poisoned condition, and have damage resistance associated with my current land choice.[Fire]",
+    "origin": "druid:land"
+  },
+  {
+    "name": "Polar Land",
+    "description": "I am immune to the Poisoned condition, and have damage resistance associated with my current land choice.[Cold]",
+    "origin": "druid:land"
+  },
+  {
+    "name": "Temperate Land",
+    "description": "I am immune to the Poisoned condition, and have damage resistance associated with my current land choice.[Lightning]",
+    "origin": "druid:land"
+  },
+  {
+    "name": "Tropical Land",
+    "description": "I am immune to the Poisoned condition, and have damage resistance associated with my current land choice.[Poison]",
+    "origin": "druid:land"
+  },
+  {
+    "name": "Circle Forms",
+    "description": "In Wild Shape: My maximum form's Challenge Rating is my Druid level divided by 3. My AC becomes greatest of 13 plus my Wisdom modifier or the Beast's AC. I also gain Temporary Hit Points equal to three times my Druid level.",
+    "origin": "druid:moon"
+  },
+  {
+    "name": "Wild Shape",
+    "description": "As a bonus action, I assume the shape of a beast I have seen before with these rules:  \\u2022 I gain all its game statistics except Intelligence, Wisdom, or Charisma  \\u2022 I get its skill/saving throw prof. while keeping my own, using whichever is higher  \\u2022 I gain three times my Druid level Temp HP  \\u2022 I can't cast spells in beast form, but transforming doesn't break concentration  \\u2022 I retain my HP, hit dice, class features, feats and creature type  \\u2022 I can choose whether equipment falls to the ground, merges, or stays worn  \\u2022 I revert if out of time or Incapacitated; I die, or I end it as a Bonus Action",
+    "origin": "druid:moon"
+  },
+  {
+    "name": "Improved Circle Forms",
+    "description": "In Wild Shape, I can choose to deal Radiant damage with my attacks. I also add my Wisdom modifier to Constitution saving throws.",
+    "origin": "druid:moon"
+  },
+  {
+    "name": "Moonlight Step",
+    "description": "As a Bonus Action, I can teleport up to 30 feet and gain Advantage on my next attack roll this turn. I can do this a number of times per long rest equal to my Wisdom modifier or by expending a level 2+ spell slot.",
+    "origin": "druid:moon"
+  },
+  {
+    "name": "Star Map",
+    "description": "I've created a star map, a Tiny object which i can use as my spellcasting focus. If I lose it, I can recreate the map during a Short or Long Rest. While holding it, I know the Guidance cantrip and always have Guiding Bolt prepared. I can cast Guiding Bolt without expending a spell slot, up to my Wisdom modifier times per long rest. ",
+    "origin": "druid:stars"
+  },
+  {
+    "name": "Starry Form",
+    "description": "As a bonus action, I can expend a use of wild shape to take on a starry form for 10 min In that form I become luminous and shed bright light in a 10-ft radius and dim light for an extra 10-ft radius When I do so, I choose one constellation that glimmers on my body, granting me benefits See the 3rd page's \\  section for the benefits of the possible constellations",
+    "origin": "druid:stars"
+  },
+  {
+    "name": "Chalice Constellation",
+    "description": "When I cast a healing spell with a spell slot, I can heal myself or another within 30 ft of me",
+    "origin": "druid:stars"
+  },
+  {
+    "name": "Dragon Constellation",
+    "description": "I can treat a roll below 10 as a 10 for Int/Wis/Con checks and saves to maintain concentration From 10th-level onwards, I also gain a flying speed of 20 ft and can hover",
+    "origin": "druid:stars"
+  },
+  {
+    "name": "Cosmic Omen",
+    "description": "When I finish a long rest, I roll a die to gain an omen based on the result (odd/even) As a reaction when a creature I can see in 30 ft makes an D20 Test, I can:  \\u2022 Weal (even): add 1d6 to the number rolled to the total  \\u2022 Woe (odd): subtract 1d6 from the number rolled to the total",
+    "origin": "druid:stars"
+  },
+  {
+    "name": "Twinkling Constellations",
+    "description": "While in my starry form, I can change the constellation at the start of each of my turns The benefit of my constellations improve, see the 3rd page's \\  section",
+    "origin": "druid:stars"
+  },
+  {
+    "name": "Combat Superiority",
+    "description": "I gain superiority dice (SD) that I can use to fuel special Maneuvers One maneuver per attack. I regain all SD after a short rest",
+    "origin": "fighter:battle master"
+  },
+  {
+    "name": "Bait and Switch",
+    "description": "When I'm within 5 feet of a creature on my turn, I can expend one Superiority Die and switch places with that creature, provided I spend at least 5 feet of movement and the creature is willing and doesn't have the Incapacitated condition. This movement doesn't provoke Opportunity Attacks. Roll the Superiority Die. Until the Start of my next turn, I or the other creature (my choice) gains a bonus to AC equal to the number rolled.",
+    "origin": "fighter:battle master"
+  },
+  {
+    "name": "Commander's Strike",
+    "description": "When I take the Attack action on my turn, I can replace one of my attacks to direct one of my companions to strike. When I do so, choose a willing creature who can see or hear I and expend one Superiority Die. That creature can immediately use its Reaction to make one attack with a weapon or an Unarmed Strike, adding the Superiority Die to the attack's damage roll on a hit.",
+    "origin": "fighter:battle master"
+  },
+  {
+    "name": "Commanding presence",
+    "description": "When I make a Charisma (Intimidation, Performance, or Persuasion) check, I can expend one Superiority Die and add that die to the roll.",
+    "origin": "fighter:battle master"
+  },
+  {
+    "name": "Disarming Attack",
+    "description": "When I hit a creature with an attack roll, I can expend one Superiority Die to attempt to disarm the target. Add the Superiority Die roll to the attack's damage roll. The target must succeed on a Strength saving throw or drop one object of my choice that it's holding with the object landing in its space.",
+    "origin": "fighter:battle master"
+  },
+  {
+    "name": "Distracting Strike",
+    "description": "When I hit a creature with an attack roll, I can expend one Superiority Die to distract the target. Add the Superiority Die roll to the attack's damage roll. The next attack roll against the target by an attacker other than myself has Advantage if the attack is made before the start of my next turn.",
+    "origin": "fighter:battle master"
+  },
+  {
+    "name": "evasive footwork",
+    "description": "As a Bonus Action, I can expend one Superiority Die and take the Disengage action. I also roll the die and add the number rolled to my AC until the start of my next turn.",
+    "origin": "fighter:battle master"
+  },
+  {
+    "name": "Feinting Attack",
+    "description": "As a Bonus Action, I can expend one Superiority Die to feint, choosing one creature within 5 feet of me as my target. I have Advantage on my next attack roll against that target this turn. If that attack hits, add the Superiority Die to the attack's damage roll.",
+    "origin": "fighter:battle master"
+  },
+  {
+    "name": "Goading Attack",
+    "description": "When I hit a creature with an attack roll, I can expend one Superiority Die to attempt to goad the target into attacking I. Add the Superiority Die to the attack's damage roll. The target must succeed on a Wisdom saving throw or have Disadvantage on attack rolls against the targets other than I until the end of my next turn.",
+    "origin": "fighter:battle master"
+  },
+  {
+    "name": "Lunging Attack",
+    "description": "As a Bonus Action, I can expend one Superiority Die and take the Dash action. If I move at least 5 feet in a straight line immediately before hitting with a melee attack as part of the Attack action on this turn, I can add the Superiority Die to the attack's damage roll.",
+    "origin": "fighter:battle master"
+  },
+  {
+    "name": "Maneuvering Attack",
+    "description": "When I hit a creature with an attack roll, I can expend one Superiority Die to maneuver one of my comrades into another position. Add the Superiority Die roll to the attack's damage roll, and choose a willing creature who can see or hear I. That creature can use its Reaction to move up to half its Speed without provoking an Opportunity Attack from the target of my attack.",
+    "origin": "fighter:battle master"
+  },
+  {
+    "name": "Menacing Attack",
+    "description": "When I hit a creature with an attack roll, I can expend one Superiority Die to attempt to frighten the target. Add the Superiority Due to the attack's damage roll. The target must succeed on a Wisdom saving throw or have the Frightened condition until the end of my next turn.",
+    "origin": "fighter:battle master"
+  },
+  {
+    "name": "Parry",
+    "description": "When another creature damages I with a melee attack roll, I can take a Reaction and expend one Superiority Die to reduce the damage by the number I roll on my Superiority Die plus I Strength or Dexterity modifier (my choice).",
+    "origin": "fighter:battle master"
+  },
+  {
+    "name": "Precision Attack",
+    "description": "When I miss with an attack roll, I can expend one Superiority Die, roll that die, and add it to the attack roll, potentially causing the attack to hit.",
+    "origin": "fighter:battle master"
+  },
+  {
+    "name": "Pushing Attack",
+    "description": "When I hit a creature with an attack roll using a weapon or an Unarmed Strike, I can expend one Superiority Die to attempt to drive the target back. Add the Superiority Die to the attack's damage roll. If the target is Large or smaller, it must succeed on a Strength saving throw or be pushed up to 15 feet directly away from I.",
+    "origin": "fighter:battle master"
+  },
+  {
+    "name": "Rally",
+    "description": "As a Bonus Action, I can expend one Superiority Die to bolster the resolve of a companion. Choose an ally within 30 feet of who can see or hear me. That creature gains Temporary Hit Points equal to the Superiority Die roll plus half my Fighter level (round down).",
+    "origin": "fighter:battle master"
+  },
+  {
+    "name": "Riposte",
+    "description": "When a creature misses me with a melee attack roll, I can take a Reaction and expend one Superiority Die to make a melee attack roll with a weapon or an Unarmed Strike against the creature. If I hit, add the Superiority Die to the attack's damage.",
+    "origin": "fighter:battle master"
+  },
+  {
+    "name": "Sweeping Attack",
+    "description": "When I hit a creature with a melee attack roll using a weapon or an Unarmed Strike, I can expend one Superiority Die to attempt to damage another creature. Choose another creature within 5 feet of the original target, within my reach. If the original attack roll would hit the second creature, it takes damage equal to the number I rolled on my Superiority Die. The damage is of the same type dealt by the original attack.",
+    "origin": "fighter:battle master"
+  },
+  {
+    "name": "Tactical Assessment",
+    "description": "When I make an Intelligence (History or Investigation) check or a Wisdom (Insight) check, I can expend one Superiority Die and add that die to the ability check.",
+    "origin": "fighter:battle master"
+  },
+  {
+    "name": "Trip Attack",
+    "description": "When I hit a creature with an attack roll using a weapon or an Unarmed Strike, I can expend one Superiority Die and add the die to the attack's damage roll. If the target is Large or smaller it must succeed on a Strength saving throw or have the Prone condition.",
+    "origin": "fighter:battle master"
+  },
+  {
+    "name": "Student of War",
+    "description": "Gain proficiency with one level 1 Fighter skill and one artisan's tool set ",
+    "origin": "fighter:battle master"
+  },
+  {
+    "name": "Know Your Enemy",
+    "description": "As a Bonus Action, observe any Immunities/Resistances/Vulnerabilities of a creature within 30 ft I have 1 use per long rest unless I spend a SD (no action) to restore this feature",
+    "origin": "fighter:battle master"
+  },
+  {
+    "name": "Improved Critical",
+    "description": "",
+    "origin": "fighter:champion"
+  },
+  {
+    "name": "Remarkable Athlete",
+    "description": "I have Advantage on Initiative and Strength(Athletics) checks On a critical hit, I can move half my Speed without provoking Opportunity Attacks",
+    "origin": "fighter:champion"
+  },
+  {
+    "name": "Additional Fighting Style",
+    "description": "",
+    "origin": "fighter:champion"
+  },
+  {
+    "name": "Fighting Style [Blind Fighting]",
+    "description": "",
+    "origin": "fighter:champion"
+  },
+  {
+    "name": "Fighting Style [Defense]",
+    "description": "",
+    "origin": "fighter:champion"
+  },
+  {
+    "name": "Fighting Style [Dueling]",
+    "description": "",
+    "origin": "fighter:champion"
+  },
+  {
+    "name": "Fighting Style [Great Weapon Fighting]",
+    "description": "",
+    "origin": "fighter:champion"
+  },
+  {
+    "name": "Fighting Style [Interception]",
+    "description": "",
+    "origin": "fighter:champion"
+  },
+  {
+    "name": "Fighting Style [Protection]",
+    "description": "",
+    "origin": "fighter:champion"
+  },
+  {
+    "name": "Fighting Style [Thrown Weapon Fighting]",
+    "description": "",
+    "origin": "fighter:champion"
+  },
+  {
+    "name": "Fighting Style [Two-Weapon Fighting]",
+    "description": "",
+    "origin": "fighter:champion"
+  },
+  {
+    "name": "Fighting Style [Unarmed Fighting]",
+    "description": "",
+    "origin": "fighter:champion"
+  },
+  {
+    "name": "Heroic Warrior",
+    "description": "I gain Heroic Inspiration in combat when I start a turn without it",
+    "origin": "fighter:champion"
+  },
+  {
+    "name": "Superior Critical",
+    "description": "",
+    "origin": "fighter:champion"
+  },
+  {
+    "name": "Spellcasting",
+    "description": "I can cast known wizard cantrips/spells, using Intelligence as my spellcasting ability When I gain a Fighter level, I can replace one spell. I can use an Arcane Focus",
+    "origin": "fighter:eldritch knight"
+  },
+  {
+    "name": "War Bond",
+    "description": "During a 1 hour ritual or short rest, I can bind one weapon I touch I can’t be disarmed of it unless I'm Incapacitated. I can summon it as a Bonus Action",
+    "origin": "fighter:eldritch knight"
+  },
+  {
+    "name": "War Magic",
+    "description": "When I use my Attack action, I can replace an attack with a Wizard cantrip of 1 action",
+    "origin": "fighter:eldritch knight"
+  },
+  {
+    "name": "Eldritch Strike",
+    "description": "On a weapon hit, the creature has disadv. on my spell save until the end of my next turn",
+    "origin": "fighter:eldritch knight"
+  },
+  {
+    "name": "Arcane Charge",
+    "description": "When I use Action Surge, I can also teleport up to 30ft to an unoccupied space I see I can do so before or after the extra action",
+    "origin": "fighter:eldritch knight"
+  },
+  {
+    "name": "Psionic Power",
+    "description": "I gain twice my proficiency bonus of psionic energy dice (PsiD) that fuel my psionics I regain one PsiD after a short rest and all after a long rest Protective Field: When I or a creature I see within 30ft is hit, as a Reaction I can reduce the damage by rolling one PsiD + Int mod (min 1) Psionic Strike: Once on my turn after I damage a target with a weapon I can spend a PsiD to deal the roll + Int mod extra force damage Telekinetic Movement: as a magic action, I can move a Large/smaller loose object or one willing creature to an unoccupied space I can see (range 30ft). If it's Tiny, I can move it to or from my hand. 1 free use per short/long rest unless I spend a PsiD to restore my use",
+    "origin": "fighter:psi warrior"
+  },
+  {
+    "name": "Telekinetic Adept",
+    "description": "Psi-Powered Leap: As a Bonus Action, gain a flying speed equal to twice my speed until the turn ends. 1 free use per short/long rest unless I spend a PsiD to restore my use Telekinetic Thrust: If I deal damage with my Psionic Strike, I can force a Str save On a fail: target knocked prone or moved up to 10ft in any direction horizontally",
+    "origin": "fighter:psi warrior"
+  },
+  {
+    "name": "Guarded Mind",
+    "description": "I am Resistant to Psychic damage. If I start my turn Charmed/Frightened, I can spend a PsiD (no action) to cure it/both conditions",
+    "origin": "fighter:psi warrior"
+  },
+  {
+    "name": "Bulwark of Force",
+    "description": "As a Bonus Action, I can choose up to Int mod of creatures (min 1) I see in 30ft (can be me), each gains Half Cover (duration 1 min) or until I'm Incapapacitated 1 free use per long rest unless I spend a PsiD to restore my use",
+    "origin": "fighter:psi warrior"
+  },
+  {
+    "name": "Hand of Harm",
+    "description": "1/turn when I hit a crea. with an Unarmed Strike and deal dmg 1 FP to add extra Necro. dmg equal to one roll of my Martial Arts die + Wis mod.",
+    "origin": "monk:mercy"
+  },
+  {
+    "name": "Hand of Healing",
+    "description": "As a Magic action, 1 FP to touch a crea. and restore HP equal to a roll of my Martial Arts die + Wis mod. When I use Flurry of Blows, I can replace one of the Unarmed Strikes with a use of this feature without expending FP for the healing.",
+    "origin": "monk:mercy"
+  },
+  {
+    "name": "Implements of Mercy",
+    "description": "I gain Proficiency in the Insight and Medicine skills and proficiency with the Herbalism Kit.",
+    "origin": "monk:mercy"
+  },
+  {
+    "name": "Physician's Touch",
+    "description": "Hand of Healing also ends 1 condition blinded, deafened, paralyzed, poisoned or stunned Hand of Harm also causes the target to be poisoned until the end of my next turn",
+    "origin": "monk:mercy"
+  },
+  {
+    "name": "Shadow Arts",
+    "description": "Darkness : I can expend 1 Focus Point to cast the Darkness spell without expending components. I can see within the spell's area when I cast it with this feature. While the spell persists, I can move its area of Darkness to a space within 60 feet of myself at the start of each of my turns.",
+    "origin": "monk:shadow"
+  },
+  {
+    "name": "Shadow Step",
+    "description": "I can use a Bonus Action to teleport up to 60 feet while in Dim Light or Darkness. I gain Advantage on my next melee attack before the turn ends.",
+    "origin": "monk:shadow"
+  },
+  {
+    "name": "Improved Shadow Step",
+    "description": "1 Focus Point, I can use Shadow Step to teleport without needing to start and end in Dim Light or Darkness. I can also make an Unarmed Strike immediately after teleporting.",
+    "origin": "monk:shadow"
+  },
+  {
+    "name": "Elemental Attunement",
+    "description": "At the start of my turn, 1 FP for 10 mins of elemental energy. While active: My Unarmed Strikes have 10ft extra reach, and deal my choice: Acid, Cold, Fire, Lightning, or Thunder damage, and on hit Str save or I can move the target up to 10ft",
+    "origin": "monk:elements"
+  },
+  {
+    "name": "Elemental Burst",
+    "description": "As a Magic action, 2 FP for a 20ft radius burst of Acid, Cold, Fire, Lightning, or Thunder damage within 120ft Affected Creatures make a Dex save, or 3x Martial dice roll damage, half on success.",
+    "origin": "monk:elements"
+  },
+  {
+    "name": "Stride of the Elements",
+    "description": "While my Elemental Attunement is active, I gain Fly and Swim Speed equal to my Speed.",
+    "origin": "monk:elements"
+  },
+  {
+    "name": "Open Hand Technique",
+    "description": "When I hit a crea. with a Flurry of Blows attack, I can impose one of these effects: Crea. can't make Opportunity Attacks until its next turn. Crea. makes a Str save or is pushed 15ft Crea. makes a Dex save or is knocked Prone.",
+    "origin": "monk:open hand"
+  },
+  {
+    "name": "Wholeness of Body",
+    "description": "As a Bonus Action, I can heal myself for 1 Martial die roll + my Wis mod.",
+    "origin": "monk:open hand"
+  },
+  {
+    "name": "Channel Divinity: Sacred Weapon",
+    "description": "As part of the attack action, I can imbue 1 held melee weapon for 10 minutes or until I use this feature again. While active, I add my Cha modifier to attacks and choose Radiant or normal damage on each hit. It also emits 20-ft radius bright light and 20-ft more dim light.",
+    "origin": "paladin:devotion"
+  },
+  {
+    "name": "Aura of Devotion",
+    "description": "",
+    "origin": "paladin:devotion"
+  },
+  {
+    "name": "Smite of Protection",
+    "description": "When I cast Divine Smite my allies & I have Half Cover while in my aura of protection until the start of my next turn.",
+    "origin": "paladin:devotion"
+  },
+  {
+    "name": "Channel Divinity: Inspiring Smite",
+    "description": "Immediately after dealing damage with Divine Smite, I can grant temporary HP I distribute the temporary HP how I choose across creatures within 30 ft, including me",
+    "origin": "paladin:glory"
+  },
+  {
+    "name": "Channel Divinity: Peerless Athlete",
+    "description": "As a bonus action, I can get adv. on Str (Athletics) \\u0026 Dex (Acrobatics) checks for 1 hour In that time, I also add +10 ft to long and high jumps",
+    "origin": "paladin:glory"
+  },
+  {
+    "name": "Aura of Alacrity",
+    "description": "",
+    "origin": "paladin:glory"
+  },
+  {
+    "name": "Glorious Defense",
+    "description": "As a reaction when I or another in 10 ft is hit with an attack roll, I can grant bonus AC I must be able to see the attacker; I add my Cha mod (min 1) to the AC for that attack If it misses, I can do a weapon attack vs. the attacker, if in reach, as part of this reaction",
+    "origin": "paladin:glory"
+  },
+  {
+    "name": "Channel Divinity: Nature's Wrath",
+    "description": "",
+    "origin": "paladin:ancients"
+  },
+  {
+    "name": "Aura of Warding",
+    "description": "My allies & I have Resistance to Necrotic, Psychic, & Radiant damage while in range.",
+    "origin": "paladin:ancients"
+  },
+  {
+    "name": "Undying Sentinel",
+    "description": "",
+    "origin": "paladin:ancients"
+  },
+  {
+    "name": "Channel Divinity: Vow of Enmity",
+    "description": "When I Attack I can make a Vow of Enmity against a creature I choose that I can see within 30 ft I have Adv on attack rolls against it for 1 min or until I use this feature again. If it drops to 0 HP before the Vow ends I can transfer the Vow to a different creature within 30 feet.",
+    "origin": "paladin:Vengeance"
+  },
+  {
+    "name": "Relentless Avenger",
+    "description": "When I hit with an Opp Attack, I reduce the target's Speed to 0 until the end of the current turn. I can move up to half my Speed as part of the same Reaction without provoking Opp Attacks.",
+    "origin": "paladin:Vengeance"
+  },
+  {
+    "name": "Soul of Vengeance",
+    "description": "",
+    "origin": "paladin:Vengeance"
+  },
+  {
+    "name": "Primal Companion",
+    "description": "Choose a primal beast using the \\  button on the Companion Sheet. I have my choice of a \\ , a \\ , or a \\ ; After summoning, I can summon a different primal beast after a Long Rest.",
+    "origin": "ranger:beast master"
+  },
+  {
+    "name": "Exceptional Training",
+    "description": "When I command my beast to take an action, I can also have it Dash/Disengage/Dodge/Help as a bonus action. My Primal Companion's attacks count can deal Force damage or its normal damage type.",
+    "origin": "ranger:beast master"
+  },
+  {
+    "name": "Bestial Fury",
+    "description": "When I command my Primal Companion to use the Attack action, it can attack twice. My Primal Companion deals extra Force damage to my Hunter's Mark target. This occurs only the 1st time, each turn, the Primal Companion hits a creature.",
+    "origin": "ranger:beast master"
+  },
+  {
+    "name": "Dreadful Strikes",
+    "description": "My weapons deal extra psychic damage, but only once per turn per creature",
+    "origin": "ranger:fey wanderer"
+  },
+  {
+    "name": "Otherworldly Glamour",
+    "description": "I can add my Wisdom modifier to any Charisma check I make (minimum of +1) Choose Feature",
+    "origin": "ranger:fey wanderer"
+  },
+  {
+    "name": "Otherworldly Glamour",
+    "description": "",
+    "origin": "ranger:fey wanderer"
+  },
+  {
+    "name": "Otherworldly Glamour",
+    "description": "",
+    "origin": "ranger:fey wanderer"
+  },
+  {
+    "name": "Beguiling Twist",
+    "description": "I have advantage on saves against being charmed or frightened. As a reaction when a creature I see in 120 ft succeeds its save vs. charmed or frightened, I can have another I see in 120 ft make a Wis save or be charmed/frightened (my choice). This lasts for 1 minute and the target can repeat the save at the end of each of its turns",
+    "origin": "ranger:fey wanderer"
+  },
+  {
+    "name": "Fey Reinforcements",
+    "description": "I learn Summon Fey; It needs no material component, nor counts against spells known. Once per long rest, I can cast it without expending a spell slot. When cast, I can have it not require concentration, its duration becomes 1 minute",
+    "origin": "ranger:fey wanderer"
+  },
+  {
+    "name": "Dread Ambusher",
+    "description": "I can add my Wisdom modifier to my initiative rolls, and I get +10 ft speed in the first turn of combat. Additionally, once per turn when I hit with a weapon, I can deal +2d6 Psychic damage to my target.  I can do this a number equal to my Wis Mod per Long Rest.",
+    "origin": "ranger:gloom stalker"
+  },
+  {
+    "name": "Umbral Sight",
+    "description": "I gain 60 ft Darkvision, or add 60 ft, if I already had it from any source. When I'm entirely in darkness, I have the Invisible condition to any creature that relies on Darkvision to see me in that darkness.",
+    "origin": "ranger:gloom stalker"
+  },
+  {
+    "name": "Iron Mind",
+    "description": "I gain proficiency in Wis saves. If already proficient, choose either Int or Cha.",
+    "origin": "ranger:gloom stalker"
+  },
+  {
+    "name": "Stalker's Flurry",
+    "description": "When I use the Frighten effect of Dread Ambusher, I can do one of the following:  \\u2022 Sudden Strike. I can attack another creature within 5 ft of the original target that is within   weapon range.  \\u2022 Mass Fear. Each creature within 10 ft of the target makes Wis save or be Frightened until start    of my next turn.",
+    "origin": "ranger:gloom stalker"
+  },
+  {
+    "name": "Hunter's Lore",
+    "description": "While a creature is marked by my Hunter's Mark, I know the following about it: Damage/condition immunities, damage resistances, and/or damage vulnerabilities.",
+    "origin": "ranger:hunter"
+  },
+  {
+    "name": "Hunter's Prey",
+    "description": "Once per turn, when I hit a creature with a weapon, I deal an extra 1d8 damage to the target if it's missing any Hit Points. After a Short or Long Rest, I can replace this feature with the 'Horde Breaker' feature.",
+    "origin": "ranger:hunter"
+  },
+  {
+    "name": "Horde Breaker",
+    "description": "Once per turn, when I hit a creature, I can make an attack vs. another within 5 ft of it if I haven't hit it during this turn. After a Short or Long Rest, I can replace this feature with the 'Colossus Slayer' feature.",
+    "origin": "ranger:hunter"
+  },
+  {
+    "name": "Defensive Tactics",
+    "description": "Opportunity Attacks have Disadvantage against me. After a Short or Long Rest, I can replace this feature with the 'Multiattack Defense' feature.",
+    "origin": "ranger:hunter"
+  },
+  {
+    "name": "Multiattack Defense",
+    "description": "When a creature hits me with an attack roll, that creature has Disadvantage on all other attack rolls against me this turn. After a Short or Long Rest, I can replace this feature with the 'Escape the Horde' feature.",
+    "origin": "ranger:hunter"
+  },
+  {
+    "name": "Superior Hunter's Prey",
+    "description": "Once per turn when I deal damage to a creature marked by my Hunter's mark, I can also deal the extra damage to another creature I can see within 30 feet.",
+    "origin": "ranger:hunter"
+  },
+  {
+    "name": "Spellcasting",
+    "description": "I can cast prepared level 1+ Wizard spells using Int as my spellcasting ability. I can use an Arcane Focus as a spellcasting focus for my spells. I can change one prepared spell and one cantrip when I gain a Rogue level.",
+    "origin": "rogue:arcane trickster"
+  },
+  {
+    "name": "Mage Hand Legerdemain",
+    "description": "I can cast Mage Hand as a Bonus Action, and make the spectral hand Invisible. I can control it as a Bonus Action, and through it can make Dex (Sleight of Hand) checks.",
+    "origin": "rogue:arcane trickster"
+  },
+  {
+    "name": "Magical Ambush",
+    "description": "If I'm Invisible when I cast a spell on a creature it has Disadv on saving throws against the spell on the same turn.",
+    "origin": "rogue:arcane trickster"
+  },
+  {
+    "name": "Versatile Trickster",
+    "description": "I can use Mage Hand to use the Trip option of my Cunning Strike on a creature within 5ft of the hand when I use it on another creature.",
+    "origin": "rogue:arcane trickster"
+  },
+  {
+    "name": "Assassinate",
+    "description": "Initiative: I have Advantage on Initiative rolls. Surprising Strikes: During the first round of combat: I have Advantage on attack rolls against any creature that hasn't taken a turn yet. If my Sneak Attack hits it does extra damage (my Rogue level) of the weapon's type.",
+    "origin": "rogue:assassin"
+  },
+  {
+    "name": "Assassin's Tools",
+    "description": "I gain a Disguise Kit and a Poisoner's Kit, and I have proficiency with them.",
+    "origin": "rogue:assassin"
+  },
+  {
+    "name": "Infiltration Expertise",
+    "description": "Masterful Mimicry: After 1 hour of study I can mimic another person's speech, handwriting, or both. Roving Aim: My Speed isn't reduced to 0 by using Steady Aim.",
+    "origin": "rogue:assassin"
+  },
+  {
+    "name": "Envenom Weapons",
+    "description": "Targets of the Poison option of my Cunning Strike also take 2d6 Poison damage on a failed save.",
+    "origin": "rogue:assassin"
+  },
+  {
+    "name": "Psionic Power",
+    "description": "I gain Psionic Energy Dice (PsiD), which fuel certain powers from this subclass. Features in this subclass that use a PsiD use only dice from this subclass. I can't use powers if all dice are expended. I regain one die when I finish a Short Rest and all when I finish a Long Rest. Psi-Bolstered Knack: If I fail an ability check using a skill or tool I'm proficient with, I can roll one PsiD and add the number rolled. The die is spent only if the roll succeeds. Psychic Whispers: As a Magic action, I can choose one or more creatures I can see up to my Prof Bonus, then roll one PsiD. For that number of hours, the chosen creatures can speak telepathically with me and vice versa when within 1 mile of each other (no action). A creature can end the telepathic connection at any time (no action). The first time I use this power after each Long Rest, I don't spend a PsiD.",
+    "origin": "rogue:soulknife"
+  },
+  {
+    "name": "Psychic Blades",
+    "description": "As part of an Attack or Opportunity Attack, I can manifest a Psychic Blade in my free hand to attack. The magic blade has the following traits; Simple Melee, 1d6 Psychic + Ability mod damage, Finesse, Thrown (range 60/120 feet). Mastery: Vex: If I damage a creature with this I have Adv. on my next attack roll against it before the end of my next turn. (Doesn't count against class Weapon Masteries). The blade vanishes immediately after it hits or misses and leaves no mark. As a bonus action after this attack, I can manifest a second psychic blade on the same turn. My other hand must be free. The damage die of the bonus attack is 1d4.",
+    "origin": "rogue:soulknife"
+  },
+  {
+    "name": "Soul Blades",
+    "description": "I can use more powers with my Psychic Blades. Homing Strikes: If I miss an attack roll with my Psychic Blade, I can roll one Psionic Energy Die (PsiD) and add it to the attack roll. If the attack hits the die is spent. Psychic Teleportation: As a Bonus Action, I manifest a Psychic Blade, spend one PsiD roll it, and throw the blade at an unoccupied space I can see up to 10 times the die roll feet away and teleport to that space. The blade vanishes.",
+    "origin": "rogue:soulknife"
+  },
+  {
+    "name": "Psychic Veil",
+    "description": "As a Magic action, I become Invisible for 1 hour or until I dismiss it (no action). It ends immediately after I deal damage to or force a creature to make a save. I can spend a Psionic Energy Die (no action) to restore it. It returns after a Long Rest.",
+    "origin": "rogue:soulknife"
+  },
+  {
+    "name": "Fast Hands",
+    "description": "I can do these as a bonus action: Sleight of Hand: Make a Dex (Sleight of Hand) check to pick a lock/disarm a trap or pick a pocket. Use an Object: Take the Utilize action, or take the Magic action to use a magic item that requires one.",
+    "origin": "rogue:thief"
+  },
+  {
+    "name": "Second-Story Work",
+    "description": "",
+    "origin": "rogue:thief"
+  },
+  {
+    "name": "Supreme Sneak",
+    "description": "I gain the following Cunning Strike option: Stealth Attack (Cost 1d6): This attack doesn't end Hiding if I end the turn behind Three-Quarters or Total Cover.",
+    "origin": "rogue:thief"
+  },
+  {
+    "name": "Use Magic Device",
+    "description": "Attunement: I can attune to up to four magic items at once. Charges: When I use a magic item property with charges, a 6 on a 1d6 roll means no charges are used. Scrolls: I can use any Spell Scroll, using Int as my spellcasting ability. Level 2+ spells require an Int (Arcana) check (DC 10 + Spell Level) to cast or the scroll disintegrates.",
+    "origin": "rogue:thief"
+  },
+  {
+    "name": "Telepathic Speech",
+    "description": "As a Bonus Action, one creature I can see within 30 ft of myself & I can speak telepathically with each other while within my Cha mod miles (min 1) for my Sorcerer level minutes as long as we share a language. It lasts until I use it with another creature.",
+    "origin": "sorcerer:aberrant"
+  },
+  {
+    "name": "Psionic Sorcery",
+    "description": "When I cast a psionic spell of level 1+ I can cast it using a spell slot, or with SP equal to the spell's level. If I cast the spell with SPs It requires no components, unless they are consumed or have a specified cost.",
+    "origin": "sorcerer:aberrant"
+  },
+  {
+    "name": "Psychic Defense",
+    "description": "I have Resistance to Psychic damage & Adv on saves to avoid/end Charmed or Frightened.",
+    "origin": "sorcerer:aberrant"
+  },
+  {
+    "name": "Revelation in Flesh",
+    "description": "As a Bonus Action, I can spend 1+ SP to magically alter my body for 10 min, gaining one revelation for each SP spent (See Third Page).",
+    "origin": "sorcerer:aberrant"
+  },
+  {
+    "name": "Glistening Flight",
+    "description": "I gain a Fly Speed of my Speed & can hover.",
+    "origin": "sorcerer:aberrant"
+  },
+  {
+    "name": "See the Invisible",
+    "description": "I can see any Invisible creature within 60 ft not behind Total Cover.",
+    "origin": "sorcerer:aberrant"
+  },
+  {
+    "name": "Wormlike Movement",
+    "description": "I, with equipment, can move through a 1+ inch space or spend 5 ft of movement to escape a Grapple or nonmagical restraints.",
+    "origin": "sorcerer:aberrant"
+  },
+  {
+    "name": "Restore Balance",
+    "description": "As a reaction, when a creature I can see w/in 60 ft is about to roll a d20 with Adv or Disadv, I can make it a straight roll.",
+    "origin": "sorcerer:clockwork"
+  },
+  {
+    "name": "Bastion of Law",
+    "description": "As a Magic action, I can spend 1 to 5 SP to create a magic ward around me or a creature I can see within 30 ft The ward has SP-spent d8s that can reduce the damage taken by the total rolled on those dice. The ward lasts until I finish a Long Rest or use it again.",
+    "origin": "sorcerer:clockwork"
+  },
+  {
+    "name": "Trance of Order",
+    "description": "As a bonus action, I can enter a state of clockwork consciousness for 1 min during which attack rolls against me can't have Adv and when I make a D20 Test I can treat a roll below 9 as a 10. I can restore this with a Long Rest or by spending 5 SP (no action).",
+    "origin": "sorcerer:clockwork"
+  },
+  {
+    "name": "Draconic Resilience",
+    "description": "",
+    "origin": "sorcerer:draconic"
+  },
+  {
+    "name": "Elemental Affinity",
+    "description": "Use 'Choose Feature' above to choose an elemental affinity. I have Resistance to that damage type; When I do spell damage of that type I can add my Cha mod to 1 damage roll.",
+    "origin": "sorcerer:draconic"
+  },
+  {
+    "name": "Cold Affinity",
+    "description": "",
+    "origin": "sorcerer:draconic"
+  },
+  {
+    "name": "Fire Affinity",
+    "description": "",
+    "origin": "sorcerer:draconic"
+  },
+  {
+    "name": "Lightning Affinity",
+    "description": "",
+    "origin": "sorcerer:draconic"
+  },
+  {
+    "name": "Poison Affinity",
+    "description": "",
+    "origin": "sorcerer:draconic"
+  },
+  {
+    "name": "Dragon Wings",
+    "description": "As a Bonus Action, I can gain draconic wings and a Fly speed of 60ft for 1 hour or until dismissed (no action). I can restore it with a Long Rest or with 3 SP (no action).",
+    "origin": "sorcerer:draconic"
+  },
+  {
+    "name": "Wild Magic Surge",
+    "description": "Once per turn, I can roll 1d20 when I cast a Sorcerer spell with a spell slot. On a 20, I roll on the Wild Magic Surge (WMS) table (See page 3). Spells from the table are unaffected by my Metamagic.",
+    "origin": "sorcerer:wild magic"
+  },
+  {
+    "name": "Tides of Chaos",
+    "description": "I can gain Adv on one D20 Test before I roll. If I cast a Sorcerer spell with a spell slot before a Long Rest I must roll on the WMS table, but regain this feature.",
+    "origin": "sorcerer:wild magic"
+  },
+  {
+    "name": "Bend Luck",
+    "description": "As a reaction, I can add/subtract 1d4 from another's attack roll, ability check, or save for 1 SP.",
+    "origin": "sorcerer:wild magic"
+  },
+  {
+    "name": "Controlled Chaos",
+    "description": "When I roll on the Wild Magic Surge table I can roll twice and use either number.",
+    "origin": "sorcerer:wild magic"
+  },
+  {
+    "name": "Steps of the Fey",
+    "description": "I can cast Misty Step w/out a spell slot (min once) per Long Rest and can imbue it with one option from the Steps of the Fey feature, (see notes page).",
+    "origin": "warlock:the archfey"
+  },
+  {
+    "name": "Taunting Step",
+    "description": "",
+    "origin": "warlock:the archfey"
+  },
+  {
+    "name": "Misty Escape",
+    "description": "As a reaction when I take damage, I can cast Misty Step, and gain new options for my steps of the fey feature (see notes page).",
+    "origin": "warlock:the archfey"
+  },
+  {
+    "name": "Dreadful Step",
+    "description": "",
+    "origin": "warlock:the archfey"
+  },
+  {
+    "name": "Beguiling Defenses",
+    "description": "Once per Long Rest as a reaction, after a creature I can see hits me with an attack roll I can reduce the damage by half & force the attacker to pass a Wis save or take equal Psych damage. I'm also immune to being Charmed.",
+    "origin": "warlock:the archfey"
+  },
+  {
+    "name": "Healing Light",
+    "description": "As a bonus action, I can heal a creature I can see within 60 ft or myself by spending dice from my pool (min 1), healing HP equal to the roll.",
+    "origin": "warlock:the celestial"
+  },
+  {
+    "name": "Radiant Soul",
+    "description": "Once per turn, when I deal Radiant or Fire spell damage, I can add my Cha mod to the spell's damage against one of the spell's targets. I'm also resistant to Radiant damage.",
+    "origin": "warlock:the celestial"
+  },
+  {
+    "name": "Celestial Resilience",
+    "description": "I gain Temp HP when I use Magical Cunning or finish a Rest (my Warlock level + Cha mod). Up to five creatures I can see each gain Temp HP (1/2 my Warlock level + Cha mod).",
+    "origin": "warlock:the celestial"
+  },
+  {
+    "name": "Dark One's Blessing",
+    "description": "When I reduce a hostile to 0 HP, I gain Cha mod + Warlock level temp HP (min 1). I also gain this temp HP if an enemy within 10 ft of me is reduced to 0 Hit Points.",
+    "origin": "warlock:the fiend"
+  },
+  {
+    "name": "Dark One's Own Luck",
+    "description": "Once per roll, when I make an ability check or saving throw, I can add 1d10 after rolling the d20 but before any of the roll's effects occur.",
+    "origin": "warlock:the fiend"
+  },
+  {
+    "name": "Fiendish Resilience",
+    "description": "At the end of a Rest, I can choose a damage type (not Force) to be Resistant to until I choose another.",
+    "origin": "warlock:the fiend"
+  },
+  {
+    "name": "Awakened Mind",
+    "description": "As a Bonus Action, one creature I can see within 30 ft & I can speak telepathically with each other while within my Cha mod miles (min 1) for my Warlock level minutes as long as we share a language. It lasts until I use it with another creature.",
+    "origin": "warlock:the great old one"
+  },
+  {
+    "name": "Psychic Spells",
+    "description": "When I cast a Warlock spell that deals damage I can change to Psych damage. When I cast Ench or Illus Warlock spells I can forgo Verbal or Somatic components.",
+    "origin": "warlock:the great old one"
+  },
+  {
+    "name": "Clairvoyant Combatant",
+    "description": "When I use Awakened Mind, I can force the creature to pass a Wis save or it has Disadv on attack rolls against me & I have Adv on attack rolls against it for the duration. This Feature can be used 1/LR unless I expend a Warlock SS to regain use of it.",
+    "origin": "warlock:the great old one"
+  },
+  {
+    "name": "Eldritch Hex",
+    "description": "I always have Hex prepared. When I cast it and choose an Ability the target also has Disadv on those saves for the spell's duration.",
+    "origin": "warlock:the great old one"
+  },
+  {
+    "name": "Thought Shield",
+    "description": "My thoughts can't be read unless I allow it. I'm Resistant to Psych damage, and any creature that deals Psychic damage to me takes equal damage.",
+    "origin": "warlock:the great old one"
+  },
+  {
+    "name": "Abjuration Savant",
+    "description": "I gain two Wizard spells from the Abjuration school, level 2 or lower, for free. I gain a spell in this way each time I gain access to a new level of spell slots in this class.",
+    "origin": "wizard:abjurer"
+  },
+  {
+    "name": "Arcane Ward",
+    "description": "Once per Long Rest when I cast an Abj spell with a spell slot I can create a magic ward on myself that lasts until the end of my next Long Rest. When I take damage the ward takes it instead; I apply my Resistances & Vulnerabilities before this. If the ward reaches 0 Hit Points I take any remaining damage and the ward can't take any more. When I cast an Abj spell with a spell slot or spend a slot as a Bonus Action the ward regains HP equal to twice the slot level.",
+    "origin": "wizard:abjurer"
+  },
+  {
+    "name": "Projected Ward",
+    "description": "When a creature I can see w/in 30 ft of me takes damage, I can take a Reaction for my Arcane Ward to absorb that it after that creature's Resistances & Vulnerabilities. If the ward reaches 0 Hit Points the warded creature takes any remaining damage.",
+    "origin": "wizard:abjurer"
+  },
+  {
+    "name": "Spell Breaker",
+    "description": "I always have Counterspell & Dispel Magic prepared. I can cast Dispel Magic as a Bonus Action & add my Prof Bonus to its ability check. When I cast either spell with a spell slot that slot isn't expended if the spell fails.",
+    "origin": "wizard:abjurer"
+  },
+  {
+    "name": "Divination Savant",
+    "description": "I gain two Wizard spells from the Divination school, level 2 or lower, for free. I gain a spell in this way each time I gain access to a new level of spell slots in this class.",
+    "origin": "wizard:diviner"
+  },
+  {
+    "name": "Portent",
+    "description": "When I finish a Long Rest I can record a number of d20 rolls; Once per turn before a d20 test is rolled by me or a crea. I can see, I can replace the roll, spending the d20. These reset when I finish a long rest.",
+    "origin": "wizard:diviner"
+  },
+  {
+    "name": "Expert Divination",
+    "description": "When I cast using a level 2+ spell slot, I regain one slot below the level cast & level 5-.",
+    "origin": "wizard:diviner"
+  },
+  {
+    "name": "The Third Eye",
+    "description": "Once per Rest as a Bonus Action, I gain one of the following benefits until my next rest. Darkvision: I gain Darkvision with a range of 120 feet. Greater Comprehension: I can read any language. See Invisibility: I can cast See Invisibility without spending a spell slot.",
+    "origin": "wizard:diviner"
+  },
+  {
+    "name": "Evocation Savant",
+    "description": "I gain two Wizard spells from the Evocation school, level 2 or lower, for free. I gain a spell in this way each time I gain access to a new level of spell slots in this class.",
+    "origin": "wizard:evoker"
+  },
+  {
+    "name": "Potent Cantrip",
+    "description": "When I cast a cantrip at a creature and miss or the target passes its save, the target takes half the cantrip's damage (if any) but suffers no additional effect from the cantrip.",
+    "origin": "wizard:evoker"
+  },
+  {
+    "name": "Sculpt Spell",
+    "description": "When I cast an Evoc spell that affects other creatures I can see I can choose the spell's level + 1 creatures who pass automatically & take no damage if they would've taken half.",
+    "origin": "wizard:evoker"
+  },
+  {
+    "name": "Empowered Evocation",
+    "description": "When I cast an Evoc Wizard spell I can add my Int mod to one of its damage rolls.",
+    "origin": "wizard:evoker"
+  },
+  {
+    "name": "Illusion Savant",
+    "description": "I gain two Wizard spells from the Illusion school, level 2 or lower, for free. I gain a spell in this way each time I gain access to a new level of spell slots in this class.",
+    "origin": "wizard:illusionist"
+  },
+  {
+    "name": "Improved Illusion",
+    "description": "I can cast Illus spells w/out V components; Illus spells with a range of 10+ ft go up by 60 ft I know and can cast Minor Illusion as a Bonus Action, creating both a sound & image with one cast. It doesn't count against my cantrips known.",
+    "origin": "wizard:illusionist"
+  },
+  {
+    "name": "Phantasmal Creatures",
+    "description": "I always have Summon Beast and Summon Fey prepared. Once per Long Rest I can cast each spell as an Illus spell and cast it without a spell slot, halving the summoned creature's HP & making it appear spectral.",
+    "origin": "wizard:illusionist"
+  },
+  {
+    "name": "Illusory Self",
+    "description": "As a reaction, I can block an attack against me with an illusion of myself. It returns on a rest or by spending a Level 2+ spell slot (no action).",
+    "origin": "wizard:illusionist"
+  },
+  {
+    "name": "Vitality of the Tree",
+    "description": "Vitality Surge : Gain Temporary Hit Points equal to my Barbarian level when I Rage. Life-Giving Force : Each turn, give a nearby creature Temporary Hit Points by rolling d6s equal to my Rage Damage bonus. All vanish when rage ends.",
+    "origin": "barbarian:world tree"
+  },
+  {
+    "name": "Branches of the Tree",
+    "description": "As a Reaction, force a creature within 30 feet to make a Strength save (DC 8 + Strength mod + Proficiency), or be teleported to an unoccupied space within 5 feet of me and reduce its Speed to 0 until the end of the turn.",
+    "origin": "barbarian:world tree"
+  },
+  {
+    "name": "Battering Roots",
+    "description": "Extend reach by 10 feet with Heavy or Versatile weapons. Use Push or Topple mastery properties when hitting with such weapons in addition to a different property.",
+    "origin": "barbarian:world tree"
+  },
+  {
+    "name": "Dazzling Footwork",
+    "description": "",
+    "origin": "bard:dance"
+  },
+  {
+    "name": "Inspiring Movement",
+    "description": "Spend one BI as a Reaction when an enemy I can see ends its turn within 5 ft of me to move up to half my Speed. An ally of my choice within 30 feet can also gain this benefit. None of this feature's movement provokes Opportunity Attacks.",
+    "origin": "bard:dance"
+  },
+  {
+    "name": "Tandem Footwork",
+    "description": "If I'm not Incapacitated when I roll Initiative I can roll one BI die. Each ally within 30 ft who can see or hear me adds the BI roll as a bonus to their Initative.",
+    "origin": "bard:dance"
+  },
+  {
+    "name": "Wrath of the Sea",
+    "description": "As a Bonus Action, I can use my Wild Shape to create a 5-foot ocean spray around me for 10 minutes. Each turn, I can target a creature in the spray, forcing a Constitution save or dealing WIS * d6 Cold damage and pushing it 15 feet away.",
+    "origin": "druid:sea"
+  },
+  {
+    "name": "Aquatic Affinity",
+    "description": "",
+    "origin": "druid:sea"
+  },
+  {
+    "name": "Stormborn",
+    "description": "While my ocean spray is active, I gain a Fly Speed equal to my walking Speed and Resistance to Cold, Lightning, and Thunder damage",
+    "origin": "druid:sea"
+  }
+]

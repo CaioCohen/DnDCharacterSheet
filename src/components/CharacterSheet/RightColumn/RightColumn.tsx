@@ -2,14 +2,12 @@ import { FC, useState } from 'react';
 import { useCharacterSheet } from '@/hooks/useCharacterSheet';
 import { NumberInput } from '@/components/Common//NumberInput';
 import { TextArea } from '@/components/Common//TextArea';
-  import { Modal } from '@/components/Common/Modal';
-  import styles from './RightColumn.module.css';
+import { Modal } from '@/components/Common/Modal';
+import { FeatureAutocomplete } from '@/components/Common/FeatureAutocomplete';
+import styles from './RightColumn.module.css';
 
 export const RightColumn: FC = () => {
   const { character, dispatch } = useCharacterSheet();
-  const [featureTitle, setFeatureTitle] = useState('');
-  const [featureOrigin, setFeatureOrigin] = useState('');
-  const [featureDescription, setFeatureDescription] = useState('');
   const [customInitiativeModifier, setCustomInitiativeModifier] = useState(0);
   // Custom counters modal state
   const [isCounterModalOpen, setIsCounterModalOpen] = useState(false);
@@ -22,20 +20,13 @@ export const RightColumn: FC = () => {
   const dexModifier = character.attributes.dexterity.modifier;
   const calculatedInitiative = dexModifier + customInitiativeModifier;
 
-  const addFeature = () => {
-    if (!featureTitle.trim()) return;
-    dispatch({
-      type: 'ADD_FEATURE',
-      payload: {
-        id: crypto.randomUUID(),
-        title: featureTitle.trim(),
-        origin: featureOrigin.trim(),
-        description: featureDescription.trim()
-      }
-    });
-    setFeatureTitle('');
-    setFeatureOrigin('');
-    setFeatureDescription('');
+  const handleAddFeature = (feature: {
+    id: string;
+    title: string;
+    origin: string;
+    description: string;
+  }) => {
+    dispatch({ type: 'ADD_FEATURE', payload: feature });
   };
 
   const handleCounterSubmit = () => {
@@ -262,59 +253,16 @@ export const RightColumn: FC = () => {
         <button
           type="button"
           className={styles.addButton}
-          onClick={() => {
-            setFeatureTitle('');
-            setFeatureOrigin('');
-            setFeatureDescription('');
-            setIsFeatureModalOpen(true);
-          }}
+          onClick={() => setIsFeatureModalOpen(true)}
         >
           Add Feature
         </button>
-        <Modal
+        {/* Feature Autocomplete Modal */}
+        <FeatureAutocomplete
           isOpen={isFeatureModalOpen}
-          title="Add Feature"
           onClose={() => setIsFeatureModalOpen(false)}
-        >
-          <div className={styles.featureForm}>
-            <input
-              className={styles.input}
-              placeholder="Feature title"
-              value={featureTitle}
-              onChange={(e) => setFeatureTitle(e.target.value)}
-            />
-            <input
-              className={styles.input}
-              placeholder="Origin (class/race/etc.)"
-              value={featureOrigin}
-              onChange={(e) => setFeatureOrigin(e.target.value)}
-            />
-            <TextArea
-              className={styles.textArea}
-              placeholder="Description"
-              value={featureDescription}
-              onChange={(e) => setFeatureDescription(e.target.value)}
-            />
-            <div style={{ marginTop: 'var(--spacing-sm)', textAlign: 'right' }}>
-              <button
-                className={styles.addButton}
-                onClick={() => {
-                  addFeature();
-                  setIsFeatureModalOpen(false);
-                }}
-              >
-                Save
-              </button>
-              <button
-                className={styles.addButton}
-                style={{ marginLeft: 'var(--spacing-xs)' }}
-                onClick={() => setIsFeatureModalOpen(false)}
-              >
-                Cancel
-              </button>
-            </div>
-          </div>
-         </Modal>
+          onAddFeature={handleAddFeature}
+        />
          </div>
        {/* Custom Counters Section */}
       <div className={styles.section}>
