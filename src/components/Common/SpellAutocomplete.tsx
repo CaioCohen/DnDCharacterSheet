@@ -29,6 +29,7 @@ interface SpellAutocompleteProps {
     castingTime?: string;
     duration?: string;
     range?: string;
+    checked?: boolean;
   }) => void;
 }
 

@@ -1,7 +1,6 @@
 import { FC, useState } from 'react';
 import { useCharacterSheet } from '@/hooks/useCharacterSheet';
 import { NumberInput } from '@/components/Common//NumberInput';
-import { TextArea } from '@/components/Common//TextArea';
 import { Modal } from '@/components/Common/Modal';
 import { FeatureAutocomplete } from '@/components/Common/FeatureAutocomplete';
 import styles from './RightColumn.module.css';
