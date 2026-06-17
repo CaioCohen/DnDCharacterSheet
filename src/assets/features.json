@@ -3401,197 +3401,197 @@
   },
   {
     "name": "Reanimator Spells",
-    "description": "You always have a set of necromancy, lightning, preservation, and resurrection-themed spells prepared as you reach certain Artificer levels.",
+    "description": "When you reach certain Artificer levels, you always have specific Reanimator spells prepared. These spells count as Artificer spells for you and don't count against the number of Artificer spells you prepare. The spell list covers necromantic durability, lightning, corpse animation, death magic, and restoration, including False Life, Spare the Dying, Witch Bolt, Blindness/Deafness, Enhance Ability, Animate Dead, Lightning Bolt, Blight, Death Ward, Antilife Shell, and Raise Dead.",
     "origin": "artificer:reanimator"
   },
   {
     "name": "Reanimator's Skill Set",
-    "description": "You gain thematic proficiencies tied to surgery, experimentation, reanimation, or grim scientific practice.",
+    "description": "You gain proficiency with Alchemist's Supplies, representing your grisly medical and experimental training. You also improve Spare the Dying through Jolt to Life: when you use that cantrip, you can restore Hit Points to the dying creature and discharge lightning into nearby enemies. The healing and lightning damage scale with your Artificer level, and you can use this enhancement a limited number of times per Long Rest.",
     "origin": "artificer:reanimator"
   },
   {
     "name": "Reanimated Companion",
-    "description": "You create and command a corpse-built companion that acts with you in combat and serves as the subclass's core minion.",
+    "description": "Using proficient artisan's tools, you can create a Medium Undead companion from corpse parts. It acts on your turn, can move and use its Reaction normally, and otherwise takes the Dodge action unless you command it with a Bonus Action. It can attack with Dreadful Swipe, is healed by Lightning damage, and erupts in a Necrotic Death Burst when reduced to 0 Hit Points. You can recreate it after a Long Rest or by expending a spell slot.",
     "origin": "artificer:reanimator"
   },
   {
     "name": "Strange Modifications",
-    "description": "Your Reanimated Companion gains a chosen enhancement, such as improved spell-channeling or greater offensive capability.",
+    "description": "Whenever you create your Reanimated Companion, you choose one Strange Modification for it. Arcane Conduit lets you cast Artificer spells as if you were in the companion's space and can improve damage from certain Evocation or Necromancy spells while the companion is nearby. Ferocity makes the companion's Dreadful Swipe more dangerous by increasing its damage die.",
     "origin": "artificer:reanimator"
   },
   {
     "name": "Improved Reanimation",
-    "description": "Your reanimation magic improves, making your reviving and corpse-animation abilities more effective.",
+    "description": "Your companion's deathly energy becomes stronger. Its Death Burst increases to 4d4 Necrotic damage, and Necrotic damage dealt by the companion ignores Resistance.",
     "origin": "artificer:reanimator"
   },
   {
     "name": "Macabre Modifications",
-    "description": "Your companion gains further horrific upgrades, expanding its combat or utility options.",
+    "description": "Your companion can receive more extreme physical modifications when you create it. Bloated emphasizes size, durability, and a stronger death burst; Gaunt emphasizes climbing, speed, and fear-inducing movement; and Moist emphasizes swimming, squeezing through very small spaces, and punishing nearby attackers with acid-like blowback.",
     "origin": "artificer:reanimator"
   },
   {
     "name": "Refined Reanimation",
-    "description": "Your mastery over reanimation reaches its peak, improving the resilience and effectiveness of your companion and reanimation magic.",
+    "description": "Your reanimation mastery reaches its peak. You can use Facilitated Revival to cast Raise Dead without a spell slot or material components once per Long Rest, your companion can have three total modifications at once, and you can use Life Transfer to destroy your companion when you take damage, reducing or reversing the harm to yourself based on the companion's remaining vitality.",
     "origin": "artificer:reanimator"
   },
   {
     "name": "Spirits",
-    "description": "You call on spirits from beyond the grave, using Bardic Inspiration to produce supernatural effects tied to a spirit table.",
+    "description": "You channel spirits from beyond the grave through Bardic Inspiration. When you call a spirit, you roll or expend a Bardic Inspiration die and use the result to determine a supernatural effect, such as healing, damage, teleportation, protection, invisibility, fright, or other spirit-driven magic. The effect is aimed at a creature you can see within the feature's range, and saving throws use your Bard spell save DC.",
     "origin": "bard:college-of-spirits"
   },
   {
     "name": "Empowered Channeling",
-    "description": "Your connection to spirits strengthens, improving your ability to channel spiritual magic and enhancing your subclass's supernatural effects.",
+    "description": "Your spirit channeling becomes stronger. When a Bard spell you cast deals damage or restores Hit Points, you can add a d6 to one damage or healing roll. You also always have Spirit Guardians prepared, can cast it once without a spell slot per Long Rest, and can temporarily alter it so allies in the spell's area gain additional protection.",
     "origin": "bard:college-of-spirits"
   },
   {
     "name": "Mystical Connection",
-    "description": "You gain more control over the spirits you channel, reducing the randomness of your spirit-based effects.",
+    "description": "You gain greater control over the spirits you summon. When you roll on the Spirits from Beyond table, you roll twice and choose which result to use, making your spirit effects less random and easier to aim at the situation you need.",
     "origin": "bard:college-of-spirits"
   },
   {
     "name": "Grave Domain Spells",
-    "description": "You always have a list of death, preservation, necromancy, and anti-undead themed Cleric spells prepared.",
+    "description": "When you reach certain Cleric levels, you always have Grave Domain spells prepared, and they don't count against the number of Cleric spells you prepare. The list focuses on detecting supernatural evil, preserving the dead, draining vitality, resisting death, and restoring life: Detect Evil and Good, False Life, Gentle Repose, Ray of Enfeeblement, Spare the Dying, Revivify, Vampiric Touch, Blight, Death Ward, Dispel Evil and Good, and Raise Dead.",
     "origin": "cleric:grave-domain"
   },
   {
     "name": "Circle of Mortality",
-    "description": "Your magic is especially potent around the boundary between life and death, improving healing or death-related cantrips and adding damage pressure against wounded creatures.",
+    "description": "Your magic is strongest at the edge of death. You know Spare the Dying and can use it more quickly. When you restore Hit Points to a creature at 0 Hit Points with a spell or Channel Divinity, you treat each healing die as having rolled its maximum value. Once per turn, when you damage a creature that is already missing Hit Points with a spell or attack roll, you add extra Necrotic damage.",
     "origin": "cleric:grave-domain"
   },
   {
     "name": "Path to the Grave",
-    "description": "You use Channel Divinity to mark a creature for death, making it more vulnerable to the next damaging strike.",
+    "description": "As a Channel Divinity option, you curse a creature you can see within range until the start of your next turn. While cursed, the creature has Disadvantage on attack rolls and saving throws. When you or an ally you can see hits the cursed creature with an attack roll, you can end the curse early to add extra Necrotic or Radiant damage based on your Cleric level.",
     "origin": "cleric:grave-domain"
   },
   {
     "name": "Sentinel at Death's Door",
-    "description": "You can intervene when a nearby creature suffers a critical hit, turning the result into a normal hit.",
+    "description": "You can use your Reaction to blunt a deadly blow against a creature you can see within range. The feature can turn a Critical Hit into a normal hit and reduce the damage from the triggering attack. You can use it a limited number of times, regaining expended uses when you finish a Long Rest.",
     "origin": "cleric:grave-domain"
   },
   {
     "name": "Divine Reaper",
-    "description": "Your necromancy and Grave Domain magic become stronger, allowing you to extend certain spells or deathly effects to additional targets.",
+    "description": "Your Grave Domain magic can reap and preserve souls more effectively. Your necromantic spellcasting improves by letting certain spells affect an additional target, and your soul-keeping magic can restore Hit Points to a nearby creature when an enemy dies near you. The healing scales from your Cleric level and represents death's energy being redirected to the living.",
     "origin": "cleric:grave-domain"
   },
   {
     "name": "Hollow Warden Spells",
-    "description": "You always have a list of primal, fear, terrain, bestial, and supernatural Ranger spells prepared.",
+    "description": "When you reach certain Ranger levels, you always have specific Hollow Warden spells prepared. They count as Ranger spells for you and don't count against the number of Ranger spells you prepare. The list emphasizes fear, unnatural transformation, terrain control, beasts, spectral travel, domination, and sudden predatory violence, including Wrathful Smite, Alter Self, Spike Growth, Phantom Steed, Dominate Beast, and Steel Wind Strike.",
     "origin": "ranger:hollow-warden"
   },
   {
     "name": "Wrath of the Wild",
-    "description": "You transform into a monstrous guardian of ancient wild horrors, gaining defensive benefits, a fear aura, and retaliatory combat options.",
+    "description": "By expending a use of Favored Enemy as a Bonus Action, you transform for 1 minute into a monstrous guardian of primeval horror. While transformed, your Ancient Armor increases your AC, your Prowling Retribution lets you make a retaliatory Opportunity Attack when a nearby creature damages you or an ally, and your Unnerving Aura can frighten chosen creatures near you.",
     "origin": "ranger:hollow-warden"
   },
   {
     "name": "Hungering Might",
-    "description": "Your monstrous form becomes more durable, improving Constitution saves and allowing you to regain Hit Points while transformed.",
+    "description": "Your monstrous form becomes harder to break. While transformed, you gain a bonus to Constitution saving throws based on your Wisdom modifier. Once per turn while transformed, when you are Bloodied and are hit by an attack, you can regain Hit Points, representing the form feeding on danger and pain.",
     "origin": "ranger:hollow-warden"
   },
   {
     "name": "Rot and Violence",
-    "description": "Your transformation becomes more dangerous, adding extra damage or control effects when enemies are affected by your aura or struck by your attacks.",
+    "description": "Your transformation spreads dread and decay more effectively. Creatures that fail against your Unnerving Aura can also lose the ability to take Reactions and regain Hit Points for a short time, and your weapon hits can apply additional control through weapon mastery effects such as Sap or Slow.",
     "origin": "ranger:hollow-warden"
   },
   {
     "name": "Ancient Might",
-    "description": "Your connection to ancient wild terrors reaches its peak, improving your transformed state and helping you survive lethal moments.",
+    "description": "Your bond with ancient wild horror reaches its apex. You deal extra damage to frightened enemies while transformed, and when you would drop to 0 Hit Points in your transformed state without dying outright, you can instead remain standing with Hit Points restored based on your Ranger level. You regain the free use after a Long Rest and can also restore it with a sufficiently high-level spell slot.",
     "origin": "ranger:hollow-warden"
   },
   {
     "name": "Whispers of the Dead",
-    "description": "You gain ghostly knowledge, allowing you to temporarily gain a skill or tool proficiency after resting.",
+    "description": "Echoes of the dead lend you forgotten expertise. Whenever you finish a Short or Long Rest, you can choose one skill or tool proficiency you lack and gain it until you use this feature again.",
     "origin": "rogue:phantom"
   },
   {
     "name": "Wails from the Grave",
-    "description": "When you deal Sneak Attack damage, you can channel deathly energy to harm another nearby creature.",
+    "description": "Immediately after you deal Sneak Attack damage on your turn, you can channel deathly energy into a second creature you can see near the first target. The second creature takes Necrotic damage based on a portion of your Sneak Attack dice. You can use this feature a number of times tied to your Dexterity modifier, regaining uses after a Long Rest, and later soul trinkets can fuel extra uses.",
     "origin": "rogue:phantom"
   },
   {
     "name": "Tokens of the Departed",
-    "description": "You can draw power from the dying, creating or using soul tokens to fuel subclass abilities.",
+    "description": "You gain soul trinkets that contain fragments of departing spirits. You receive a small number after each Long Rest and can also capture one when a creature dies near you. While you have a trinket, you gain benefits tied to death and endurance, and you can destroy trinkets to fuel Phantom features such as Wails from the Grave or spirit-questioning magic.",
     "origin": "rogue:phantom"
   },
   {
     "name": "Ghost Walk",
-    "description": "You assume a ghostlike state, gaining spectral movement and defensive benefits.",
+    "description": "As a Bonus Action, you become partially incorporeal for a short duration. In this ghostlike state, you gain a flying speed with hovering, can move through creatures and objects as difficult terrain, and take Force damage if you end your turn inside an object. You can use the feature once per Long Rest or by expending a soul trinket.",
     "origin": "rogue:phantom"
   },
   {
     "name": "Death's Friend",
-    "description": "Your bond with death strengthens, improving the reliability or frequency of your Phantom features.",
+    "description": "Your bond with death makes your Phantom powers more reliable. Wails from the Grave becomes stronger by letting deathly damage strike both the original Sneak Attack target and the secondary target, and if you roll Initiative without any soul trinkets, you immediately gain one.",
     "origin": "rogue:phantom"
   },
   {
     "name": "Eyes of the Dark",
-    "description": "You gain superior vision in darkness and can see through magical darkness created by your own spells.",
+    "description": "Your eyes adapt to supernatural darkness. You gain Darkvision with an extended range and limited Blindsight, and when one of your spells creates an area of Darkness, you can see normally through that Darkness.",
     "origin": "sorcerer:shadow-sorcery"
   },
   {
     "name": "Shadow Spells",
-    "description": "You always have a list of darkness, fear, necromancy, and shadow-themed Sorcerer spells prepared.",
+    "description": "When you reach certain Sorcerer levels, you always have specific Shadow Sorcery spells prepared, and they don't count against the number of Sorcerer spells you know. The list emphasizes curses, magical darkness, fear, necromancy, stealth, undead summons, phantasms, disease, and shadowy creation, including Bane, Darkness, Inflict Wounds, Pass Without Trace, Hunger of Hadar, Summon Undead, Greater Invisibility, Phantasmal Killer, Contagion, and Creation.",
     "origin": "sorcerer:shadow-sorcery"
   },
   {
     "name": "Spirits of Ill Omen",
-    "description": "You can summon or empower undead spirits through shadow magic, improving your ability to bring forth supernatural allies.",
+    "description": "You can call undead spirits from shadow. You can cast Summon Undead without its material component and can do so once without expending a spell slot per Long Rest. When you cast it, you can alter the spell so it doesn't require Concentration, but its duration becomes shorter and it ends if you cast the spell again.",
     "origin": "sorcerer:shadow-sorcery"
   },
   {
     "name": "Shadow Walk",
-    "description": "You teleport between areas of dim light or darkness, moving like a living shadow.",
+    "description": "While you are in Dim Light or Darkness, you can use a Bonus Action to teleport up to 120 feet to an unoccupied space you can see that is also in Dim Light or Darkness.",
     "origin": "sorcerer:shadow-sorcery"
   },
   {
     "name": "Umbral Form",
-    "description": "You transform into a shadowy state, gaining resistances, unnatural movement, and protection against being killed outright.",
+    "description": "As a Bonus Action, you can become a mass of living shadow for 1 minute. In this form, you resist most damage except Force and Radiant, and you can move through creatures and objects as difficult terrain, taking Force damage if you end your turn inside an object. You can use the feature once per Long Rest or spend Sorcery Points to use it again.",
     "origin": "sorcerer:shadow-sorcery"
   },
   {
     "name": "Undead Spells",
-    "description": "You always have a list of necrotic, fear, disease, death, and undead-themed Warlock spells prepared.",
+    "description": "When you reach certain Warlock levels, your patron ensures you always have additional Undead Patron spells prepared. They count as Warlock spells for you and don't count against the number of Warlock spells you prepare. The list centers on fear, sickness, blindness, phantasms, speaking with the dead, undead summoning, invisibility, phantasmal terror, and high-level deathly magic, including Bane, Blindness/Deafness, Phantasmal Force, Ray of Sickness, Speak with Dead, Summon Undead, Greater Invisibility, and Phantasmal Killer.",
     "origin": "warlock:undead-patron"
   },
   {
     "name": "Form of Dread",
-    "description": "You assume a terrifying undead aspect, gaining temporary durability and the ability to frighten enemies you strike.",
+    "description": "As a Bonus Action, you assume an aspect of your undead patron for 1 minute, a number of times per Long Rest based on your Charisma modifier. While transformed, you gain Temporary Hit Points, are protected against fear, and once on each of your turns when you hit a creature with an attack roll, you can force it to make a Wisdom saving throw or become Frightened of you until the end of your next turn.",
     "origin": "warlock:undead-patron"
   },
   {
     "name": "Grave Touched",
-    "description": "Your patron's undead power alters your body and magic, improving necrotic damage and your connection to death.",
+    "description": "Your patron's undeath changes your body and magic. You no longer suffer some ordinary mortal frailties, such as exhaustion from lack of air, food, or water, and you don't need normal sleep. Your Necrotic damage from Warlock spells, attacks, and class features ignores Resistance, and while your Form of Dread is active, you can turn some damage you deal into Necrotic damage and increase it.",
     "origin": "warlock:undead-patron"
   },
   {
     "name": "Superior Dread",
-    "description": "Your Form of Dread becomes more powerful, adding mobility, stronger defenses, or additional supernatural benefits.",
+    "description": "Your Form of Dread becomes a superior undead manifestation. While the form is active, you gain stronger defensive and ghostlike benefits, such as resistance to mundane weapon damage, spectral movement, and a hovering flying speed, making you harder to pin down and better able to fight as an incorporeal horror.",
     "origin": "warlock:undead-patron"
   },
   {
     "name": "Spirit Projection",
-    "description": "You project your spirit from your body, gaining ghostlike movement, resistances, and enhanced necrotic magic.",
+    "description": "This is a legacy Undead Patron feature name from earlier rules. In the Ravenloft 2024 update, the current Undead Patron progression uses features such as Necrotic Husk and Superior Dread instead; the older spirit-projection concept is effectively replaced by the upgraded Form of Dread package. Use the current Superior Dread/Necrotic Husk rules instead of this entry if you are following the new book.",
     "origin": "warlock:undead-patron"
   },
   {
     "name": "Darkvision",
-    "description": "You have Darkvision with a range of 60 feet.",
+    "description": "You can see in Dim Light within 60 feet of yourself as if it were Bright Light and in Darkness within that range as if it were Dim Light. You discern colors in that Darkness only as shades of gray.",
     "origin": "Dhampir"
   },
   {
     "name": "Spider Climb",
-    "description": "You have a Climb Speed equal to your Speed. At a later level, your climbing improves so you can move across vertical surfaces and ceilings while leaving your hands free.",
+    "description": "You have a Climb Speed equal to your Speed. Starting at character level 3, you can move up, down, and across vertical surfaces and along ceilings while leaving your hands free.",
     "origin": "Dhampir"
   },
   {
     "name": "Trace of Undeath",
-    "description": "Your undead nature grants resistance to Necrotic damage.",
+    "description": "Your undead trace protects you from deathly energy. You have Resistance to Necrotic damage.",
     "origin": "Dhampir"
   },
   {
     "name": "Vampiric Bite",
-    "description": "Your fangs can be used as a special bite through your Unarmed Strike. The bite deals Piercing damage and can be empowered a limited number of times to either restore Hit Points or grant a bonus to a later ability check or attack roll.",
+    "description": "When you use an Unarmed Strike and deal damage, you can bite with your fangs instead of dealing the strike's normal damage. The bite deals Piercing damage equal to 1d4 plus your Constitution modifier. A limited number of times per Long Rest, if the target isn't a Construct or Undead, you can empower the bite to regain Hit Points equal to the Piercing damage dealt or gain a bonus equal to that damage on a later attack roll or ability check made within the feature's time limit.",
     "origin": "Dhampir"
   },
   {
@@ -3601,42 +3601,42 @@
   },
   {
     "name": "Darkvision",
-    "description": "You have Darkvision with a range of 60 feet.",
+    "description": "You can see in Dim Light within 60 feet of yourself as if it were Bright Light and in Darkness within that range as if it were Dim Light. You discern colors in that Darkness only as shades of gray.",
     "origin": "Hexblood"
   },
   {
     "name": "Eerie Token",
-    "description": "You can magically remove a small part of yourself, such as hair, a nail, or a tooth, to create a token that serves as the focus for your hexblood magic.",
+    "description": "As a Bonus Action, you can harmlessly remove a small part of your body, such as a lock of hair, a nail, or a tooth, creating a magical token. The token lasts until you finish a Long Rest or until it is destroyed, and you can have only one such token at a time.",
     "origin": "Hexblood"
   },
   {
     "name": "Distant Message",
-    "description": "Through your Eerie Token, you can send a short telepathic message to the creature carrying or holding it, within the trait's range limits.",
+    "description": "While a creature is holding or carrying your Eerie Token, you can use a Magic action to send that creature a short telepathic message, usually up to 25 words, provided the token is within the feature's long-range limit.",
     "origin": "Hexblood"
   },
   {
     "name": "Remote Viewing",
-    "description": "Through your Eerie Token, you can enter a trance and perceive from the token's location for a short time, at the cost of awareness of your own surroundings.",
+    "description": "While your Eerie Token is within the feature's range, you can use a Magic action to enter a trance and perceive through the token for a short time, seeing and hearing from its location instead of your own. During the trance, you are unaware of your own surroundings, and the token is destroyed when the viewing ends.",
     "origin": "Hexblood"
   },
   {
     "name": "Darkvision",
-    "description": "You have Darkvision with a range of 60 feet.",
+    "description": "You can see in Dim Light within 60 feet of yourself as if it were Bright Light and in Darkness within that range as if it were Dim Light. You discern colors in that Darkness only as shades of gray.",
     "origin": "Lupin"
   },
   {
     "name": "Feral Pounce",
-    "description": "Your lupine body lets you use aggressive movement and Unarmed Strikes to pressure enemies in melee, including knocking or forcing them into vulnerable positions.",
+    "description": "Your lupine body makes your Unarmed Strikes more predatory. Your Unarmed Strikes can deal Slashing damage, and the feature lets you use a pouncing melee strike to pressure a creature into a more vulnerable position, combining movement and natural weapons with shove-like control.",
     "origin": "Lupin"
   },
   {
     "name": "Howl",
-    "description": "As a Bonus Action, you emit a supernatural howl. Chosen nearby creatures must make a Wisdom saving throw or suffer Disadvantage on attack rolls and saving throws until the start of your next turn. Uses refresh after a Long Rest.",
+    "description": "As a Bonus Action, you unleash a supernatural howl. Creatures of your choice within the feature's range must make a Wisdom saving throw or have Disadvantage on attack rolls and saving throws until the start of your next turn. You can use the howl a limited number of times, regaining expended uses when you finish a Long Rest.",
     "origin": "Lupin"
   },
   {
     "name": "Werewolf Instincts",
-    "description": "You gain proficiency in one of the following skills: Perception, Stealth, or Survival.",
+    "description": "You gain proficiency in one skill that reflects your lupine senses and predatory instincts: Perception, Stealth, or Survival.",
     "origin": "Lupin"
   },
   {
@@ -3646,17 +3646,17 @@
   },
   {
     "name": "Everlasting",
-    "description": "You are sustained by unnatural endurance, reducing or ignoring some ordinary bodily frailties such as exhaustion from lack of food or water.",
+    "description": "Your unnatural state frees you from several mortal limits. You don't need to eat, drink, or breathe, you don't gain Exhaustion from dehydration, malnutrition, or suffocation, and you don't need to sleep. Magic can't put you to sleep, and you can finish a Long Rest by spending 4 hours in an inactive, motionless state while remaining conscious.",
     "origin": "Reborn"
   },
   {
     "name": "Knowledge from a Past Life",
-    "description": "You gain proficiency in one skill of your choice and can draw on memories from a former life to improve failed ability checks a limited number of times.",
+    "description": "You gain proficiency in one skill of your choice. When you fail an ability check, memories from a past life can surface and let you add a d6 to the roll, potentially turning the failure into a success. You can use this memory-born bonus a limited number of times and regain expended uses when you finish a Long Rest.",
     "origin": "Reborn"
   },
   {
     "name": "Strange Endurance",
-    "description": "You gain a chosen damage resistance associated with your unusual return from death, such as Poison, Cold, or Necrotic.",
+    "description": "Choose one damage type tied to the nature of your return from death: Cold, Necrotic, or Poison. You have Resistance to the chosen damage type.",
     "origin": "Reborn"
   }
 ]

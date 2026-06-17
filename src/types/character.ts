@@ -44,6 +44,12 @@ export interface FeatureTrait {
   description: string;
 }
 
+export interface CharacterImage {
+  name: string;
+  type: string;
+  dataUrl: string;
+}
+
 // Custom counter added by user
 export interface CustomCounter {
   id: string;
@@ -81,6 +87,7 @@ export interface DndCharacter {
   race: string;
   alignment: string;
   playerName?: string;
+  image?: CharacterImage;
 
   attributes: {
     strength: AttributeScore;

@@ -10,6 +10,21 @@
   margin: 0 auto;
 }
 
+.infoLayout {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: var(--spacing-lg);
+  align-items: start;
+}
+
+.infoColumn {
+  grid-column: span 10;
+}
+
+.portraitColumn {
+  grid-column: span 2;
+}
+
 .nameSection {
   margin-bottom: var(--spacing-lg);
 }
@@ -36,6 +51,127 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: var(--spacing-md);
+}
+
+.portraitCard {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-md);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  background: var(--color-bg-primary);
+  min-height: 100%;
+}
+
+.portraitPreview {
+  aspect-ratio: 1 / 1;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+  border: 1px solid var(--color-border);
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.08));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portraitPreviewButton {
+  aspect-ratio: 1 / 1;
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 8px;
+  border: 1px solid var(--color-border);
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.08));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.portraitPreviewButton:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+.portraitImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.portraitPlaceholder {
+  padding: var(--spacing-md);
+  text-align: center;
+  color: var(--color-text-light);
+  font-size: var(--font-size-sm);
+}
+
+.fileInput {
+  display: none;
+}
+
+.errorText {
+  margin: 0;
+  font-size: var(--font-size-sm);
+  color: #b42318;
+}
+
+@media (max-width: 960px) {
+  .infoColumn,
+  .portraitColumn {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 640px) {
+  .infoLayout {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media print {
+  .infoLayout {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    gap: var(--spacing-md);
+  }
+
+  .infoColumn {
+    grid-column: span 10;
+  }
+
+  .portraitColumn {
+    grid-column: span 2;
+    justify-self: end;
+  }
+
+  .portraitCard {
+    padding: 0;
+    border: none;
+    background: transparent;
+    gap: var(--spacing-xs);
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .portraitPreviewButton {
+    width: 1.6in;
+    max-width: 1.6in;
+    height: 1.6in;
+    border: 1px solid var(--color-border);
+    background: none;
+  }
+
+  .portraitPlaceholder {
+    padding: var(--spacing-xs);
+    font-size: 10px;
+  }
+
+  .errorText {
+    display: none;
+  }
 }
 
 .infoItem {
