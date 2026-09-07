@@ -28,4 +28,35 @@
 .skillName {
   font-size: var(--font-size-sm);
   color: var(--color-text);
+  flex: 1;
+}
+
+.expertiseButton {
+  width: 22px;
+  height: 22px;
+  padding: 0;
+  border: 1px solid var(--color-border);
+  border-radius: 50%;
+  background: transparent;
+  color: var(--color-text-light);
+  font-size: var(--font-size-sm);
+  font-weight: bold;
+  line-height: 1;
+}
+
+.expertiseButton:hover:not(:disabled),
+.expertiseButton:focus-visible {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+.expertiseButtonActive {
+  border-color: var(--color-accent);
+  background: var(--color-accent);
+  color: var(--color-bg-secondary);
+}
+
+.expertiseButton:disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
 }

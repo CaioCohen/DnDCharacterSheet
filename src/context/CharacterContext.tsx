@@ -95,7 +95,12 @@ const characterReducer = (state: DndCharacter, action: CharacterAction): DndChar
         ...state,
         skills: state.skills.map(skill =>
           skill.name === skillName
-            ? { ...skill, isProficient: !skill.isProficient }
+            ? {
+                ...skill,
+                isProficient: !skill.isProficient,
+                // Expertise is only valid for proficient skills.
+                expertise: skill.isProficient ? false : skill.expertise
+              }
             : skill
         ),
         updatedAt: new Date().toISOString()
@@ -108,7 +113,12 @@ const characterReducer = (state: DndCharacter, action: CharacterAction): DndChar
         ...state,
         skills: state.skills.map(skill =>
           skill.name === skillName
-            ? { ...skill, expertise: !skill.expertise }
+            ? {
+                ...skill,
+                // Selecting expertise also grants the prerequisite proficiency.
+                isProficient: true,
+                expertise: !skill.expertise
+              }
             : skill
         ),
         updatedAt: new Date().toISOString()

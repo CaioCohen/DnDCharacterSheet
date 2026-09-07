@@ -13,6 +13,13 @@ export const SkillsColumn: FC = () => {
     });
   };
 
+  const handleExpertiseToggle = (skillName: string) => {
+    dispatch({
+      type: 'TOGGLE_SKILL_EXPERTISE',
+      payload: skillName
+    });
+  };
+
   const getAttributeAbbrev = (attr: string) => {
     switch (attr) {
       case 'strength': return 'Str';
@@ -39,6 +46,17 @@ export const SkillsColumn: FC = () => {
             <span className={styles.skillName}>
               {skill.name} ({getAttributeAbbrev(skill.attribute)})
             </span>
+            <button
+              type="button"
+              className={`${styles.expertiseButton} ${skill.expertise ? styles.expertiseButtonActive : ''}`}
+              onClick={() => handleExpertiseToggle(skill.name)}
+              disabled={!skill.isProficient}
+              aria-pressed={skill.expertise}
+              aria-label={`${skill.expertise ? 'Remove' : 'Add'} expertise for ${skill.name}`}
+              title={skill.isProficient ? 'Toggle expertise' : 'Select proficiency before adding expertise'}
+            >
+              E
+            </button>
           </div>
         ))}
       </div>
