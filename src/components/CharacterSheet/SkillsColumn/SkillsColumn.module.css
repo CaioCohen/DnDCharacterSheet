@@ -25,6 +25,13 @@
   gap: var(--spacing-sm);
 }
 
+.skillBonus {
+  min-width: 2.25rem;
+  color: var(--color-text);
+  font-weight: bold;
+  text-align: right;
+}
+
 .skillName {
   font-size: var(--font-size-sm);
   color: var(--color-text);
